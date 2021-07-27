@@ -2,7 +2,7 @@
 name: 'James Milton'
 description: 'The personal site and portfolio of James Milton, a Multi-Disciplinary Designer with a Tech Background.'
 # Sidebar about text
-site_description: 'Welcome to my website. It features topics such as design, video, travel & code. This blog is about finding balance in life, living with purpose, having fun, and doing what you love.'
+site_description: 'Multi-Disciplinary Designer from the U.K 🇬🇧 Currently residing in Salzburg, Austria 🇦🇹​ where you can find me in the mountains 🏔 or exploring the intersections between design and digital technology for leading brands.'
 logo: '/assets/images/pages/about.jpg'
 favicon: '/assets/images/favicon.ico'
 baseurl:
@@ -51,11 +51,11 @@ facebook:
 
 # Navigation
 navigation:
-  - text: Home
+  - text: HOME
     url: /
-  - text: Portfolio
+  - text: PORTFOLIO
     url: /portfolio/
-  - text: Contact Me
+  - text: CONTACT
     url: /contact/
 
 # Required Plugins
@@ -65,6 +65,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-loading-lazy
+  - jekyll-target-blank
 
 
 # Pagination

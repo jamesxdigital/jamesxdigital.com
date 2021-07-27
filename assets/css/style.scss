@@ -60,6 +60,8 @@
 .redbullLogo{
   height: 16px !important;
 }
+
+
 .video-thumbnail {
     // background-color: $color-accent;
     width: 100%;
@@ -147,8 +149,8 @@ a.post-thumbnail:hover img {
 .entry-meta,
 .entry-footer,
 .post-inside .post-tags {
-    color: $gray-dark;
-    font: 8px/1 $font-secondary;
+    color: $gray;
+    font: 14px $font-secondary;
 }
 
 .post-inside .post-tags {
@@ -162,6 +164,7 @@ a.post-thumbnail:hover img {
 .post-inside .post-tags a {
     border-color: transparent;
     color: inherit;
+    font-size: 14px;
 }
 
 .entry-meta a:hover,
@@ -173,6 +176,7 @@ a.post-thumbnail:hover img {
 
 .entry-meta > span:not(:first-child):before {
     content: "\00a0\002f\00a0";
+    color: $lightblue;
 }
 
 .entry-footer {
@@ -805,6 +809,10 @@ a.post-thumbnail:hover img {
 .widget-recent-posts a {
     border-color: transparent;
     color: #fff;
+}
+
+.menu-item:before{
+  content: none;
 }
 
 .current-menu-item a,

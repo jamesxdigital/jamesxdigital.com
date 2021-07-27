@@ -180,7 +180,14 @@ ol {
 }
 
 ul {
-    list-style: disc;
+	position: relative;
+	list-style: none;
+}
+ul li:before {
+	content: "+";
+	position: absolute;
+	left: 0;
+  color: $color-accent;
 }
 
 ol {
@@ -795,6 +802,10 @@ blockquote.alignright {
   height: 100%;
 }
 
+.timeline ul li:before {
+  content: none;
+}
+
 .timeline ul li::after {
   content: '';
   position: absolute;
@@ -869,6 +880,41 @@ time {
   font: 14px / 1.5 $font-secondary;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+
+// logoGrid
+
+.logoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 0rem;
+  > section {
+    padding: 0rem;
+    position: relative;
+    &::before {
+      // for apsect ratio
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+    img {
+      position: absolute;
+      max-width: 100%;
+
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: .5;
+      transition: opacity .5s ease-out;
+      -moz-transition: opacity .5s ease-out;
+      -webkit-transition: opacity .5s ease-out;
+      -o-transition: opacity .5s ease-out;
+    }
+    img:hover {
+      opacity: 1;
+    }
+  }
 }
 
 
