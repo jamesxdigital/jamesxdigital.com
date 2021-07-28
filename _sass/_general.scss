@@ -888,7 +888,7 @@ time {
 .logoGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  grid-gap: 0rem;
+  grid-gap: 1rem;
   > section {
     padding: 0rem;
     position: relative;
@@ -896,15 +896,15 @@ time {
       // for apsect ratio
       content: "";
       display: block;
-      padding-bottom: 100%;
+      padding-bottom: 60%;
     }
     img {
       position: absolute;
       max-width: 100%;
 
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      top: -20%;
+      left: -5%;
+      // transform: translate(-50%, -50%);
       opacity: .5;
       transition: opacity .5s ease-out;
       -moz-transition: opacity .5s ease-out;
