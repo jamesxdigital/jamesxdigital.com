@@ -12,5 +12,4 @@ image: /assets/images/pages/about.jpg
 
 - Master of Arts with Distinction in Digital and Motion Design from the [University of Leeds](http://www.leeds.ac.uk) Design School 🎓 and alumni from [The School of Motion](https://www.credly.com/badges/c424773c-8028-46ae-967a-e5ccdc9731a1?source=linked_in_profile) <img src="{{ site.baseurl }}/images/2021/schoolofmotionlogo.png" alt="school of motion logo" class="redbullLogo"/>.
 
-- BSc First Class in Computer Science [University of Sheffield](http://www.sheffield.ac.uk) 🎓 Specialising in Virtual and Augmented Reality 💼 Internship with [Rolls-Royce](http://www.rolls-royce.com) <img src="{{ site.baseurl }}/images/2021/rollsroyce.png" alt="red bull logo" class="redbullLogo"/> and Designer & VR Consultant for [Arup Design](http://www.arup.com) <img src="{{ site.baseurl }}/images/2021/arup.jpg" alt="red bull logo" class="redbullLogo"/>.
-⃝
+- BSc First Class in Computer Science [University of Sheffield](http://www.sheffield.ac.uk) 🎓 Specialising in Virtual and Augmented Reality 💼 Internship with [Rolls-Royce](http://www.rolls-royce.com) <img src="{{ site.baseurl }}/images/2021/rollsroyce.png" alt="red bull logo" class="redbullLogo"/> and Designer & VR Consultant for [Arup Design](http://www.arup.com) <img src="{{ site.baseurl }}/images/2021/arup.jpg" alt="arup logo" class="redbullLogo"/>.
