@@ -1,7 +1,7 @@
 const fragShaderSource =
-  'precision highp float;\n#define POINTS 3 // try between 2 and 256, gets slow fast\n#define PI 3.1415926536\n#define TAU (2.0 * PI)\nuniform vec2 u_resolution;\nuniform float u_time;\nuniform int u_shouldInvert;\nvec3 rgb(float r, float g, float b) {\n  return vec3(r / 256.0, g / 256.0, b / 256.0);\n}\nvec3 hsv2rgb(vec3 c) {\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\nvoid main() {\n  // These colors will come in to use at the end to help constrain the final\n  // output colors\n  vec3 col1 = hsv2rgb(vec3(0.7922, 0.5255, 0.9451));\n  vec3 col2 = hsv2rgb(vec3(0.2039, 0.2314, 0.2118));\n    \n  vec2 uv = gl_FragCoord.xy/u_resolution;\n  vec2 mouse = vec2(0.1, 1.0);\n  float bias = pow(10.0, (-0.5) * 20.0);\n  float power = 8.0;\n  float cN = 0.0;\n  // array used to store contributions in first loop\n  float contribution[POINTS];\n  for (int i = 0; i < POINTS; i++) {\n    float f = float(i) / float(POINTS) * TAU;\n    vec2 pos = 0.5 + 0.35 * vec2(\n      cos(-u_time * 0.15 + f+ float(i) * 0.1),\n      sin(u_time * 0.8 + f * 2.0) - float(i) * 0.1\n    );\n    pos = uv - pos;\n    float dist = length(pos);\n    // calculate contribution\n    float c = 1.0 / (bias + pow(dist, power));\n    contribution[i] = c;\n    // sum total contribution\n    cN += c;\n  }\n  // normalize contributions and weigh colors\n  vec3 col = vec3(0, 0, 0);\n  cN = 1.0 / cN;\n  for (int i = 0; i < POINTS; i++) {\n    float f = float(i) / float(POINTS) * TAU + u_time * 0.5;\n    vec3 pcol = 0.5 + 0.5 * sin(mix(col1, col2, f * 3.0));\n    col += contribution[i] * cN * pcol * mix(col1, col2, uv.y);\n  }\n  vec3 finalCol = u_shouldInvert == 0 ? col : 1.0 - col;\n  gl_FragColor = vec4(finalCol, 1.0);\n}';
+  "precision highp float;\n#define POINTS 3 // try between 2 and 256, gets slow fast\n#define PI 3.1415926536\n#define TAU (2.0 * PI)\nuniform vec2 u_resolution;\nuniform float u_time;\nuniform int u_shouldInvert;\nvec3 rgb(float r, float g, float b) {\n  return vec3(r / 256.0, g / 256.0, b / 256.0);\n}\nvec3 hsv2rgb(vec3 c) {\n    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}\nvoid main() {\n  // These colors will come in to use at the end to help constrain the final\n  // output colors\n  vec3 col1 = hsv2rgb(vec3(0.7922, 0.5255, 0.9451));\n  vec3 col2 = hsv2rgb(vec3(0.2039, 0.2314, 0.2118));\n    \n  vec2 uv = gl_FragCoord.xy/u_resolution;\n  vec2 mouse = vec2(0.1, 1.0);\n  float bias = pow(10.0, (-0.5) * 20.0);\n  float power = 8.0;\n  float cN = 0.0;\n  // array used to store contributions in first loop\n  float contribution[POINTS];\n  for (int i = 0; i < POINTS; i++) {\n    float f = float(i) / float(POINTS) * TAU;\n    vec2 pos = 0.5 + 0.35 * vec2(\n      cos(-u_time * 0.15 + f+ float(i) * 0.1),\n      sin(u_time * 0.8 + f * 2.0) - float(i) * 0.1\n    );\n    pos = uv - pos;\n    float dist = length(pos);\n    // calculate contribution\n    float c = 1.0 / (bias + pow(dist, power));\n    contribution[i] = c;\n    // sum total contribution\n    cN += c;\n  }\n  // normalize contributions and weigh colors\n  vec3 col = vec3(0, 0, 0);\n  cN = 1.0 / cN;\n  for (int i = 0; i < POINTS; i++) {\n    float f = float(i) / float(POINTS) * TAU + u_time * 0.5;\n    vec3 pcol = 0.5 + 0.5 * sin(mix(col1, col2, f * 3.0));\n    col += contribution[i] * cN * pcol * mix(col1, col2, uv.y);\n  }\n  vec3 finalCol = u_shouldInvert == 0 ? col : 1.0 - col;\n  gl_FragColor = vec4(finalCol, 1.0);\n}";
 const vertShaderSource =
-  'attribute vec2 a_position;\nvoid main() {\n  gl_Position = vec4(a_position, 0, 1);\n}';
+  "attribute vec2 a_position;\nvoid main() {\n  gl_Position = vec4(a_position, 0, 1);\n}";
 
 // We're going to use `then` to track the delta between rendered frames
 let then = 0;
@@ -21,29 +21,15 @@ function init(canvas) {
   let glCanvas;
   let ctx;
 
-  const {
-    clientWidth,
-    clientHeight
-  } = canvas;
+  const { clientWidth, clientHeight } = canvas;
   canvas.width = clientWidth;
   canvas.height = clientHeight;
+  glCanvas = document.createElement("canvas");
+  glCanvas.width = canvas.width;
+  glCanvas.height = canvas.height;
+  ctx = canvas.getContext("2d");
 
-  // If we can use an OffscreenCanvas, we should. It's up to the User Agent
-  // whether OffscreenCanvas work happens on the main thread. Ideally I'd use
-  // a Web Worker for this, but I'm too dumb
-  let offscreen = false;
-  if ('OffscreenCanvas' in window) {
-    glCanvas = new OffscreenCanvas(canvas.width, canvas.height);
-    offscreen = true;
-    ctx = canvas.getContext('bitmaprenderer');
-  } else {
-    glCanvas = document.createElement('canvas');
-    glCanvas.width = canvas.width;
-    glCanvas.height = canvas.height;
-    ctx = canvas.getContext('2d');
-  }
-
-  const gl = glCanvas.getContext('webgl');
+  const gl = glCanvas.getContext("webgl");
   gl.viewport(0, 0, canvas.width, canvas.height);
 
   // Create the buffer
@@ -54,18 +40,7 @@ function init(canvas) {
   gl.bufferData(
     gl.ARRAY_BUFFER,
     new Float32Array([
-      -1.0,
-      -1.0,
-      1.0,
-      -1.0,
-      -1.0,
-      1.0,
-      -1.0,
-      1.0,
-      1.0,
-      -1.0,
-      1.0,
-      1.0,
+      -1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0,
     ]),
     gl.STATIC_DRAW
   );
@@ -95,23 +70,23 @@ function init(canvas) {
   gl.deleteProgram(program);
 
   // Connect to the position attribute for the vertex shader
-  const positionLocation = gl.getAttribLocation(program, 'a_position');
+  const positionLocation = gl.getAttribLocation(program, "a_position");
   gl.enableVertexAttribArray(positionLocation);
 
   // Set the resolution uniform and create a connection to the time uniform
   const resolution = [canvas.clientWidth, canvas.clientHeight];
-  const resolutionPosition = gl.getUniformLocation(program, 'u_resolution');
-  const timePosition = gl.getUniformLocation(program, 'u_time');
-  const shouldInvertPosition = gl.getUniformLocation(program, 'u_shouldInvert');
-  const mql = window.matchMedia('(prefers-color-scheme: dark)');
+  const resolutionPosition = gl.getUniformLocation(program, "u_resolution");
+  const timePosition = gl.getUniformLocation(program, "u_time");
+  const shouldInvertPosition = gl.getUniformLocation(program, "u_shouldInvert");
+  const mql = window.matchMedia("(prefers-color-scheme: dark)");
   let shouldInvert = !mql.matches;
 
-  mql.addListener(e => (shouldInvert = !e.matches));
+  mql.addEventListener("change", (e) => (shouldInvert = !e.matches));
 
   // Reset the spike counter when focusing away since requestAnimationFrame
   // doesn't tick on inactive windows anyway
   document.addEventListener(
-    'visibilitychange',
+    "visibilitychange",
     () => (strikes = document.hidden ? -1 : strikes)
   );
 
@@ -161,14 +136,8 @@ function init(canvas) {
     gl.drawArrays(gl.TRIANGLES, 0, 6);
 
     // Output image to canvas
-    if (offscreen) {
-      const frame = glCanvas.transferToImageBitmap();
-      const castContext = ctx;
-      castContext.transferFromImageBitmap(frame);
-    } else {
-      const castContext = ctx;
-      castContext.drawImage(gl.canvas, 0, 0);
-    }
+    const castContext = ctx;
+    castContext.drawImage(gl.canvas, 0, 0);
 
     // Call the render loop again before the next pain cycle
     if (running) {
@@ -186,15 +155,15 @@ function init(canvas) {
   return cancelLoop;
 }
 
-const canvas = document.querySelector('#background-canvas');
+const canvas = document.querySelector("#background-canvas");
 
 if (!canvas) {
-  throw new Error('Background canvas not found');
+  throw new Error("Background canvas not found");
 } else {
   let canceller;
-  window.addEventListener('DOMContentLoaded', () => (canceller = init(canvas)));
+  window.addEventListener("DOMContentLoaded", () => (canceller = init(canvas)));
 
-  window.addEventListener('resize', () => {
+  window.addEventListener("resize", () => {
     if (!canceller) {
       return;
     }
