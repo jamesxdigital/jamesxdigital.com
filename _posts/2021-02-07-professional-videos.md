@@ -56,17 +56,6 @@ I was given a brief by Leeds Sky UK for a new app for their Sky Broadband custom
 
 ---
 
-## Fretello - Guitar Learning App - 30 Second Ad 🎸
-<small>November 2020 - Linz, Austria 🇦🇹</small>
-
-This is a 30-second ad I made for a start-up app, which teaches beginners how to play the guitar.
-Brief: “Learn guitar, anywhere, anytime”.
-Message: Different from music schools, you can learn and practice at any time and anywhere you are with the benefit of getting real-time feedback from the app.
-
-<iframe src="https://www.youtube.com/embed/N-mTo4m7S4A" frameborder='0' allowfullscreen></iframe>
-
----
-
 
 ## Interactive Icons and Icongraphics
 <small>July 2019 - Leeds, United Kingdom 🇬🇧</small>

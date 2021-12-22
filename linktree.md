@@ -1,6 +1,6 @@
 ---
 layout: linktree
-title: Linktree
+title: Link Tree
 ---
 
 <canvas id="background-canvas"></canvas>
