@@ -997,6 +997,17 @@ time {
 /* LINK TREE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.linktree-link {
+    @extend button;
+    width: 80%;
+    margin: 0 10% 30px;
+    text-align: center;
+
+    &:hover {
+        border: 2px solid $color-accent;
+    }
+}
+
 #background-canvas {
 	z-index: -99;
 	position: absolute;

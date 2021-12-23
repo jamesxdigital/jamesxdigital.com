@@ -34,12 +34,18 @@
  }
  
  html {
+     width: 100vw;
+     height: max-content;
      font-size: 100%;
      -ms-text-size-adjust: 100%;
      -webkit-text-size-adjust: 100%;
  }
  
  body {
+     position: relative;
+     width: 100%;
+     height: max-content;
+     min-height: 100vh;
      margin: 0;
  }
  
