@@ -5,7 +5,7 @@ image: /images/2021/fretello.gif
 tags:
   - Motion-Design
 author: james
-featured: true
+hidden: true
 ---
 
 Here are a few of my professional videos that I have made.

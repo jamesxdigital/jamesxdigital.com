@@ -6,6 +6,7 @@ tags:
   - Personal
   - Code-Robotics
 author: james
+hidden: true
 ---
 
 This is my first attempt of making a Twitterbot.

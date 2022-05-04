@@ -7,6 +7,7 @@ tags:
   - Code-Robotics
   - Graphic-Typographic-Design
 author: james
+hidden: true
 ---
 
 ![raspberry rev iphone app image]({{ site.baseurl }}/images/2016/12/raspberry-rev/iphoneicon2-min.png#right)

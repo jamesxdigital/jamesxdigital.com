@@ -5,6 +5,7 @@ image: /images/2017/03/driverless-cars/Picture3-min.png
 tags:
  - Case-Studies
 author: james
+hidden: true
 ---
 
 Since 2009, [Google](https://www.google.com/selfdrivingcar/){:target="_blank"} has iterated through four generations of driverless vehicles. Now Google have a real dependable prototype, which has been developed to work on motorways and in complex environments such as city streets, with over 1.5 million self driving miles under their belt [1].

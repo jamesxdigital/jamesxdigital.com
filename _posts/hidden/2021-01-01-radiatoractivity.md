@@ -3,8 +3,9 @@ layout: post
 title: Radiator Activity
 image: /images/2021/radiatoractivity/RA-KV-gif.gif
 tags:
- - Personal 
+ - Personal
 author: james
+hidden: true
 ---
 
 My girlfriend and I have started a little side project called [Radiator Activity](https://radiatoractivity.com/).

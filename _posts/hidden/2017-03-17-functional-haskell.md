@@ -5,6 +5,7 @@ image: /images/2017/03/haskell/findmoves1.png
 tags:
   - Code-Robotics
 author: james
+hidden: true
 ---
 
 For a Computer Science university assignment, I had to make an implementation of a Solitaire (Patience) card game in Haskell, an advanced, purely functional programming language.  The particular variant of Solitaire is called [8-Off](https://en.wikipedia.org/wiki/Eight_Off).

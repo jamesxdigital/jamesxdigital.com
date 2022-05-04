@@ -5,6 +5,7 @@ image: /images/2016/12/product-design-as/lamp.jpg
 tags:
   - 3D-Modelling
 author: james
+hidden: true
 ---
 One of my A-Level (aged 17) Product Design assignments was to make 'something (from scratch) inline with modernest style'. Thus, I took inspiration from Sir Norman Foster's synonymous modernest style.
 

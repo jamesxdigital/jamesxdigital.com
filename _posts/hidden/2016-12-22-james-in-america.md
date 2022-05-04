@@ -5,6 +5,7 @@ image: /images/2016/12/jamesinamerica-com.png
 tags:
   - Personal
 author: james
+hidden: true
 ---
 
 In 2013 my family and I embarked on a road trip coast-to-coast across the United States of America. I created this blog using [Anchor](https://anchorcms.com){:target="_blank"}, a CMS (content management system). This blog was updated almost daily throughout the 2 month adventure.
