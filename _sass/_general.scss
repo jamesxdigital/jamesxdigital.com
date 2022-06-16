@@ -273,6 +273,8 @@ textarea:focus {
     outline: 0;
 }
 
+select,
+submit,
 button,
 input[type="submit"],
 input[type="button"],
@@ -291,6 +293,7 @@ input[type="reset"] {
     transition: .3s;
 }
 
+submit,
 button:hover,
 button:focus,
 button:active,

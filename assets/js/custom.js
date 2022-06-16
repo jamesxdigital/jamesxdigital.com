@@ -168,6 +168,22 @@ window.addEventListener('DOMContentLoaded', function() {
 	// Responsive videos
 	$('.post').fitVids();
 
+	// Iframe switcher
+	var switcher$ = $('.switcher'),          // select element
+    switchTarget$ = $('.switch-target'); // iframe
+
+	switcher$.on('change', switchIframeSrc); // event binding
+
+	// our functiono to switch the iframe src
+	function switchIframeSrc() {
+	// set the 'src' attribute of the iframe
+	// to the value of the selected option
+	switchTarget$.attr('src', switcher$.val());
+	}
+
+	// call the method on load
+	switchIframeSrc();
+
 	// Timeline event bindings
 	const IN_VIEW_CLASSNAME = 'in-view';
 	const timelineElements = Array.from(document.querySelectorAll('.timeline li'));
