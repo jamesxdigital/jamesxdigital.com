@@ -31,13 +31,10 @@ function typeSkills() {
 	}
 
 	const SKILLS = [
-	  'Digital Designer',
-	  '2D/3D Creator',
-		'Motion Designer',
-		'VR/AR Specialist',
-		'Videographer',
-		'Snowboard Sender',
-		'Guitarist'
+		'Motion Designer 🎨',
+		'Creative Technologist 👨‍💻',
+		'Snowboard Sender 🏂',
+		'Guitarist 🎸'
 	];
 	const COLORS = [
 	    "#f26a79",
