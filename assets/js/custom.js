@@ -32,7 +32,7 @@ function typeSkills() {
 
 	const SKILLS = [
 		'Motion Designer 🎨',
-		'Creative Technologist 👨‍💻',
+		'Creative Technologist 💻',
 		'Snowboard Sender 🏂',
 		'Guitarist 🎸'
 	];
