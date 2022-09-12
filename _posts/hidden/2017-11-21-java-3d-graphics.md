@@ -4,12 +4,12 @@ title: Java OpenGL Virtual Art Exhibition
 image: /images/2021/robothand.gif
 tags:
   - Code-Robotics
-  - 3D-Modelling
-author: james
+  - 3D
+author: jamesxdigital
 hidden: true
 ---
 
-[OpenGL](https://www.opengl.org){:target="_blank"} is the most widely adopted 2D and 3D graphics API in the industry, bringing thousands of applications to a wide variety of computer platforms.
+[OpenGL](https://www.opengl.org){:target="\_blank"} is the most widely adopted 2D and 3D graphics API in the industry, bringing thousands of applications to a wide variety of computer platforms.
 
 Below is a video demo of a robot hand art exhibitions, I made with OpenGL, written in Java. Made for a Computer Science assignment for Dr. Steve Maddock's 3D Computer Graphics course at the University of Sheffield.
 

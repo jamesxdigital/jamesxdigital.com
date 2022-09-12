@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% if site.plugins contains 'jekyll-seo-tag' %}
-        {% include head-seo.html %}
+    {% include head-seo.html %}
     {% else %}
 
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta name="description"
+        content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
     {% endif %}
 
@@ -18,7 +19,6 @@
     <link rel="shortcut icon" href="{{ site.baseurl }}{{ site.favicon }}" type="image/png" />
 
     <!-- Font Embed Code -->
-    <link rel="stylesheet" href="https://use.typekit.net/sfq3hhu.css">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap" rel="stylesheet">
 
     <!-- CSS Styles -->
@@ -34,11 +34,11 @@
         {{ content }}
 
         {% if paginator.total_posts > site.paginate %}
-            {% if page.class == 'tag-template' %}
-            {% include tag-pagination.html %}
-            {% elsif page.class == 'author-template' %}
-            {% include author-pagination.html %}
-            {% endif %}
+        {% if page.class == 'tag-template' %}
+        {% include tag-pagination.html %}
+        {% elsif page.class == 'author-template' %}
+        {% include author-pagination.html %}
+        {% endif %}
         {% endif %}
 
         {% include sidebar.html %}

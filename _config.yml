@@ -1,5 +1,5 @@
 # Site setings
-name: 'James Milton'
+name: 'James ╳ Digital'
 description: 'The personal site and portfolio of James Milton, a Multi-Disciplinary Designer with a Tech Background.'
 # Sidebar about text
 site_description: 'Multi-Disciplinary Designer from the U.K 🇬🇧 Currently residing in Salzburg, Austria 🇦🇹​ where you can find me in the mountains 🏔 or exploring the intersections between design and digital technology for leading brands.'
@@ -11,35 +11,34 @@ disqus: 'james-milton'
 mailchimp_url:
 
 # SEO
-title: 'James Milton'
-tagline: 'James Milton is a Multi-Disciplinary Designer with a Tech Background.'
-url: 'https://jamesmilton.me'
-author: james
+title: 'James ╳ Digital'
+tagline: 'Motion Designer ╳ Creative Technologist'
+url: 'http://jamesxdigital.com/'
+author: jamesxdigital
 
 social:
   name: James Milton
   links:
-    - https://twitter.com/jmltn
-    - https://www.facebook.com/jmltn.1
-    - https://www.linkedin.com/in/jmltn
-    - https://github.com/jmltn
+    - https://twitter.com/jamesxdigital
+    - https://www.linkedin.com/in/jamesxdigital
+    - https://github.com/jamesxdigital
     - https://instagram.com/james.jpg
-    - https://medium.com/@james.milton
+    - https://medium.com/@jamesxdigital
 
 # Contact form setings
 email: james.milton@me.com
-contact_page_description: "Shoot me a message!"
+contact_page_description: ""
 thankyou_page_description: "Your message has been successfully sent. I will contact you very soon!"
 
 # Social links
 youtube: 'UC4G3WR8U8Uk0OY62jD1Ut_w'
-github: 'jmltn'
+github: 'jamesxdigital'
 codepen:
 dribbble:
-medium: '@james.milton'
+medium: '@jamesxdigital'
 instagram: 'james.jpg'
 pinterest:
-linkedin: 'jmltn'
+linkedin: 'jamesxdigital'
 
 twitter:
   username: jmltn

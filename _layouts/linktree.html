@@ -8,10 +8,11 @@
 
 
     {% if site.plugins contains 'jekyll-seo-tag' %}
-        {% include head-seo.html %}
+    {% include head-seo.html %}
     {% else %}
-        <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-        <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
+    <meta name="description"
+        content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
     {% endif %}
 
     <!-- Site Favicon -->

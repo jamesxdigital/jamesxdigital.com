@@ -3,16 +3,16 @@ layout: post
 title: Are we ready for a virtual designated driver?
 image: /images/2017/03/driverless-cars/Picture3-min.png
 tags:
- - Case-Studies
-author: james
+  - Case-Studies
+author: jamesxdigital
 hidden: true
 ---
 
-Since 2009, [Google](https://www.google.com/selfdrivingcar/){:target="_blank"} has iterated through four generations of driverless vehicles. Now Google have a real dependable prototype, which has been developed to work on motorways and in complex environments such as city streets, with over 1.5 million self driving miles under their belt [1].
+Since 2009, [Google](https://www.google.com/selfdrivingcar/){:target="\_blank"} has iterated through four generations of driverless vehicles. Now Google have a real dependable prototype, which has been developed to work on motorways and in complex environments such as city streets, with over 1.5 million self driving miles under their belt [1].
 
 But the question is, do we need them and if so, why aren’t they here yet?
 
-Starting the influx of competition in making the most intelligent and practical driverless cars was down to the Defense Advanced Research Projects Agency (DARPA) in 2004. DARPA is a world renowned funder of cash prizes for the best autonomous cars [2]. It has run multiple [‘Grand Challenges’](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge){:target="_blank"} where competitors ranging from university student teams to motor vehicle engineers challenge their driverless vehicles in a set of long, complex and real-life driving situations.
+Starting the influx of competition in making the most intelligent and practical driverless cars was down to the Defense Advanced Research Projects Agency (DARPA) in 2004. DARPA is a world renowned funder of cash prizes for the best autonomous cars [2]. It has run multiple [‘Grand Challenges’](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge){:target="\_blank"} where competitors ranging from university student teams to motor vehicle engineers challenge their driverless vehicles in a set of long, complex and real-life driving situations.
 
 ![driverless cars]({{ site.baseurl }}/images/2017/03/driverless-cars/Picture1-min.png#left)
 <small>Image by Bloomberg 2005</small>
@@ -22,18 +22,18 @@ Google’s current 2014 prototype has extremely advanced technology built in to 
 ![driverless cars]({{ site.baseurl }}/images/2017/03/driverless-cars/Picture2-min.png#right)
 <small>Image by Justin Sullivan/Getty</small>
 
-Increasingly with recent availability of affordable, adaptable and simple hardware, offered by organisations like the [Raspberry Pi Foundation](https://www.raspberrypi.org){:target="_blank"}, there has been a meteoric rise in software enthusiasts taking their own spin on autonomous cars. Without the input of millions of pounds put into research and development, there is a huge open-source community of developers sharing their AI code.
+Increasingly with recent availability of affordable, adaptable and simple hardware, offered by organisations like the [Raspberry Pi Foundation](https://www.raspberrypi.org){:target="\_blank"}, there has been a meteoric rise in software enthusiasts taking their own spin on autonomous cars. Without the input of millions of pounds put into research and development, there is a huge open-source community of developers sharing their AI code.
 
 Instead of adapting full sized Toyota Prius’ like Google, these enthusiasts are ripping apart off-the-shelf remote control cars, modifying their circuitry to allow their Raspberry Pi’s to have full control of their movement.
 
-University student, [Zheng Wang](https://zhengludwig.wordpress.com/projects/self-driving-rc-car/){:target="_blank"}, used his Raspberry Pi and other cheap hardware to modify a remote control car [4]. The system is simple, consisting of its inputs – a camera and ultrasonic sensor; a computer - a Raspberry Pi to process the input; and it’s output - a remote control car.
+University student, [Zheng Wang](https://zhengludwig.wordpress.com/projects/self-driving-rc-car/){:target="\_blank"}, used his Raspberry Pi and other cheap hardware to modify a remote control car [4]. The system is simple, consisting of its inputs – a camera and ultrasonic sensor; a computer - a Raspberry Pi to process the input; and it’s output - a remote control car.
 
 ![driverless cars]({{ site.baseurl }}/images/2017/03/driverless-cars/Picture3-min.png#left)
 <small>Image by Zheng Wang 2015</small>
 
 A quality in which both Zheng and Google’s driverless cars share is neural networking. As long as the information network from the input sensors is trained, from repetition and trial and error, the processing unit will load the learnt parameters, resulting in very fast prediction, which is crucial for high speed travel [4].
 
-But do we need driverless cars? According to Marc Green and John Senders in their paper [Human Error in Road Accidents](http://www.visualexpert.com/Resources/roadaccidents.html){:target="_blank"} [5], they found that
+But do we need driverless cars? According to Marc Green and John Senders in their paper [Human Error in Road Accidents](http://www.visualexpert.com/Resources/roadaccidents.html){:target="\_blank"} [5], they found that
 ‘human error was the sole cause in 57% of all accidents and was a contributing factor in over 90%. In contrast, only 2.4% were due solely to mechanical fault and 4.7% were caused only by environmental factor’.
 Unlike humans, driverless cars will never drink and drive nor be able to lose concentration and get frustrated from road rage. Unquestionably, driverless cars will lower the 1.3 million deaths in road crashes each year world wide [6].
 

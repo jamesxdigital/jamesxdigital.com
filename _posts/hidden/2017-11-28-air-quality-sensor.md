@@ -4,7 +4,7 @@ title: Arduino Air Quality Sensor
 image: /images/2017/11/arduino_airquality/airqualitybreadboard.png
 tags:
   - Code-Robotics
-author: james
+author: jamesxdigital
 hidden: true
 ---
 
@@ -13,6 +13,7 @@ I made an Air Quality Sensor with information dashboard and mobile notification 
 Made with an Arduino ESP32, [IFTTT](http://ifttt.com), [io.adafruit](http://io.adafruit.com) and multiple sensors wires, and resistors.
 
 #### Why?
+
 Air pollution is responsible for 7 million premature deaths around the world each year. When breathed in, pollutants can be absorbed in the blood and travel throughout the body and can damage the heart and other vital organs.
 
 So on that dark note... how do we get better air?!
@@ -20,32 +21,35 @@ So on that dark note... how do we get better air?!
 Air pollution sensors can help individuals control their environments through increased awareness of what's in the air around them. With this awareness, individuals can change their day-to-day life in order to increase the quality of life and overall health of individuals.
 
 #### Design
+
 ![Arduino air quality raw image]({{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityraw.jpg#right)
 
 1. **Arduino ESP32**
-  Low-power system on a chip (SoC) series with Wi-Fi & dual-mode Bluetooth capabilities. Enginereered for IoT devices.
+   Low-power system on a chip (SoC) series with Wi-Fi & dual-mode Bluetooth capabilities. Enginereered for IoT devices.
 2. **MQ-135 Air Quality Hazardous Gas Detection Sensor**
-  This analog sensor can detect a variation of gasses, dependant on the resistance set, which configurable from the dial on the rear of the sensor.
+   This analog sensor can detect a variation of gasses, dependant on the resistance set, which configurable from the dial on the rear of the sensor.
 3. **GP2Y1010AU0F Optical Dust Sensor**
-  Designed to sense dust particles. An infrared emitting diode and a phototransistor are diagonally arranged into this device, to allow it to detect the reflected light of dust in air. Effective in detecting very fine particles found in smoke.
+   Designed to sense dust particles. An infrared emitting diode and a phototransistor are diagonally arranged into this device, to allow it to detect the reflected light of dust in air. Effective in detecting very fine particles found in smoke.
 4. **DC-DC Boost Module**
-  This module provides a stable 5 V from a single Lithium Ion Polymer Battery. (2.5V - 5V) 600 mA TO USB 5 V.
+   This module provides a stable 5 V from a single Lithium Ion Polymer Battery. (2.5V - 5V) 600 mA TO USB 5 V.
 5. **Lithium Ion Polymer Battery**
-  Thin, light and powerful. The output of the battery ranges from 4.2V when completely charged to 3.7V. This battery has a capacity of 1200mAh for a total of about 4.5 watt-hours.
+   Thin, light and powerful. The output of the battery ranges from 4.2V when completely charged to 3.7V. This battery has a capacity of 1200mAh for a total of about 4.5 watt-hours.
 6. **Breadboard**
-  A simple terminal array board. Solderless breadboard does not require soldering, it is reusable.
+   A simple terminal array board. Solderless breadboard does not require soldering, it is reusable.
 
 **Information**
-* Data from the gas sensor is read from A4 analog pin.
 
-* Data from the dust sensor is read from A3 analog pin.
+- Data from the gas sensor is read from A4 analog pin.
 
-* When the Lithium Ion Polymer Battery battery is connected to the ESP32 and no USB power is available, the USB pin does not provide power.
-  * The battery voltage is available at the BAT pin which is 4.2V and reduces to 3.3V when battery exhausts.
+- Data from the dust sensor is read from A3 analog pin.
 
-  * As the sensors connected need 5V, a DC-DC booster is required to needed to boost the battery voltage to 5V.
+- When the Lithium Ion Polymer Battery battery is connected to the ESP32 and no USB power is available, the USB pin does not provide power.
 
-  * [DC-DC Boost Module](#dc-dc-boost-module) does this for us.
+  - The battery voltage is available at the BAT pin which is 4.2V and reduces to 3.3V when battery exhausts.
+
+  - As the sensors connected need 5V, a DC-DC booster is required to needed to boost the battery voltage to 5V.
+
+  - [DC-DC Boost Module](#dc-dc-boost-module) does this for us.
 
 **Schematics**
 Drawings courtesy of Hamish Cunningham and Gareth Coleman.
@@ -53,10 +57,11 @@ Drawings courtesy of Hamish Cunningham and Gareth Coleman.
 ![Arduino air quality breadboard]({{ site.baseurl }}/images/2017/11/arduino_airquality/airqualitybreadboard.png)
 ![Arduino air quality schematic]({{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityschematic.png)
 
-
 #### Capabilities
+
 **Internal**
 Simple pseudocode description of code process:
+
 <pre><code class="language-python">
 ...
 WAKE
@@ -103,9 +108,10 @@ The second applet sends me a [notification](#notifications) to my phone if the g
   </tr>
 </table>
 
-
 #### Operation
+
 **Dashboard**
+
 <table width="100%" border="0">
   <tr>
     <td><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityiodust.png" alt="adafruit gas and dust sensor"></td>
@@ -123,9 +129,8 @@ The second applet sends me a [notification](#notifications) to my phone if the g
   </tr>
 </table>
 
-
-
 **Notifications**
+
 <table width="100%" border="0">
   <tr>
     <td><img src="{{ site.baseurl }}/images/2017/11/arduino_airquality/airqualityiphonedust.png" alt="adafruit with ifttt dust sensor notification"></td>

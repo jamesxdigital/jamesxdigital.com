@@ -4,7 +4,7 @@ title: Professional Video Collection
 image: /images/2021/fretello.gif
 tags:
   - Motion-Design
-author: james
+author: jamesxdigital
 hidden: true
 ---
 
@@ -13,6 +13,7 @@ Here are a few of my professional videos that I have made.
 ---
 
 ## What Happens When We Sleep? A Motion Infographic
+
 <small>June 2019 - Leeds, United Kingdom 🇬🇧</small>
 
 An interactive motion graphic that highlights the different stages involved during sleep, how these stages affect our brains and what happens if we do no get enough sleep. Inspired by Mathew Walker's 2018 book - Why We Sleep. Made with Adobe After Effects. Voice over done by yours truly.
@@ -24,6 +25,7 @@ An interactive motion graphic that highlights the different stages involved duri
 ---
 
 ## GetSafeOnline.org Motion Graphic
+
 <small>September 2020 - Leeds, United Kingdom 🇬🇧</small>
 
 GetSafeOnline aims to be the UK’s leading information resource for helping protect people, finances, devices and businesses from online fraud and abuse. Myself and my team created these motion graphics for the client, in order to make the content more accessible, innovative, user-friendly and making it an attractive way to increase knowledge on shopping safely online. Developed in Adobe Illustrator and After Effects, voice over done by yours truly.
@@ -35,6 +37,7 @@ GetSafeOnline aims to be the UK’s leading information resource for helping pro
 ---
 
 ## Sky X Red Bull - Formula 1 App Concept and Video
+
 <small>November 2020 - Salzburg, Austria 🇦🇹</small>
 
 F1 is the second most popular sport in the Sky digital portfolio. With new technology and innovation being at the forefront of the sport, I worked with Sky and the Red Bull Formula 1 team to design this app. The video demonstration I also made tells you everything you need to know.
@@ -46,6 +49,7 @@ F1 is the second most popular sport in the Sky digital portfolio. With new techn
 ---
 
 ## Sky Home Mesh - UX Design - App Concept and Video
+
 <small>July 2019 - Leeds, United Kingdom 🇬🇧</small>
 
 I was given a brief by Leeds Sky UK for a new app for their Sky Broadband customers. The brief was ‘the app should provide customers with a clear visual representation of their home network setup and aid understanding of the relationship between their hub and speed to their connected devices, usage and signal strength. This is the app I designed and video demonstation I made.
@@ -56,8 +60,8 @@ I was given a brief by Leeds Sky UK for a new app for their Sky Broadband custom
 
 ---
 
-
 ## Interactive Icons and Icongraphics
+
 <small>July 2019 - Leeds, United Kingdom 🇬🇧</small>
 
 The following Interactive Icons and Icongraphics where produced within Adobe After Effects and then stitched together with an interactive video platform called Eko.

@@ -1,19 +1,18 @@
-{% if site.name and site.site_description %}
+<!-- {% if site.name and site.site_description %}
 <section class="widget widget-text">
     <h2 class="widget-title">About {{ site.name }}</h2>
     <p>{{ site.site_description }}</p>
 </section>
-{% endif %}
+{% endif %} -->
 
 <!-- Create a sorted array of tags -->
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor
 %}{%endcapture %}
 {% assign sortedTags = site_tags | split:',' | sort %}
 <section class="widget widget-tagcloud">
-    <h2 class="widget-title">Tags</h2>
     <div class="tagcloud">
         {% for tag in sortedTags %}
-        <a href='{{ site.baseurl }}/tag/{{ tag | downcase | replace: ' ', '- ' }}/'>{{ tag | camelcase }}</a>
+        <a href='{{ site.baseurl }}/tag/{{ tag | downcase | replace: ' ', ' - ' }}/'>{{ tag | camelcase }}</a>
         {% endfor %}
     </div>
 </section>
@@ -25,8 +24,8 @@
         <p>Get the latest and greatest from {{ site.name }} delivered straight to your inbox every week.</p>
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
-            <form action="{{ site.mailchimp_url }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-                class="validate gh-subscribe-form" target="_blank" novalidate>
+            <form action="{{ site.mailchimp_url }}" method="post" id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form" class="validate gh-subscribe-form" target="_blank" novalidate>
                 <label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
                 <input type="email" value="" name="EMAIL" class="required email subscribe-email" id="mce-EMAIL"
                     placeholder="Your email address">
@@ -40,7 +39,6 @@
 <!-- {% include instagram.html accessToken="IGQVJVOU0temtpSzVPTHF5eC1WYTBMSnNDMC1BcWdObHlCUnJWLUhDdmQzaWZAhT3ZAmOHFpOWJPOEJyQnpJWEdxM3lRQ0dITlZAOUUc2THJSTWRYYTVwNWF4dF9sanlwVWZAPTFNaZA3BHSVowUmlQbHg2WAZDZD" %} -->
 
 <section class="widget widget-social">
-    <h2 class="widget-title">Follow me</h2>
     <p class="social-links-1">
         {% if site.youtube %}
         <a href="https://youtube.com/channel/{{ site.youtube }}" target="_blank">

@@ -3,8 +3,8 @@ layout: post
 title: Colouring Book for KvK
 image: /images/2019/04/colouringbook/Frontandbackcovers-min.png
 tags:
- - Graphic-Typographic-Design
-author: james
+  - Graphic-Typographic-Design
+author: jamesxdigital
 image_sliders:
   - colouring_book_slider
 

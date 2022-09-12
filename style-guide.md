@@ -25,7 +25,6 @@ One neat trick which you can use in Markdown to distinguish between different ty
 
 Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar tincidunt turpis ac fringilla. Mauris eget dolor neque. Donec ac ex quis lectus sagittis vestibulum. Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar tincidunt turpis ac fringilla. Mauris eget dolor neque. Donec ac ex quis lectus sagittis vestibulum.
 
-
 ### Align Right
 
 ![Snow-covered mountains shrouded in mist and clouds](https://images.unsplash.com/photo-1444090695923-48e08781a76a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=d0f0fe2369ca9bfc024373d3ec30dcc2#right)
@@ -65,7 +64,7 @@ Quotations are used for a variety of reasons: to illuminate the meaning or to su
 
 <blockquote class="alignright">“To create a memorable design you need to start with a thought that’s worth remembering.” <cite>― Thomas Manss</cite></blockquote>
 
---------
+---
 
 ## Code Blocks
 
@@ -146,20 +145,23 @@ footer p {
 }</code></pre>
 
 ## Lists
+
 ### Unordered Lists
 
 The HTML &lt;ul&gt; element represents an unordered list of items, typically rendered as a bulleted list.
 
 Usage notes:
-* The &lt;ul&gt; element is for grouping a collection of items that do not have a numerical ordering, and their order in the list is meaningless. Typically, unordered-list items are displayed with a bullet, which can be of several forms, like a dot, a circle or a squared.
-* There is no limitation to the depth and alternation of nested lists defined with the &lt;ol&gt; and &lt;ul&gt; elements.
-* The &lt;ol&gt; and &lt;ul&gt; elements both represent a list of items. They differ in that, with the &lt;ol&gt; element, the order is meaningful.
+
+- The &lt;ul&gt; element is for grouping a collection of items that do not have a numerical ordering, and their order in the list is meaningless. Typically, unordered-list items are displayed with a bullet, which can be of several forms, like a dot, a circle or a squared.
+- There is no limitation to the depth and alternation of nested lists defined with the &lt;ol&gt; and &lt;ul&gt; elements.
+- The &lt;ol&gt; and &lt;ul&gt; elements both represent a list of items. They differ in that, with the &lt;ol&gt; element, the order is meaningful.
 
 ### Ordered Lists
 
 The HTML &lt;ol&gt; element represents an ordered list of items, typically rendered as a numbered list.
 
 Usage notes:
+
 1. Typically, ordered-list items are displayed with a preceding numbering, which can be of any form, like numerals, letters or Romans numerals or even simple bullets.
 2. There is no limitation to the depth and alternation of nested lists defined with the &lt;ol&gt; and &lt;ul&gt; elements.
 3. The &lt;ol&gt; and &lt;ul&gt; both represent a list of items. They differ in the way that, with the &lt;ol&gt; element, the order is meaningful.

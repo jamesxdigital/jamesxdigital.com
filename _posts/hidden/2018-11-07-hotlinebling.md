@@ -5,9 +5,8 @@ image: /images/2018/11/jamesBannerWhite2000-min.jpg
 tags:
   - Personal
 hidden: true
-author: james
+author: jamesxdigital
 ---
-
 
 <img src="{{ site.baseurl }}/images/2018/11/1hotlinebling.png" alt="hotlinebling 1 james milton" width="80%">
 

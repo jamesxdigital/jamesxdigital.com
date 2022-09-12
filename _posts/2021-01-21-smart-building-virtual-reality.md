@@ -1,20 +1,17 @@
 ---
 layout: post
-title: Smart Building VR System - Winner of CIBSE best project award, magazine feature and more
+title: Smart Building VR System - Winner of CIBSE best project award
 redirect_from:
-- /dissertation
-- /arup
-- /cibse-technical-symposium-2019
+  - /dissertation
+  - /arup
+  - /cibse-technical-symposium-2019
 image: "/images/2021/shefvr.gif"
 tags:
-  - 3D-Modelling
+  - 3D
   - Code-Robotics
-author: james
+author: jamesxdigital
 featured: true
-
 ---
-
-## Creating a Virtual Reality platform for visualising Smart Building data
 
 ![university of sheffield diamond building]({{ site.baseurl }}/images/2017/08/thediamond.jpg#right)
 
@@ -30,12 +27,13 @@ The building’s constructors produced a highly detailed computerised CAD model 
 
 By marrying a computer games engine with a CAD model, I was able to create a 3D visualisation of the environmental performance of Sheffield University’s complex Diamond building. By observing from a computer screen or a VR headset, users can visualise snapshots of the room’s environment or watch an animation displaying the changes in a room’s environment over time.
 
-A link to the paper I wrote can be found [here](https://drive.google.com/file/d/1VWfToNnsBRnYrwA7bb2ZM4RsqD3E11nj/view){:target="_blank"}. Thanks for reading!
+A link to the paper I wrote can be found [here](https://drive.google.com/file/d/1VWfToNnsBRnYrwA7bb2ZM4RsqD3E11nj/view){:target="\_blank"}. Thanks for reading!
 
 <iframe src="https://drive.google.com/file/d/17Txf8loNDrvLOboYrNfnUHdQVQ5cPO9s/preview" width="100%" height="700"></iframe>
 
 ---
-## Submitting my work to the CIBSE Technical Symposium 2019
+
+# Submitting my work to the CIBSE Technical Symposium 2019
 
 ![James Milton presenting at the CIBSE Technical Symposium 2019, University of Sheffield]({{ site.baseurl }}/images/2019/10/Urban Flows Observatory_59.jpg#left)
 
@@ -48,7 +46,8 @@ My dissertation paper was submitted to The CIBSE Technical Symposium 2019 and I 
 ![James Milton presenting at the CIBSE Technical Symposium 2019, University of Sheffield]({{ site.baseurl }}/images/2019/10/playing-to-win-spread.jpg#wide)
 
 ---
-## Further VR work with ARUP Design
+
+# Further VR work with ARUP Design
 
 On the basis of Virtual Reality Smart Building platform, I was contracted by the University of Sheffield and Arup to design and develop a VR system that provides intuitively visual representations of the internal and external environment of the University of Sheffield’s Diamond Smart Building. The graphical data visualisation techniques I designed aim to aid performance analysis of the ventilation system in the atrium of the building.
 

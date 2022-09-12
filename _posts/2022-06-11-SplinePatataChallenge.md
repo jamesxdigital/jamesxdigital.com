@@ -2,9 +2,10 @@
 layout: post
 title: Spline ╳  Patata Challenge
 image: "/images/2022/06/SPLINE.gif"
-author: james
+author: jamesxdigital
 featured: true
-
+tags:
+  - 3D
 ---
 
 Welcome to the deep-dive section of my <a href="https://spline.design/Spline" target="_blank">Spline</a> ╳ <a href="https://cabezapatata.com/" target="_blank">Patata</a>. Challenge submission! Here you will find further info on some parts of my project. 🔎
@@ -12,6 +13,7 @@ Welcome to the deep-dive section of my <a href="https://spline.design/Spline" ta
 Every single object and material was designed and put together by me. I still have so many ideas I want to implement, but this is what I had time to implement before the competition deadline. 🧑‍🎨
 
 This page is also a test drive for Spline's ability to embed any project onto a webpage (which works flawlessly). Below, I have embedded two slightly different versions:
+
 - The default experience with a fixed camera 🎥
 - A free camera version where you can have a better look around the project 🤳
 
@@ -22,7 +24,7 @@ This page is also a test drive for Spline's ability to embed any project onto a 
 
 <iframe class="switch-target" frameborder='0' width='100%' height='500px' allowfullscreen src="" scrolling="no"></iframe>
 
-*Depending on your internet speed, you'll just see a ⬜️ white screen until it fully loads. ⏳*
+_Depending on your internet speed, you'll just see a ⬜️ white screen until it fully loads. ⏳_
 
 # View both fullscreen on Spline
 
@@ -36,8 +38,8 @@ This page is also a test drive for Spline's ability to embed any project onto a 
 
 <br>
 
+# 🧍‍♂️ Character Illustration
 
-# 🧍‍♂️  Character Illustration
 ![Figure Illustartion]({{ site.baseurl }}/images/2022/06/Figure_Illustration-min.jpg)
 
 ![Character Inpsiration]({{ site.baseurl }}/images/2022/06/Posters.png#left)
@@ -49,6 +51,7 @@ It's a long process as everything from each hair curl (which are just spheres) t
 Everything is then parented to each other so that when different states are activated (such as doing a kickflip), attached limbs move as they would in real life. 🦾
 
 # 💻 Laptop Design
+
 ![Road texture]({{ site.baseurl }}/images/2022/06/Keyboard.png#left)
 The main laptop body has a convincing metallic material, but I am most proud of the keys. Using the 'Depth' material, it was possible to give a subtle radial gradient to give the keyboard signs of use. ⌨️
 
@@ -57,22 +60,22 @@ Each character and icon have been either made from scratch or are text with a fo
 Each key has different states and actions. When pressing a ⚪ white key, the key moves down then up only. But when you press a 🔵 blue key, there are a whole bunch of actions that are activated. 🎬
 
 # 🌃 Environment Design
+
 ![Road texture]({{ site.baseurl }}/images/2022/06/road-min.jpg#right)
 
-A lot of performance considerations had to be made when creating the environment. 
+A lot of performance considerations had to be made when creating the environment.
 
 Inititally the skateboarder physically moved across a long scene, and once at the end, it would return to the beginning and repeat. I eventually figured that this was not the best idea, so I re-developed it so that the skateboarder stays still and instead the environment moves and repeats. 🔁
 
-For the 🛣️ road, I made the texture as short as possible, as I could then repeat it, rather than having duplicated pixels. 
+For the 🛣️ road, I made the texture as short as possible, as I could then repeat it, rather than having duplicated pixels.
 
-For the 🌃 side walls, I wanted to add more variations, so the texture is longer, but I still designed it so that it repeats perfectly. 
+For the 🌃 side walls, I wanted to add more variations, so the texture is longer, but I still designed it so that it repeats perfectly.
 
 Both textures were designed in Photoshop and then optimized to make them as small as possible.
 
 ![Wall texture]({{ site.baseurl }}/images/2022/06/WallSmall-min.jpg)
 
 # 🏗 Material Design and Action Setup
-
 
 ![All the actions]({{ site.baseurl }}/images/2022/06/Materials.png)
 
@@ -86,10 +89,10 @@ There are hundreds of different object states and events in the project. Everyth
 Adding these details is the most fun part of building and designing in Spline. It's easy to get carried away and keep implementing details that only the creator will ever notice. 🎨
 
 Here are some other details that you may have not noticed in this project:
+
 - The character is breathing in and out (by scaling the torso up and down) 😮‍💨
 - His eyes are moving around (by offsetting the eye image texture between two different values) 👀
 - His arms are moving (using the following mouse feature) 💪
 - His hair moves in the wind (by simply moving the hair sphere's up and down and giving each sphere a different delay value for some randomness) 🦱
-
 
 Feel free to comment below if you have any questions about this project! Thanks ✌️

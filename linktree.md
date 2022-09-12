@@ -15,10 +15,10 @@ title: Link Tree
         <a href="https://www.youtube.com/channel/UC4G3WR8U8Uk0OY62jD1Ut_w" target="_blank" class="linktree-link">
             YouTube 📹
         </a>
-        <a href="https://twitter.com/jmltn" target="_blank" class="linktree-link">
+        <a href="https://twitter.com/jamesxdigital" target="_blank" class="linktree-link">
             Twitter 🐦
         </a>
-        <a href="https://www.linkedin.com/in/jmltn/" target="_blank" class="linktree-link">
+        <a href="https://www.linkedin.com/in/jamesxdigital/" target="_blank" class="linktree-link">
             LinkedIn 💼
         </a>
     </div>

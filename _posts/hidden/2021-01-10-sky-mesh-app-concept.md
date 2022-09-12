@@ -4,7 +4,7 @@ title: Sky Home Mesh - UX Design - App Concept
 image: /images/2021/skymesh.gif
 tags:
   - UXUI-Design
-author: james
+author: jamesxdigital
 hidden: true
 ---
 
