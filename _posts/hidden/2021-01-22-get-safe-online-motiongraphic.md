@@ -5,7 +5,7 @@ image: "/images/2021/getsafeonline.gif"
 tags:
   - Motion-Design
 author: jamesxdigital
-featured: true
+hidden: true
 redirect_from:
   - /get-safe-online
 ---

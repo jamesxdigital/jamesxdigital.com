@@ -295,18 +295,11 @@ a.post-thumbnail:hover img {
 }
 
 .subscribe-inside {
-    background-color: $black;
-    color: $gray;
+    color: $gray-light;
     font-size: 14px;
     padding: 30px;
-}
+    border: 2px solid $gray-dark;
 
-.subscribe-box-title {
-    border-bottom: 2px solid $gray-dark;
-    color: #fff;
-    font-size: 18px;
-    margin: 0 0 1.33333em;
-    padding-bottom: 1em;
 }
 
 /* Archives */
@@ -890,7 +883,7 @@ a.post-thumbnail:hover img {
 
     blockquote.alignleft,
     blockquote.alignright {
-        font-size: 20px;
+        font-size: 1.5rem;
         margin-bottom: 1.5em;
         margin-top: 0;
         text-align: left;
@@ -1056,11 +1049,6 @@ a.post-thumbnail:hover img {
     .entry-title, .entry-title {
         font-size: 60px;
     }
-
-    h2,
-    blockquote {
-        font-size: 40px;
-    }
     .site-title{
         font-size: 24px;
         margin-top: 20px;
@@ -1106,6 +1094,10 @@ a.post-thumbnail:hover img {
 
     .featured-slider .slide-overlay {
         padding: 1.5em;
+    }
+
+    .slide-overlay h2{
+        font-size: 1.5rem;
     }
 
     .featured-slider .slick-arrow {

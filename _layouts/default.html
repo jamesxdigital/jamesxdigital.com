@@ -24,6 +24,22 @@
     <!-- CSS Styles -->
     <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
     {% include slider_styles.html %}
+
+
+    <!-- reCAPTCHA v3 -->
+    {% if page.url == "/contact/" %}
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lf8yfUhAAAAACuRfH6ctr2c0Oo7ysgC1vTRMZUU"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('{your-site-key}', { action: 'submit' }).then(function (token) {
+                console.info("got token: " + token);
+                document.getElementById('g-recaptcha-response').value = token;
+            });
+        });
+    </script>
+    {% endif %}
+
+
 </head>
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}

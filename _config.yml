@@ -1,5 +1,5 @@
 # Site setings
-name: 'James ╳ Digital'
+name: 'James ✕ Digital'
 description: 'The personal site and portfolio of James Milton, a Multi-Disciplinary Designer with a Tech Background.'
 # Sidebar about text
 site_description: 'Multi-Disciplinary Designer from the U.K 🇬🇧 Currently residing in Salzburg, Austria 🇦🇹​ where you can find me in the mountains 🏔 or exploring the intersections between design and digital technology for leading brands.'
@@ -8,11 +8,11 @@ favicon: '/assets/images/favicon.ico'
 baseurl:
 production_url: 'https://jamesmilton.me'
 disqus: 'james-milton'
-mailchimp_url:
+mailchimp_url: https://jamesxdigital.us17.list-manage.com/subscribe/post?u=6f9c0b794760533d79eba9b46&amp;id=426dd63046&amp;f_id=00b94ce0f0
 
 # SEO
-title: 'James ╳ Digital'
-tagline: 'Motion Designer ╳ Creative Technologist'
+title: 'James ✕ Digital'
+tagline: 'Motion Designer ✕ Creative Technologist'
 url: 'https://jamesmilton.me'
 author: jamesxdigital
 

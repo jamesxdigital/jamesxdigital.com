@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spline ╳  Patata Challenge
+title: Spline ✕  Patata Challenge
 image: "/images/2022/06/SPLINE.gif"
 author: jamesxdigital
 featured: true
@@ -8,7 +8,7 @@ tags:
   - 3D
 ---
 
-Welcome to the deep-dive section of my <a href="https://spline.design/Spline" target="_blank">Spline</a> ╳ <a href="https://cabezapatata.com/" target="_blank">Patata</a>. Challenge submission! Here you will find further info on some parts of my project. 🔎
+Welcome to the deep-dive section of my <a href="https://spline.design/Spline" target="_blank">Spline</a> ✕ <a href="https://cabezapatata.com/" target="_blank">Patata</a>. Challenge submission! Here you will find further info on some parts of my project. 🔎
 
 Every single object and material was designed and put together by me. I still have so many ideas I want to implement, but this is what I had time to implement before the competition deadline. 🧑‍🎨
 

@@ -5,7 +5,7 @@ image: /images/2021/whywesleep.gif
 tags:
   - Motion-Design
 author: jamesxdigital
-featured: true
+hidden: true
 redirect_from:
   - /specialist-project
 ---

@@ -6,7 +6,8 @@ layout: default
     <main id="main" class="site-main inner">
         <article class="post page">
             {% if page.image %}
-            <div class="post-thumbnail"><img src="{{ site.baseurl }}{{ page.image }}" alt="{% if page.image_alt %}{{ page.image_alt }}{% else %}{{ page.title }}{% endif %}" /></div>
+            <div class="post-thumbnail"><img src="{{ site.baseurl }}{{ page.image }}"
+                    alt="{% if page.image_alt %}{{ page.image_alt }}{% else %}{{ page.title }}{% endif %}" /></div>
             {% endif %}
             <header class="entry-header">
                 <h2 class="entry-title">{{ page.title }}</h2>

@@ -181,26 +181,3 @@ window.addEventListener("DOMContentLoaded", function () {
 
   // call the method on load
   switchIframeSrc();
-
-  // Timeline event bindings
-  const IN_VIEW_CLASSNAME = "in-view";
-  const timelineElements = Array.from(
-    document.querySelectorAll(".timeline li")
-  );
-  function updateTimelineClasses() {
-    timelineElements.forEach((el) => {
-      if (isElementInViewport(el)) {
-        el.classList.add(IN_VIEW_CLASSNAME);
-      }
-
-      if (
-        timelineElements.every((el) => el.classList.contains(IN_VIEW_CLASSNAME))
-      ) {
-        window.removeEventListener("resize", updateTimelineClasses);
-        window.removeEventListener("scroll", updateTimelineClasses);
-      }
-    });
-  }
-  window.addEventListener("resize", updateTimelineClasses);
-  window.addEventListener("scroll", updateTimelineClasses);
-});

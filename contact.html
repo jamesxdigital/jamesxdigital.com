@@ -14,14 +14,14 @@ permalink: /contact/
   <main id="main" class="site-main inner">
     <div class="entry-content">
       <header class="entry-header">
-      <h1 class="entry-title">Contact Me</h1>
+        <h1 class="entry-title">Contact Me</h1>
       </header>
       {% if site.contact_page_description %}
-        <p>{{ site.contact_page_description }}</p>
+      <p>{{ site.contact_page_description }}</p>
       {{else}}
       {% endif %}
       <section class="contact-form">
-        <form action="https://formspree.io/{{ site.email }}" method="post" id="contact-form">
+        <form action="https://formspree.io/f/maykqgar" method="post" id="contact-form">
           <div class="form-item">
             <label class="form-label">Your Email <span>(required)</span></label>
             <input type="text" name="email" placeholder="Your email address..." class="form-input" />
@@ -36,10 +36,9 @@ permalink: /contact/
             <label class="form-label">Your Message <span>(required)</span></label>
             <textarea name="message" placeholder="Your message..." class="form-textarea"></textarea>
           </div>
-
           <input type="hidden" name="_next" value="/thank-you" />
           <input type="hidden" name="_subject" value="Contact form submission" />
-          <input type="text" name="_gotcha" style="display: none;" class="contact-form__gotcha" val="" />
+          <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
 
           <div class="form-item">
             <input type="submit" value="Send Message" class="button" />
