@@ -181,3 +181,4 @@ window.addEventListener("DOMContentLoaded", function () {
 
   // call the method on load
   switchIframeSrc();
+});
