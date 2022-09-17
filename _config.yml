@@ -73,6 +73,7 @@ permalink: /:title
 
 # Other
 markdown: kramdown
+include: [_redirects]
 
 # Sass
 sass:
