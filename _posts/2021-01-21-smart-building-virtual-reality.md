@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Smart Building ✕ VR System
-redirect_from:
-  - /dissertation
-  - /arup
-  - /cibse-technical-symposium-2019
 image: "/images/2021/shefvr.gif"
 tags:
   - 3D

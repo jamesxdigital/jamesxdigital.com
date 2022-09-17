@@ -6,8 +6,6 @@ tags:
   - Motion-Design
 author: jamesxdigital
 hidden: true
-redirect_from:
-  - /get-safe-online
 ---
 
 GetSafeOnline aims to be the UK’s leading information resource for helping protect people, finances, devices and businesses from online fraud and abuse. However, GetSafeOnline’s content has been labelled an “expensive flop”, as collectively they cost more than £12 million to design and develop, but there have only been viewed 1.9 million times across 2 years and 10 months.

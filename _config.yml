@@ -59,7 +59,6 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-redirect-from
   - jekyll-loading-lazy
   - jekyll-target-blank
 

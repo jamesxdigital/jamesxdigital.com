@@ -6,8 +6,6 @@ tags:
   - Motion-Design
 author: jamesxdigital
 hidden: true
-redirect_from:
-  - /specialist-project
 ---
 
 According to the NHS UK, sleep deprivation can have profound consequences on an individual’s physical health. It can cause an increased risk of serious medical conditions, such as obesity, heart disease, diabetes and shorten overall life expectancy.
