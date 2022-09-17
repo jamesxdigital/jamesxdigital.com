@@ -768,44 +768,49 @@ blockquote.alignright {
     min-height: 230px;
 }
 
+.hidden{
+    display: none;
+}
+
 .contact-form {
     box-sizing: border-box;
     margin-bottom: 3.33333em;
-    color: $gray-light;
+    color: $gray-dark;
 }
 
 .contact-form input {
     width: 100%;
-    background-color: $gray;
-    color: $gray-light;
+    color: $gray-dark;
+    border: 0;
 }
 
 .contact-form .button {
     width: 100%;
     background-color: $black;
     color: $color-accent;
-    
+    border: 2px solid #f26a79;
+
 }
 
 .contact-form textarea {
     height: 200px;
     width: 100%;
     float: none;
-    background-color: $gray;
-    color: $gray-light;
+    border: 0;
+    color: $gray-dark;
 }
 
 .contact-form ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: $gray-light;
+  color: $gray;
   opacity: 1; /* Firefox */
 }
 
 .contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: $gray-light;
+  color: $gray;
 }
 
 .contact-form ::-ms-input-placeholder { /* Microsoft Edge */
-  color: $gray-light;
+  color: $gray;
 }
 
 /* Timeline */

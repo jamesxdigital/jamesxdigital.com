@@ -1,13 +1,13 @@
 # Site setings
 name: 'James ✕ Digital'
-description: 'The personal site and portfolio of James Milton, a Multi-Disciplinary Designer with a Tech Background.'
+description: 'The personal site and portfolio of James Milton, a Motion Designer and Creative Technologist'
 # Sidebar about text
 site_description: 'Motion Designer ✕ Creative Technologist from the U.K 🇬🇧 Currently residing in Salzburg, Austria 🇦🇹​ where you can find me in the mountains 🏔 or exploring the intersections between design and digital technology.'
 logo: '/assets/images/pages/about.jpg'
 favicon: '/assets/images/favicon.ico'
 baseurl:
-production_url: 'https://jamesmilton.me'
-disqus: 'james-milton'
+production_url: 'https://jamesxdigital.com'
+disqus:
 mailchimp_url: https://jamesxdigital.us17.list-manage.com/subscribe/post?u=6f9c0b794760533d79eba9b46&amp;id=426dd63046&amp;f_id=00b94ce0f0
 
 # SEO
@@ -25,10 +25,6 @@ social:
     - https://instagram.com/james.jpg
     - https://medium.com/@jamesxdigital
 
-# Contact form setings
-email: james.milton@me.com
-contact_page_description: ""
-thankyou_page_description: "Your message has been successfully sent. I will contact you very soon!"
 
 # Social links
 youtube: 'UC4G3WR8U8Uk0OY62jD1Ut_w'
@@ -41,8 +37,8 @@ pinterest:
 linkedin: 'jamesxdigital'
 
 twitter:
-  username: jmltn
-  creator: jmltn
+  username: jamesxdigital
+  creator: jamesxdigital
   card: summary
 
 facebook:
