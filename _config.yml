@@ -1,8 +1,8 @@
 # Site setings
-name: 'James ✕ Digital'
+name: 'James X Digital'
 description: 'The personal site and portfolio of James Milton, a Motion Designer and Creative Technologist'
 # Sidebar about text
-site_description: 'Motion Designer ✕ Creative Technologist from the U.K 🇬🇧 Currently residing in Salzburg, Austria 🇦🇹​ where you can find me in the mountains 🏔 or exploring the intersections between design and digital technology.'
+site_description: 'Motion Designer X Creative Technologist from the U.K 🇬🇧 Currently residing in Salzburg, Austria 🇦🇹​ where you can find me in the mountains 🏔 or exploring the intersections between design and digital technology.'
 logo: '/assets/images/pages/about.jpg'
 favicon: '/assets/images/favicon.ico'
 baseurl:
@@ -11,8 +11,8 @@ disqus:
 mailchimp_url: https://jamesxdigital.us17.list-manage.com/subscribe/post?u=6f9c0b794760533d79eba9b46&amp;id=426dd63046&amp;f_id=00b94ce0f0
 
 # SEO
-title: 'James ✕ Digital'
-tagline: 'Motion Designer ✕ Creative Technologist'
+title: 'James X Digital'
+tagline: 'Motion Designer X Creative Technologist'
 url: 'https://jamesmilton.me'
 author: jamesxdigital
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Smart Building ✕ VR System
+title: Smart Building X VR System
 image: "/images/2021/shefvr.gif"
 tags:
   - 3D

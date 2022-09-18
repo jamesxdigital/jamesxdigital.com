@@ -33,7 +33,7 @@ layout: default
     <ul class="listTimeline">
       <li>
         <div>
-          <h3>Digital Motion Designer ✕ LOOP <img src="{{ site.baseurl }}/images/2021/looplogo.png" alt="loop logo"
+          <h3>Digital Motion Designer X LOOP <img src="{{ site.baseurl }}/images/2021/looplogo.png" alt="loop logo"
               class="companyLogo" /></h3>
           <time>JUNE 2021 - PRESENT, SALZBURG AUSTRIA 🇦🇹</time>
           <p>Exploring the
@@ -50,7 +50,7 @@ layout: default
       </li>
       <li>
         <div>
-          <h3>Motion Designer & Creative Technologist</h3> <time>JUNE 2013 - PRESENT, EVERYWHERE 🌎
+          <h3>Motion Designer X Creative Technologist</h3> <time>JUNE 2013 - PRESENT, EVERYWHERE 🌎
             </time< /h3>
             <p>I’m often available for freelance work and always independently working
               on building design tools.</p>
@@ -83,14 +83,14 @@ layout: default
       </li>
       <li>
         <div>
-          <h3>Digital Creative ✕ Red Bull <img src="{{ site.baseurl }}/images/2021/redbulllogo.png" alt="company logo"
+          <h3>Digital Creative X Red Bull <img src="{{ site.baseurl }}/images/2021/redbulllogo.png" alt="company logo"
               class="companyLogo" /></h3> <time>JULY 2019 - JUNE 2021, SALZBURG AUSTRIA 🇦🇹</time>
           <p>Designing and developing digital marketing products for one of the world’s most recognised brands.</p>
         </div>
       </li>
       <li>
         <div>
-          <h3>Motion and Digital Design ✕ Leeds Design School 🎓</h3> <time>SEP 2018 - SEP 2019, LEEDS
+          <h3>Motion and Digital Design X Leeds Design School 🎓</h3> <time>SEP 2018 - SEP 2019, LEEDS
             U.K 🇬🇧</time>
           <p>My specialist project was the production of an <a href="/specialist-project" target="_blank">
               Interactive Motion Graphic that educates on sleep health</a>. Graduated with Distinction.</p>
@@ -98,7 +98,7 @@ layout: default
       </li>
       <li>
         <div>
-          <h3>Designer & VR Consultant ✕ Arup<img src="{{ site.baseurl }}/images/2021/arup.jpg" alt="company logo"
+          <h3>Designer & VR Consultant X Arup<img src="{{ site.baseurl }}/images/2021/arup.jpg" alt="company logo"
               class="companyLogo" /> </h3> <time>MAY 2018 - SEPT 2018, SHEFFIELD U.K 🇬🇧</time>
           <p>Created a <a href="/arup" target="_blank">Virtual Reality platform</a> that provides visual representations
             of the internal &
@@ -108,7 +108,7 @@ layout: default
       </li>
       <li>
         <div>
-          <h3>Software Internship ✕ Rolls-Royce <img src="{{ site.baseurl }}/images/2021/rollsroyce.png"
+          <h3>Software Internship X Rolls-Royce <img src="{{ site.baseurl }}/images/2021/rollsroyce.png"
               alt="company logo" class="companyLogo" /></h3> <time>JUNE 2016 - JUNE 2017, DERBY U.K 🇬🇧</time>
           <p>Designing, developing & testing software for
             the
@@ -117,7 +117,7 @@ layout: default
       </li>
       <li>
         <div>
-          <h3>University of Sheffield ✕ BSc (Hons) Computer Science 🎓</h3> <time> SEP 2014 - JUNE 2018, SHEFFIELD U.K
+          <h3>University of Sheffield X BSc (Hons) Computer Science 🎓</h3> <time> SEP 2014 - JUNE 2018, SHEFFIELD U.K
             🇬🇧</time>
           <p>Published my final year dissertation <a
               href="https://www.researchgate.net/publication/331651264_Visually_Displaying_Past_and_Present_Smart_Building_Data_Through_Virtual_Reality"
@@ -133,4 +133,7 @@ layout: default
   <div class="entry-header">
     <button id="next"> ⏳ Look further ⏳ </button>
   </div>
+  {% if site.mailchimp_url %}
+  {% include newsletter-box.html %}
+  {% endif %}
 </div><!-- .site-content -->
