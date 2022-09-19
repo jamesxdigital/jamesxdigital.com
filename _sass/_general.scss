@@ -37,6 +37,7 @@ input,
 select,
 textarea {
     font-family: $font-primary;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -44,6 +45,7 @@ body {
     color: $gray-light;
     line-height: 1.75;
     overflow-x: hidden;
+    
 }
 canvas {
     position:absolute;
@@ -203,9 +205,10 @@ ol {
 ul {
 	position: relative;
 	list-style: none;
+    font-size: 1.2rem;
 }
 ul li:before {
-	content: "+";
+	content: "×";
 	position: absolute;
 	left: 0;
   color: $color-accent;
