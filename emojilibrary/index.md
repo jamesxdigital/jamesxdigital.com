@@ -1,17 +1,49 @@
 ---
 layout: product
-title: Emoji Library
-image: "/images/2022/09/smile_emoji_google.png"
+title: Emoji Library 📚
+image: "/images/2022/09/emoji_branding_all.gif"
 ---
 
-### Emoji Library for After-Effects brings you all available Emojis from Apple, Google, Twitter and Facebook in one easy and simple place.
+### With Emoji Library there is finally an easy way to add emojis to your `After Effects` compositions. So simple, yet so necessary!
+
+<span class="price-tag price-tag--two-lines">
+  <span class="price-tag__main">$29.99</span>
+  <span>💳 <a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a> & <a href="https://aescripts.com/" target="_blank">aescripts + aeplugins</a></span>
+</span>
+
+### Every emoji available from Twitter, Apple, Facebook and Google 👏
+
+![Figure Illustartion]({{ site.baseurl }}/images/2022/09/emoji_branding_sets_2-min.jpg#right)
+
+Choose from over `14,000` official emojis to add to your After Effects project in just the click of a button. Each emoji set supports the latest Unicode Version `14.0.`
+
+Once you select an emoji to add to your composition, it will add that emoji as `.png` to your project. The size of the emojis vary between `72px - 160px.`
+
+### Category filtering 🔎 and skin tone support 👬
+
+![Figure Illustartion]({{ site.baseurl }}/images/2022/09/emoji_branding_search_categories-min.jpg#left)
+
+You can easily find the emoji you are looking for using the `search` or `category` filters. It works just as you would expect.
+
+![Figure Illustartion]({{ site.baseurl }}/images/2022/09/emoji_branding_skintone-min.jpg#right)
+
+Want to use a specific skin tone? No problem! Select from the `6 skin tones` available and let the magic happen.
+
+# Buy Now {#buy}
+<script src="https://gumroad.com/js/gumroad-embed.js"></script>
+<div class="gumroad-product-embed"><a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Loading...</a></div>
+Purchase from <a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a> & <a href="https://aescripts.com/" target="_blank">aescripts + aeplugins</a>
+
+# Install Guide {#install}
+Please follow these steps in order to get your brand new `.zxp` extension installed.
+- Download and open the <a href="https://aescripts.com/learn/zxp-installer/" target="_blank">ZXP Installer</a> from <a href="https://aescripts.com" target="_blank">aescripts.com</a>
+- Drag EMOJILIBRARY.zxp into ZXP Installer
+- Close and re-open After Effects
+- Navigate to the top Window menu, Extension > Emoji Library
+- Click to open the panel
+
+
 <table>
-<thead>
-<tr>
-   <th><a href="#buy">$10.00</a></th>
-   <th>Available from <a href="https://jamesxdigital.gumroad.com/l/emojilibrary" target="_blank">Gumroad</a> or <a href="#" target="_blank">Aescripts</a></th>
-  </tr>
-</thead>
  <tbody>
   <tr>
    <td>After Effects</td>
@@ -22,33 +54,11 @@ image: "/images/2022/09/smile_emoji_google.png"
    <td>Windows (10 or later recommended) / MacOS</td>
   </tr>
   <tr>
-   <td>1 License per user, per machine</td>
-   <td>When activating somewhere new, the previous machine will automatically disconnect</td>
+   <td>Licence information</td>
+   <td>1 License per user, per machine. When activating somewhere new, the previous machine will automatically disconnect</td>
   </tr>
  </tbody>
 </table>
 
-# Features
-### Feature 1
-
-![Fog circling above snowy mountains leading down to Iceberg lake surrounded by trees](https://images.unsplash.com/photo-1455158484047-1b906dbbadc6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=cf2c751fe1147c2cc5ab9397fcba76bf#left)
-
-Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit.
-
-### Feature 2
-
-![Snow-covered mountains shrouded in mist and clouds](https://images.unsplash.com/photo-1444090695923-48e08781a76a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=d0f0fe2369ca9bfc024373d3ec30dcc2#right)
-
-Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum.
-
-# Buy Now {#buy}
-<script src="https://gumroad.com/js/gumroad-embed.js"></script>
-<div class="gumroad-product-embed"><a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Loading...</a></div>
-
-# Install Guide {#buy}
-Please follow these steps in order to get your brand new `.zxp` extension installed.
-- Download and open the <a href="https://aescripts.com/learn/zxp-installer/" target="_blank">ZXP Installer</a> from from <a href="https://aescripts.com" target="_blank">aescripts.com</a>
-- Drag EMOJILIBRARY.zxp into ZXP Installer
-- Close and re-open After Effects
-- Navigate to the top Window menu, Extension>AEUX
-- Click to open the panel
+<br/>
+<small>Thanks to the team and contributors who created the fantastic open source <a href="https://github.com/missive/emoji-mart" target="_blank">Emoji Mart</a> - Copyright (c) Missive.</small>
