@@ -15,7 +15,7 @@ Motion Designer X Creative Technologist from the U.K 🇬🇧 currently residing
 <blockquote>
   <p>I make tools 🧰 to help fellow Motion Designers spend more time creating and less time doing The Boring Stuff.</p>
   <a href="/emojilibrary"><h3><code class="language-plaintext">NEW</code> Emoji Libray for After Effects</h3></a>
-  <a href="/emojilibrary"><img src="/images/2022/09/emoji_branding_all.gif#productImgLeft" alt="Emoji Library Sets" loading="lazy"></a>
+  <a href="/emojilibrary"><img src="{{site.baseurl}}//images/2022/09/emoji_branding_all.gif#productImgLeft" alt="Emoji Library Sets" loading="lazy"></a>
   
   <small>With Emoji Library, there is finally an easy way to add emojis to your After Effects compositions. So simple, yet so necessary!</small>
   <form action="/emojilibrary#buy">
