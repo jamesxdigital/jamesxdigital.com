@@ -143,6 +143,7 @@ pre {
     white-space: pre-wrap;
     word-wrap: break-word;
 }
+span.clear { clear: left; display: block; }
 
 blockquote {
     border: 2px solid $lightblue;
@@ -152,6 +153,8 @@ blockquote {
     margin: 1.25em 15px 1.875em 0;
     padding: 2em 30px 1.2em 45px;
     position: relative;
+    height: auto;
+    
 
     &:before {
         background-color: $color-accent;
@@ -168,6 +171,23 @@ blockquote {
 
     p {
         margin-bottom: 0.5em;
+    }
+    h3{
+        color: $black;
+    }
+    code[class*="language-"]  {
+        background: $black;
+        color: $gray-light;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    input[type="submit"] {
+        border: none;
+        margin: 10px 0 0 0;
+        border: 2px solid $color-accent;
+    }
+    input[type="submit"]:hover {
+        border: 2px solid $black;
     }
 }
 
