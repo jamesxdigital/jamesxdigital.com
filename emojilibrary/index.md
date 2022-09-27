@@ -1,7 +1,7 @@
 ---
 layout: product
 title: Emoji Library 📚
-image: "/images/2022/09/emoji_branding_all.gif"
+image: /images/2022/09/emoji_branding_all.gif
 ---
 
 ### With Emoji Library, there is finally an easy way to add emojis to your `After Effects` compositions. So simple, yet so necessary!
