@@ -29,7 +29,7 @@ A link to the paper I wrote can be found [here](https://drive.google.com/file/d/
 
 ---
 
-# Submitting my work to the CIBSE Technical Symposium 2019
+## Submitting my work to the CIBSE Technical Symposium 2019
 
 ![James Milton presenting at the CIBSE Technical Symposium 2019, University of Sheffield]({{ site.baseurl }}/images/2019/10/Urban Flows Observatory_59.jpg#left)
 
@@ -43,7 +43,7 @@ My dissertation paper was submitted to The CIBSE Technical Symposium 2019 and I 
 
 ---
 
-# Further VR work with ARUP Design
+## Further VR work with ARUP Design
 
 On the basis of Virtual Reality Smart Building platform, I was contracted by the University of Sheffield and Arup to design and develop a VR system that provides intuitively visual representations of the internal and external environment of the University of Sheffield’s Diamond Smart Building. The graphical data visualisation techniques I designed aim to aid performance analysis of the ventilation system in the atrium of the building.
 

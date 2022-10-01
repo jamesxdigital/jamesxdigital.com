@@ -38,7 +38,7 @@ _Depending on your internet speed, you'll just see a ⬜️ white screen until i
 
 <br>
 
-# 🧍‍♂️ Character Illustration
+## 🧍‍♂️ Character Illustration
 
 ![Figure Illustartion]({{ site.baseurl }}/images/2022/06/Figure_Illustration-min.jpg)
 
@@ -50,7 +50,7 @@ It's a long process as everything from each hair curl (which are just spheres) t
 
 Everything is then parented to each other so that when different states are activated (such as doing a kickflip), attached limbs move as they would in real life. 🦾
 
-# 💻 Laptop Design
+## 💻 Laptop Design
 
 ![Road texture]({{ site.baseurl }}/images/2022/06/Keyboard.png#left)
 The main laptop body has a convincing metallic material, but I am most proud of the keys. Using the 'Depth' material, it was possible to give a subtle radial gradient to give the keyboard signs of use. ⌨️
@@ -59,7 +59,7 @@ Each character and icon have been either made from scratch or are text with a fo
 
 Each key has different states and actions. When pressing a ⚪ white key, the key moves down then up only. But when you press a 🔵 blue key, there are a whole bunch of actions that are activated. 🎬
 
-# 🌃 Environment Design
+## 🌃 Environment Design
 
 ![Road texture]({{ site.baseurl }}/images/2022/06/road-min.jpg#right)
 
@@ -75,7 +75,7 @@ Both textures were designed in Photoshop and then optimized to make them as smal
 
 ![Wall texture]({{ site.baseurl }}/images/2022/06/WallSmall-min.jpg)
 
-# 🏗 Material Design and Action Setup
+## 🏗 Material Design and Action Setup
 
 ![All the actions]({{ site.baseurl }}/images/2022/06/Materials.png)
 

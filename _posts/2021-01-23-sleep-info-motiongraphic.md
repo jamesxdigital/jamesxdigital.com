@@ -14,11 +14,11 @@ Regardless of the warnings, the amount of time mankind spends sleeping is decrea
 
 This project aims to intuitively demonstrate one of sleep’s many functions, which is the formation of memories. The approach was to create an Interactive Motion Graphic, which users can click and determine the output of what they watch. The final result is below:
 
-### Non-interactive Version
+## Non-interactive Version
 
 <iframe src="https://www.youtube.com/embed/wZAlIN2cgqw" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Interactive Version
+## Interactive Version
 
 <div class='embed-container'> <iframe src="https://video.eko.com/v/V5EEgX/embed?autoplay=false&publisherID=XQtbh6" frameborder="0" allowfullscreen></iframe> </div>
 <small>It's Interactive! Within this video, you will be asked questions and you will need to select your answer. The platform this is built with is called [Eko](https://helloeko.com/).</small>
