@@ -1,21 +1,21 @@
 ---
 layout: product
 title: Emoji Library 📚
-image: /images/2022/09/emoji_branding_all.gif
+image: /images/2022/09/emoji_branding_gumroad.gif
 ---
 
-### With Emoji Library, there is finally an easy way to add over 14,000 official emojis to your `After Effects` compositions. So simple, yet so necessary!
+### With Emoji Library, there is finally an easy way to add over 14,000 official emojis to your compositions in `After Effects`. So simple, yet so necessary!
 
 <span class="price-tag price-tag--two-lines">
-  <span class="price-tag__main">$14.99 <small>or <a href="#">[Free trial]</a></small></span>
+  <span class="price-tag__main">$14.99</span>
   <span>💳 <a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a> & <a href="https://aescripts.com/" target="_blank">aescripts + aeplugins</a></span>
 </span>
 
-<div class="entry-content"><span class="clear"></span></div>
+
 
 ### Every emoji from Twitter, Apple, Facebook and Google are available 👏
 
-![Emoji Library Sets]({{ site.baseurl }}/images/2022/09/emoji_branding_sets_2-min.jpg#right)
+![Emoji Library Sets]({{ site.baseurl }}/images/2022/09/emoji_branding_import-min.jpg#right)
 
 Choose from over `14,000` official emojis to add to your After Effects project with just the click of a button. Each emoji set supports the latest Unicode Version `14.0.`
 
@@ -33,15 +33,9 @@ You can easily find the emoji you are looking for using the `search` or `categor
 
 <span class="clear"></span>
 
-Want to use a specific skin tone? No problem! Select from `6 skin tones` and let the magic happen.
+Want to use a specific skin tone? No problem! There are `6 skin tones` to choose from.
 
 <div class="entry-content"><span class="clear"></span></div>
-
-
-### Add to project in 1-Click 🏃
-
-![Emoji Library Search and Categories]({{ site.baseurl }}/images/2022/09/emoji_branding_import-min.jpg)
-
 
 <br/>
 
@@ -53,14 +47,8 @@ Want to use a specific skin tone? No problem! Select from `6 skin tones` and let
 <div id="iframe-wrapper">
 <div class="gumroad-product-embed">
 <a href="https://jamesxdigital.gumroad.com/l/emojilibrary"><img src="{{ site.baseurl }}/images/2022/09/emoji_branding_sets_2-min.jpg" alt="Emoji Library Sets"></a></div>
-<span id="iframe-overlay" class="price-tag price-tag--two-lines">
-  <span class="price-tag__main"><small><a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a> & <a href="https://aescripts.com/" target="_blank">aescripts + aeplugins</a></small></span>
-  <span>🔗 Or try the <a href="#">free Trial</a> <small>(only Twitter Emoji set unlocked)</small></span>
-</span>
 </div>
 
-<span class="clear"></span>
-<br/>
 
 ---
 
@@ -75,15 +63,15 @@ With the `Trial` version of Emoji Library, you only get access to the `Twitter` 
 ---
 
 ## FAQs
-### Are the emoji's licenced for use comerical use?
-Apple images are not licensed for commercial usage.
-Android/Google/Noto emoji are available under the <a href="https://github.com/googlei18n/noto-emoji/blob/master/LICENSE" target="_blank">Apache License 2.0</a>.
-Twitter emoji are available under the <a href="https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS" target="_blank">Creative Commons Attribution 4.0 license</a>.
-Facebook emoji have no clear licensing.
-### What format are the emoji's and where are they saved?
-When an emoji is sent to composition, a `.png` is downloaded from the network and saved to your computer. An `/emoji` directory will be automaticaly created in the same location as the After Effects `.aep` file and the emoji images will be saved there.
+### Are the emojis licenced for use commercial use?
+Apple emojis are not licensed for commercial usage.
+Android/Google/Noto emojis are available under the <a href="https://github.com/googlei18n/noto-emoji/blob/master/LICENSE" target="_blank">Apache License 2.0</a>.
+Twitter emojis are available under the <a href="https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS" target="_blank">Creative Commons Attribution 4.0 license</a>.
+Facebook emojis have no clear licensing.
+### What format are the emojis and where are they saved?
+When an emoji is sent to composition, a `.png` is downloaded from the network and saved to your computer. An `/emoji` directory will be automatically created in the same location as the After Effects `.aep` file and the emoji images will be saved there.
 ### Is an internet connection required to use Emoji Library?
-Yes, an internet connection is required. If you are not connected to the internet, the extension will freeze until connection is restored.
+Yes, an internet connection is required. If you are not connected to the internet, the extension will freeze until the connection is restored.
 
 <span class="clear"></span>
 <br/>
@@ -143,7 +131,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
 <br/>
 
 ---
-### Acknowledgments
+### Acknowledgements
 <small>Thanks to the team and contributors who created the fantastic open source <a href="https://github.com/missive/emoji-mart" target="_blank">Emoji Mart</a> - Copyright (c) Missive.</small>
 
 ### License etc
