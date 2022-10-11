@@ -1,14 +1,14 @@
 ---
 layout: product
-title: Emoji Library 📚
+title: Emoji Library
 image: /images/2022/09/emoji_branding_gumroad.gif
 ---
 
 ### With Emoji Library, there is finally an easy way to add over 14,000 official emojis to your compositions in `After Effects`. So simple, yet so necessary!
 
 <span class="price-tag price-tag--two-lines">
-  <span class="price-tag__main">$14.99</span>
-  <span>💳 <a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a> & <a href="https://aescripts.com/" target="_blank">aescripts + aeplugins</a></span>
+  <span class="price-tag__main">$9.99</span>
+  <span>💳 Available from <a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a></span>
 </span>
 
 

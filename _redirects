@@ -1,3 +1,4 @@
+# Root Redirects
 http://www.jamesmilton.me/* https://jamesxdigital.com/:splat 301!
 https://www.jamesmilton.me/* https://jamesxdigital.com/:splat 301!
 
@@ -9,3 +10,9 @@ https://jamesx.digital/* https://jamesxdigital.com/:splat 301!
 
 http://www.jamesx.digital/* https://jamesxdigital.com/:splat 301!
 https://www.jamesx.digital/* https://jamesxdigital.com/:splat 301!
+
+# Emoji Library Extension Redirects
+https://jamesxdigital.com/EmojiLibrary-Gumroad-Purchase https://jamesxdigital.gumroad.com/l/emojilibrary 301!
+https://jamesxdigital.com/EmojiLibrary-Learn-Stuff https://jamesxdigital.com/emojilibrary 301!
+https://jamesxdigital.com/EmojiLibrary-Google-License https://github.com/googlefonts/noto-emoji/blob/main/LICENSE 301!
+https://jamesxdigital.com/EmojiLibrary-Twitter-License https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS 301!
