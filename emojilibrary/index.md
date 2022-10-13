@@ -1,15 +1,37 @@
 ---
 layout: product
-title: Emoji Library
+title: Emoji Library 😎 for After Effects
 image: /images/2022/09/emoji_branding_gumroad.gif
 ---
 
-### With Emoji Library, there is finally an easy way to add over 14,000 official emojis to your compositions in `After Effects`. So simple, yet so necessary!
+### There is finally an easy way to add over 14,000 official emojis to your compositions in After Effects.
 
-<span class="price-tag price-tag--two-lines">
+<iframe src='https://www.youtube.com/embed/clXeyXWT7Vk?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
+
+<div id="notify-me" class="subscribe-box">
+    <div class="subscribe-inside">
+        <p>Be notified as soon as Emoji Library 😎 is available!</p>
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+            <form action="{{ site.mailchimp_url }}" method="post" id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form" class="validate gh-subscribe-form" target="popupwindow"
+                onsubmit="window.open('{{ site.mailchimp_url }}', 'popupwindow', 'scrollbars=yes,width=600,height=620');return true">
+                <label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
+                <input type="email" value="" name="EMAIL" class="required email subscribe-email" id="mce-EMAIL"
+                    placeholder="Your email address">
+                <input type="submit" value="Notify Me" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </form>
+        </div>
+        <!--End mc_embed_signup-->
+    </div><!-- .inner -->
+</div><!-- .widget -->
+
+<!-- <span class="price-tag price-tag--two-lines">
   <span class="price-tag__main">$9.99</span>
-  <span>💳 Available from <a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a></span>
-</span>
+  <span>💳 Available soon from <a href="#buy">Gumroad</a></span>
+</span> -->
+
+---
 
 
 
@@ -49,13 +71,12 @@ Want to use a specific skin tone? No problem! There are `6 skin tones` to choose
 <a href="https://jamesxdigital.gumroad.com/l/emojilibrary"><img src="{{ site.baseurl }}/images/2022/09/emoji_branding_sets_2-min.jpg" alt="Emoji Library Sets"></a></div>
 </div>
 
-
 ---
 
-## Trial Limitations
+## Trial Limits
+
 ![Emoji Library Search and Categories]({{ site.baseurl }}/images/2022/09/emoji_branding_trial-min.jpg#left)
 With the `Trial` version of Emoji Library, you only get access to the `Twitter` emoji set. To get unlimited access to the Apple, Google and Facebook emoji sets, you will need to purchase a licence to the full version.
-
 
 <span class="clear"></span>
 <br/>
@@ -63,14 +84,20 @@ With the `Trial` version of Emoji Library, you only get access to the `Twitter` 
 ---
 
 ## FAQs
+
 ### Are the emojis licenced for use commercial use?
+
 Apple emojis are not licensed for commercial usage.
 Android/Google/Noto emojis are available under the <a href="https://github.com/googlei18n/noto-emoji/blob/master/LICENSE" target="_blank">Apache License 2.0</a>.
 Twitter emojis are available under the <a href="https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS" target="_blank">Creative Commons Attribution 4.0 license</a>.
 Facebook emojis have no clear licensing.
+
 ### What format are the emojis and where are they saved?
+
 When an emoji is sent to composition, a `.png` is downloaded from the network and saved to your computer. An `/emoji` directory will be automatically created in the same location as the After Effects `.aep` file and the emoji images will be saved there.
+
 ### Is an internet connection required to use Emoji Library?
+
 Yes, an internet connection is required. If you are not connected to the internet, the extension will freeze until the connection is restored.
 
 <span class="clear"></span>
@@ -131,10 +158,13 @@ Please follow these steps to get your brand new `.zxp` extension installed.
 <br/>
 
 ---
+
 ### Acknowledgements
+
 <small>Thanks to the team and contributors who created the fantastic open source <a href="https://github.com/missive/emoji-mart" target="_blank">Emoji Mart</a> - Copyright (c) Missive.</small>
 
 ### License etc
+
 <small>This extension is provided "as is," without warranty of any kind, expressed or implied. In no event shall the author be held liable for any damages arising in any way from the use of this script.</small>
 
 <small>Copyright © {{ 'now' | date: "%Y" }} [James X Digital](https://jamesxdigital.com)</small>

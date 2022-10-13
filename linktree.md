@@ -6,7 +6,10 @@ title: Link Tree
 <div class="entry-content">
     <div class="col-xs-12">
         
-        <a href="https://jamesmilton.me" target="_blank" class="linktree-link shake">
+        <a href="https://jamesxdigital.com/emojilibrary/" target="_blank" class="linktree-link shake">
+            🆕 Emoji Library Extension for After Effects 😎
+        </a>
+        <a href="https://jamesxdigital.com" target="_blank" class="linktree-link">
             Website 🌐
         </a>
         <a href="https://www.instagram.com/james.jpg/" target="_blank" class="linktree-link">
