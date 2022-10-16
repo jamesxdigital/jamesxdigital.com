@@ -41,7 +41,7 @@ image: /images/2022/09/emoji_branding_gumroad.gif
 
 Choose from over `14,000` official emojis to add to your After Effects project with just the click of a button. Each emoji set supports the latest Unicode Version `14.0.`
 
-Once you select an emoji to add to your composition, it will add that emoji as `.png` to your project. The size of the emojis vary between `72px - 160px.`
+Once you select an emoji to add to your composition, it will add that emoji as `.png` to your project. The size of the emojis vary between 72px - 160px.
 
 <div class="entry-content"><span class="clear"></span></div>
 
@@ -85,20 +85,25 @@ With the `Trial` version of Emoji Library, you only get access to the `Twitter` 
 
 ## FAQs
 
-### Are the emojis licenced for use commercial use?
+### Are the emojis licenced for use commercial use? 
 
 Apple emojis are not licensed for commercial usage.
 Android/Google/Noto emojis are available under the <a href="https://github.com/googlei18n/noto-emoji/blob/master/LICENSE" target="_blank">Apache License 2.0</a>.
 Twitter emojis are available under the <a href="https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS" target="_blank">Creative Commons Attribution 4.0 license</a>.
 Facebook emojis have no clear licensing.
 
-### What format are the emojis and where are they saved?
+### What format are the emojis and where are they saved? 
 
 When an emoji is sent to composition, a `.png` is downloaded from the network and saved to your computer. An `/emoji` directory will be automatically created in the same location as the After Effects `.aep` file and the emoji images will be saved there.
 
 ### Is an internet connection required to use Emoji Library?
 
 Yes, an internet connection is required. If you are not connected to the internet, the extension will freeze until the connection is restored.
+
+### Does Emoji Library work for Premier Pro, Photoshop or other Creative Cloud apps?
+
+Currently Emoji Library only works for After Effects. But fear not, I'm working on getting it working for Premier Pro and other apps soon. So for those who have purchased Emoji Library already, keep out for a free to download update. 👀
+
 
 <span class="clear"></span>
 <br/>
@@ -167,4 +172,4 @@ Please follow these steps to get your brand new `.zxp` extension installed.
 
 <small>This extension is provided "as is," without warranty of any kind, expressed or implied. In no event shall the author be held liable for any damages arising in any way from the use of this script.</small>
 
-<small>Copyright © {{ 'now' | date: "%Y" }} [James X Digital](https://jamesxdigital.com)</small>
+<small>Copyright © {{ 'now' | date: "%Y" }} [JAMES X DIGITAL](https://jamesxdigital.com)</small>

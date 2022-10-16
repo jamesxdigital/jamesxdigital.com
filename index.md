@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title: James X Digital
+title: JAMES X DIGITAL
 image: /assets/images/pages/about.jpg
 ---
 
