@@ -85,7 +85,7 @@ With the `Trial` version of Emoji Library, you only get access to the `Twitter` 
 
 ## FAQs
 
-### Are the emojis licenced for use commercial use? 
+### Are the emojis licenced for commercial use? 
 
 Apple emojis are not licensed for commercial usage.
 Android/Google/Noto emojis are available under the <a href="https://github.com/googlei18n/noto-emoji/blob/master/LICENSE" target="_blank">Apache License 2.0</a>.
@@ -115,7 +115,7 @@ Currently Emoji Library only works for After Effects. But fear not, I'm working 
 Please follow these steps to get your brand new `.zxp` extension installed.
 
 - Download and open the <a href="https://aescripts.com/learn/zxp-installer/" target="_blank">ZXP Installer</a> from <a href="https://aescripts.com" target="_blank">aescripts.com</a>
-- Drag EMOJILIBRARY.zxp into ZXP Installer
+- Drag `Emoji-Library-0.1.0.zxp` into ZXP Installer
 - Close and re-open After Effects
 - Navigate to the top Window menu, Extension > Emoji Library
 - Click to open the panel
@@ -152,9 +152,9 @@ Please follow these steps to get your brand new `.zxp` extension installed.
     <th>Comments</th>
   </thead>
   <tr>
-    <td>1.0.0</td>
+    <td>0.1.0</td>
     <td>Nov 1, 2022 (tbd)</td>
-    <td>Inital release</td>
+    <td>Inital beta release</td>
   </tr>
  </tbody>
 </table>
