@@ -4,32 +4,14 @@ title: Emoji Library 😎 for After Effects
 image: /images/2022/09/emoji_branding_gumroad.gif
 ---
 
-### There is finally an easy way to add over 14,000 official emojis to your compositions in After Effects.
+### Add over 14,000 official emojis to your compositions in After Effects.
 
 <iframe src='https://www.youtube.com/embed/clXeyXWT7Vk?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
-<div id="notify-me" class="subscribe-box">
-    <div class="subscribe-inside">
-        <p>Be notified as soon as Emoji Library 😎 is available!</p>
-        <!-- Begin MailChimp Signup Form -->
-        <div id="mc_embed_signup">
-            <form action="{{ site.mailchimp_url }}" method="post" id="mc-embedded-subscribe-form"
-                name="mc-embedded-subscribe-form" class="validate gh-subscribe-form" target="popupwindow"
-                onsubmit="window.open('{{ site.mailchimp_url }}', 'popupwindow', 'scrollbars=yes,width=600,height=620');return true">
-                <label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
-                <input type="email" value="" name="EMAIL" class="required email subscribe-email" id="mce-EMAIL"
-                    placeholder="Your email address">
-                <input type="submit" value="Notify Me" name="subscribe" id="mc-embedded-subscribe" class="button">
-            </form>
-        </div>
-        <!--End mc_embed_signup-->
-    </div><!-- .inner -->
-</div><!-- .widget -->
-
-<!-- <span class="price-tag price-tag--two-lines">
+<span class="price-tag price-tag--two-lines">
   <span class="price-tag__main">$9.99</span>
-  <span>💳 Available soon from <a href="#buy">Gumroad</a></span>
-</span> -->
+  <span>💳 Available from <a href="#buy">Gumroad</a></span>
+</span>
 
 ---
 
@@ -63,20 +45,13 @@ Want to use a specific skin tone? No problem! There are `6 skin tones` to choose
 
 ---
 
-## Buy Now {#buy}
-
-<script src="https://gumroad.com/js/gumroad-embed.js"></script>
-<div id="iframe-wrapper">
-<div class="gumroad-product-embed">
-<a href="https://jamesxdigital.gumroad.com/l/emojilibrary"><img src="{{ site.baseurl }}/images/2022/09/emoji_branding_sets_2-min.jpg" alt="Emoji Library Sets"></a></div>
-</div>
-
----
-
-## Trial Limits
+## Trial Version
 
 ![Emoji Library Search and Categories]({{ site.baseurl }}/images/2022/09/emoji_branding_trial-min.jpg#left)
-With the `Trial` version of Emoji Library, you only get access to the `Twitter` emoji set. To get unlimited access to the Apple, Google and Facebook emoji sets, you will need to purchase a licence to the full version.
+You can only access the `Twitter` emoji set with the `trial` version of Emoji Library. You will need to <a href="#buy">purchase a licence to the full version</a> to get unlimited access to the Apple, Google and Facebook emoji sets.
+<span class="clear"></span>
+<br/>
+<a href="#buy"> Click here to download the trial version ⬇️</a>
 
 <span class="clear"></span>
 <br/>
@@ -85,24 +60,48 @@ With the `Trial` version of Emoji Library, you only get access to the `Twitter` 
 
 ## FAQs
 
-### Are the emojis licenced for commercial use? 
-
-Apple emojis are not licensed for commercial usage.
+<div class="collapse">
+  <input id="collapse1" type="checkbox" class="collapse-input" />
+  <label for="collapse1" class="collapse-head">Are the emojis licenced for commercial use? </label>
+  <div class="collapse-content">
+    <div>
+      Apple emojis are not licensed for commercial usage.
 Android/Google/Noto emojis are available under the <a href="https://github.com/googlei18n/noto-emoji/blob/master/LICENSE" target="_blank">Apache License 2.0</a>.
 Twitter emojis are available under the <a href="https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS" target="_blank">Creative Commons Attribution 4.0 license</a>.
 Facebook emojis have no clear licensing.
+    </div>
+  </div>
+</div>
 
-### What format are the emojis and where are they saved? 
+<div class="collapse">
+  <input id="collapse2" type="checkbox" class="collapse-input" />
+  <label for="collapse2" class="collapse-head">What format are the emojis and where are they saved? </label>
+  <div class="collapse-content">
+    <div>
+      When an emoji is sent to composition, a <code class=" highlighter-rouge language-plaintext">.png</code> is downloaded from the network and saved to your computer. An <code class=" highlighter-rouge language-plaintext">/emoji</code> directory will be automatically created in the same location as the After Effects <code class=" highlighter-rouge language-plaintext">.aep</code> file and the emoji images will be saved there.
+    </div>
+  </div>
+</div>
 
-When an emoji is sent to composition, a `.png` is downloaded from the network and saved to your computer. An `/emoji` directory will be automatically created in the same location as the After Effects `.aep` file and the emoji images will be saved there.
+<div class="collapse">
+  <input id="collapse3" type="checkbox" class="collapse-input" />
+  <label for="collapse3" class="collapse-head">Is an internet connection required to use Emoji Library? </label>
+  <div class="collapse-content">
+    <div>
+      Yes, an internet connection is required. If you are not connected to the internet, the extension will freeze until the connection is restored.
+    </div>
+  </div>
+</div>
 
-### Is an internet connection required to use Emoji Library?
-
-Yes, an internet connection is required. If you are not connected to the internet, the extension will freeze until the connection is restored.
-
-### Does Emoji Library work for Premier Pro, Photoshop or other Creative Cloud apps?
-
-Currently Emoji Library only works for After Effects. But fear not, I'm working on getting it working for Premier Pro and other apps soon. So for those who have purchased Emoji Library already, keep out for a free to download update. 👀
+<div class="collapse">
+  <input id="collapse4" type="checkbox" class="collapse-input" />
+  <label for="collapse4" class="collapse-head">Does Emoji Library work for Premier Pro, Photoshop or other Creative Cloud apps? </label>
+  <div class="collapse-content">
+    <div>
+      Currently Emoji Library only works for After Effects. But fear not, I'm working on getting it working for Premier Pro and other apps soon. So for those who have purchased Emoji Library already, keep out for a free to download update. 👀
+    </div>
+  </div>
+</div>
 
 
 <span class="clear"></span>
@@ -115,7 +114,7 @@ Currently Emoji Library only works for After Effects. But fear not, I'm working 
 Please follow these steps to get your brand new `.zxp` extension installed.
 
 - Download and open the <a href="https://aescripts.com/learn/zxp-installer/" target="_blank">ZXP Installer</a> from <a href="https://aescripts.com" target="_blank">aescripts.com</a>
-- Drag `Emoji-Library-0.1.0.zxp` into ZXP Installer
+- Drag `Emoji-Library-1.0.0.zxp` into ZXP Installer
 - Close and re-open After Effects
 - Navigate to the top Window menu, Extension > Emoji Library
 - Click to open the panel
@@ -137,8 +136,20 @@ Please follow these steps to get your brand new `.zxp` extension installed.
  </tbody>
 </table>
 
+<iframe src='https://www.youtube.com/embed/Zh4UM2qsSd4?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
+
 <span class="clear"></span>
 <br/>
+
+---
+
+## Buy Now {#buy}
+
+<script src="https://gumroad.com/js/gumroad-embed.js"></script>
+<div id="iframe-wrapper">
+<div class="gumroad-product-embed">
+<a href="https://jamesxdigital.gumroad.com/l/emojilibrary"><img src="{{ site.baseurl }}/images/2022/09/emoji_branding_sets_2-min.jpg" alt="Emoji Library Sets"></a></div>
+</div>
 
 ---
 
