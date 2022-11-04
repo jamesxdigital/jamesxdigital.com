@@ -12,7 +12,7 @@ title: Link Tree
         <a href="https://jamesxdigital.com" target="_blank" class="linktree-link">
             Website 🌐
         </a>
-        <a href="https://www.instagram.com/james.jpg/" target="_blank" class="linktree-link">
+        <a href="https://www.instagram.com/jamesxdigital/" target="_blank" class="linktree-link">
             Instagram 📸
         </a>
         <a href="https://www.youtube.com/channel/UC4G3WR8U8Uk0OY62jD1Ut_w" target="_blank" class="linktree-link">
