@@ -4,26 +4,24 @@ title: Emoji Library 😎 for After Effects
 image: /images/2022/09/emoji_branding_gumroad.gif
 ---
 
-### Add over 14,000 official emojis to your compositions in After Effects.
+### Add over 14,000 official emojis to your compositions in After Effects 🎉
 
 <iframe src='https://www.youtube.com/embed/clXeyXWT7Vk?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
 <span class="price-tag price-tag--two-lines">
   <span class="price-tag__main">$9.99</span>
-  <span>💳 Available from <a href="#buy">Gumroad</a></span>
+  <span>💳 Available from <a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a></span>
 </span>
 
 ---
 
 
 
-### Every emoji from Twitter, Apple, Facebook and Google are available 👏
+### Every emoji from Twitter, Apple, Facebook and Google now available in 1-Click 👏
 
 ![Emoji Library Sets]({{ site.baseurl }}/images/2022/09/emoji_branding_import-min.jpg#right)
 
-Choose from over `14,000` official emojis to add to your After Effects project with just the click of a button. Each emoji set supports the latest Unicode Version `14.0.`
-
-Once you select an emoji to add to your composition, it will add that emoji as `.png` to your project. The size of the emojis vary between 72px - 160px.
+Choose from over `14,000` official emojis to add to your After Effects project with just the click of a button. Each emoji set supports the latest Unicode Version `14.0`.
 
 <div class="entry-content"><span class="clear"></span></div>
 
@@ -31,13 +29,13 @@ Once you select an emoji to add to your composition, it will add that emoji as `
 
 ![Emoji Library Search and Categories]({{ site.baseurl }}/images/2022/09/emoji_branding_search_categories-min.jpg#left)
 
-You can easily find the emoji you are looking for using the `search` or `category` filters. It works just as you would expect.
+You can easily find the emoji you are looking for using the `search` or `category` filters.
 
 ![Emoji Library Skintone]({{ site.baseurl }}/images/2022/09/emoji_branding_skintone-min.jpg#right)
 
 <span class="clear"></span>
 
-Want to use a specific skin tone? No problem! There are `6 skin tones` to choose from.
+Supporting `6 skin tones` to choose from!
 
 <div class="entry-content"><span class="clear"></span></div>
 
@@ -45,7 +43,7 @@ Want to use a specific skin tone? No problem! There are `6 skin tones` to choose
 
 ---
 
-## Trial Version
+<!-- ## Trial Version
 
 ![Emoji Library Search and Categories]({{ site.baseurl }}/images/2022/09/emoji_branding_trial-min.jpg#left)
 You can only access the `Twitter` emoji set with the `trial` version of Emoji Library. You will need to <a href="#buy">purchase a licence to the full version</a> to get unlimited access to the Apple, Google and Facebook emoji sets.
@@ -56,7 +54,7 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
 <span class="clear"></span>
 <br/>
 
----
+--- -->
 
 ## FAQs
 
@@ -78,7 +76,7 @@ Facebook emojis have no clear licensing.
   <label for="collapse2" class="collapse-head">What format are the emojis and where are they saved? </label>
   <div class="collapse-content">
     <div>
-      When an emoji is sent to composition, a <code class=" highlighter-rouge language-plaintext">.png</code> is downloaded from the network and saved to your computer. An <code class=" highlighter-rouge language-plaintext">/emoji</code> directory will be automatically created in the same location as the After Effects <code class=" highlighter-rouge language-plaintext">.aep</code> file and the emoji images will be saved there.
+      When an emoji is sent to composition, a <code class=" highlighter-rouge language-plaintext">.png</code> is downloaded from the network and saved to your computer. An <code class=" highlighter-rouge language-plaintext">/emoji</code> directory will be automatically created in the same location as the After Effects <code class=" highlighter-rouge language-plaintext">.aep</code> file and the emoji images will be saved there. The resolution of the emojis vary between 72px - 160px.
     </div>
   </div>
 </div>
@@ -98,7 +96,7 @@ Facebook emojis have no clear licensing.
   <label for="collapse4" class="collapse-head">Does Emoji Library work for Premier Pro, Photoshop or other Creative Cloud apps? </label>
   <div class="collapse-content">
     <div>
-      Currently Emoji Library only works for After Effects. But fear not, I'm working on getting it working for Premier Pro and other apps soon. So for those who have purchased Emoji Library already, keep out for a free to download update. 👀
+      Currently Emoji Library only works for After Effects. But fear not, I'm working on getting it working for Premier Pro and other apps soon. So for those who have purchased Emoji Library already, keep a look out for a free to download update. 👀
     </div>
   </div>
 </div>
@@ -163,9 +161,9 @@ Please follow these steps to get your brand new `.zxp` extension installed.
     <th>Comments</th>
   </thead>
   <tr>
-    <td>0.1.0</td>
-    <td>Nov 1, 2022 (tbd)</td>
-    <td>Inital beta release</td>
+    <td>1.0.0</td>
+    <td>Nov 8, 2022</td>
+    <td>Inital public release 🎉</td>
   </tr>
  </tbody>
 </table>
