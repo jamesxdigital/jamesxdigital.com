@@ -31,11 +31,13 @@ Choose from over `14,000` official emojis to add to your After Effects project w
 
 You can easily find the emoji you are looking for using the `search` or `category` filters.
 
+<br/>
+
 ![Emoji Library Skintone]({{ site.baseurl }}/images/2022/09/emoji_branding_skintone-min.jpg#right)
 
 <span class="clear"></span>
 
-Supporting `6 skin tones` to choose from!
+Need a specific skin tone? No problem, there are 6 to choose from! 👍👍🏻👍🏼👍🏽👍🏾👍🏿
 
 <div class="entry-content"><span class="clear"></span></div>
 
