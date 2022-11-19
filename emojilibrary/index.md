@@ -4,7 +4,7 @@ title: Emoji Library 😎 for After Effects
 image: /images/2022/09/emoji_branding_gumroad.gif
 ---
 
-### Add over 14,000 official emojis to your compositions in After Effects 🎉
+### Over 9,000 open source emojis now in After Effects 🎉
 
 <iframe src='https://www.youtube.com/embed/clXeyXWT7Vk?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
@@ -15,13 +15,13 @@ image: /images/2022/09/emoji_branding_gumroad.gif
 
 ---
 
-
-
-### Every emoji from Twitter, Apple, Facebook and Google now available in 1-Click 👏
+### Every emoji from Twitter, OpenMoji, Google now available in 1-Click 👏
 
 ![Emoji Library Sets]({{ site.baseurl }}/images/2022/09/emoji_branding_import-min.jpg#right)
 
-Choose from over `14,000` official emojis to add to your After Effects project with just the click of a button. Each emoji set supports the latest Unicode Version `14.0`.
+Choose from over `9,000` open source emojis to add to your After Effects project with just the click of a button.
+
+Each emoji set supports the latest Unicode Version `14.0`.
 
 <div class="entry-content"><span class="clear"></span></div>
 
@@ -29,7 +29,7 @@ Choose from over `14,000` official emojis to add to your After Effects project w
 
 ![Emoji Library Search and Categories]({{ site.baseurl }}/images/2022/09/emoji_branding_search_categories-min.jpg#left)
 
-You can easily find the emoji you are looking for using the `search` or `category` filters.
+Easily find the emoji you are looking for by using the `search` or `category` filters.
 
 <br/>
 
@@ -37,7 +37,7 @@ You can easily find the emoji you are looking for using the `search` or `categor
 
 <span class="clear"></span>
 
-Need a specific skin tone? No problem, there are 6 to choose from! 👍👍🏻👍🏼👍🏽👍🏾👍🏿
+Need a specific skin tone? There are 6 to choose from! 👍👍🏻👍🏼👍🏽👍🏾👍🏿
 
 <div class="entry-content"><span class="clear"></span></div>
 
@@ -62,20 +62,40 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
 
 <div class="collapse">
   <input id="collapse1" type="checkbox" class="collapse-input" />
-  <label for="collapse1" class="collapse-head">Are the emojis licenced for commercial use? </label>
+  <label for="collapse1" class="collapse-head">Are the emojis licenced for commercial use? 🪪</label>
   <div class="collapse-content">
     <div>
-      Apple emojis are not licensed for commercial usage.
-Android/Google/Noto emojis are available under the <a href="https://github.com/googlei18n/noto-emoji/blob/master/LICENSE" target="_blank">Apache License 2.0</a>.
-Twitter emojis are available under the <a href="https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS" target="_blank">Creative Commons Attribution 4.0 license</a>.
-Facebook emojis have no clear licensing.
-    </div>
+    Yes! 🎉
+    <br />
+    <br />
+    However, each emoji set uses a slightly different open-source license type. Check the resources linked below to for all the information and conditions.
+    <br />
+    <br />
+    <a href="https://twemoji.twitter.com/" target="_blank">Twitter</a> (Copyright 2020 Twitter, Inc and other contributors) emojis are available for personal and commerical use under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> CC-BY 4.0</a> license.
+    <br />
+    <br />
+    <a href="https://openmoji.org/" target="_blank">Openmoji</a> (the open-source emoji and icon project) emojis are available for personal and commerical use under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"> CC BY-SA 4.0</a> license.
+    <br />
+    <br />
+    <a href="https://github.com/googlefonts/noto-emoji" target="_blank">Google Noto</a> (the open source emoji library) emoji are available for personal commerical use under the <a href="https://github.com/googlefonts/noto-emoji/blob/main/LICENSE" target="_blank" >Apache License 2.0</a>.
+</div>
+
   </div>
 </div>
 
 <div class="collapse">
   <input id="collapse2" type="checkbox" class="collapse-input" />
-  <label for="collapse2" class="collapse-head">What format are the emojis and where are they saved? </label>
+  <label for="collapse2" class="collapse-head">Are the Apple emojis available in this plugin? 🍏</label>
+  <div class="collapse-content">
+    <div>
+      Sadly not. Unlike the other emoji sets avaible in this plugin, Apple have not made their emojis images open source. Therefore, it is not possible to use any of the Apple emojis images without getting permission from Apple’s legal department. 
+    </div>
+  </div>
+</div>
+
+<div class="collapse">
+  <input id="collapse3" type="checkbox" class="collapse-input" />
+  <label for="collapse3" class="collapse-head">What format are the emojis and where are they saved? 💾</label>
   <div class="collapse-content">
     <div>
       When an emoji is sent to composition, a <code class=" highlighter-rouge language-plaintext">.png</code> is downloaded from the network and saved to your computer. An <code class=" highlighter-rouge language-plaintext">/emoji</code> directory will be automatically created in the same location as the After Effects <code class=" highlighter-rouge language-plaintext">.aep</code> file and the emoji images will be saved there. The resolution of the emojis vary between 72px - 160px.
@@ -84,8 +104,8 @@ Facebook emojis have no clear licensing.
 </div>
 
 <div class="collapse">
-  <input id="collapse3" type="checkbox" class="collapse-input" />
-  <label for="collapse3" class="collapse-head">Is an internet connection required to use Emoji Library? </label>
+  <input id="collapse4" type="checkbox" class="collapse-input" />
+  <label for="collapse4" class="collapse-head">Is an internet connection required to use Emoji Library? 📶</label>
   <div class="collapse-content">
     <div>
       Yes, an internet connection is required. If you are not connected to the internet, the extension will freeze until the connection is restored.
@@ -94,15 +114,14 @@ Facebook emojis have no clear licensing.
 </div>
 
 <div class="collapse">
-  <input id="collapse4" type="checkbox" class="collapse-input" />
-  <label for="collapse4" class="collapse-head">Does Emoji Library work for Premier Pro, Photoshop or other Creative Cloud apps? </label>
+  <input id="collapse5" type="checkbox" class="collapse-input" />
+  <label for="collapse5" class="collapse-head">Does Emoji Library work for Premier Pro, Photoshop or other Creative Cloud apps? 👨‍💻</label>
   <div class="collapse-content">
     <div>
       Currently Emoji Library only works for After Effects. But fear not, I'm working on getting it working for Premier Pro and other apps soon. So for those who have purchased Emoji Library already, keep a look out for a free to download update. 👀
     </div>
   </div>
 </div>
-
 
 <span class="clear"></span>
 <br/>
@@ -179,7 +198,15 @@ Please follow these steps to get your brand new `.zxp` extension installed.
 
 <small>Thanks to the team and contributors who created the fantastic open source <a href="https://github.com/missive/emoji-mart" target="_blank">Emoji Mart</a> - Copyright (c) Missive.</small>
 
-### License etc
+### Attribution for emoji graphics used on this page
+
+<small>
+<a href="https://twemoji.twitter.com/" target="_blank">Twitter</a> (Copyright 2020 Twitter, Inc and other contributors) <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> CC-BY 4.0</a>.
+<a href="https://openmoji.org/" target="_blank">Openmoji</a> (the open-source emoji and icon project) <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"> CC BY-SA 4.0</a>.
+<a href="https://github.com/googlefonts/noto-emoji" target="_blank">Google Noto</a> (the open source emoji library) <a href="https://github.com/googlefonts/noto-emoji/blob/main/LICENSE" target="_blank" >Apache License 2.0</a>.
+</small>
+
+### Extension License
 
 <small>This extension is provided "as is," without warranty of any kind, expressed or implied. In no event shall the author be held liable for any damages arising in any way from the use of this script.</small>
 
