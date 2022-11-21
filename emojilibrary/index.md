@@ -15,7 +15,7 @@ image: /images/2022/09/emoji_branding_gumroad.gif
 
 ---
 
-### Every emoji from Twitter, OpenMoji, Google now available in 1-Click 👏
+### Every emoji from Twitter, OpenMoji and Google now available in 1-Click 👏
 
 ![Emoji Library Sets]({{ site.baseurl }}/images/2022/09/emoji_branding_import-min.jpg#right)
 
@@ -36,6 +36,8 @@ Easily find the emoji you are looking for by using the `search` or `category` fi
 ![Emoji Library Skintone]({{ site.baseurl }}/images/2022/09/emoji_branding_skintone-min.jpg#right)
 
 <span class="clear"></span>
+
+<br/>
 
 Need a specific skin tone? There are 6 to choose from! 👍👍🏻👍🏼👍🏽👍🏾👍🏿
 
@@ -68,7 +70,7 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
     Yes! 🎉
     <br />
     <br />
-    However, each emoji set uses a slightly different open-source license type. Check the resources linked below to for all the information and conditions.
+    However, each emoji set uses a slightly different open-source license type. Check the links below the specific information and conditions.
     <br />
     <br />
     <a href="https://twemoji.twitter.com/" target="_blank">Twitter</a> (Copyright 2020 Twitter, Inc and other contributors) emojis are available for personal and commercial use under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> CC-BY 4.0</a> license.
@@ -88,7 +90,7 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
   <label for="collapse2" class="collapse-head">Are the Apple emojis available in this plugin? 🍏</label>
   <div class="collapse-content">
     <div>
-      Sadly not. Unlike the other emoji sets avaible in this plugin, Apple have not made their emoji images open-source. Therefore, it is not possible to use any of the Apple emojis images without getting permission from Apple’s legal department. 
+      Sadly not. Unlike the other emoji sets avaible in this plugin, Apple have not made their emoji images open-source. Therefore, it is not possible to use any of the Apple emoji images without getting permission from Apple’s legal department. 
     </div>
   </div>
 </div>
@@ -183,7 +185,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
   </thead>
   <tr>
     <td>1.0.0</td>
-    <td>Nov 8, 2022</td>
+    <td>Nov 21, 2022</td>
     <td>Inital public release 🎉</td>
   </tr>
  </tbody>
@@ -208,6 +210,9 @@ Please follow these steps to get your brand new `.zxp` extension installed.
 
 ### Extension License
 
-<small>This extension is provided "as is," without warranty of any kind, expressed or implied. In no event shall the author be held liable for any damages arising in any way from the use of this script.</small>
+<small>This extension is provided "as is," without warranty of any kind, expressed or implied. In no event shall the author be held liable for any damages arising in any way from the use of this script.
+<a href="/emojilibrary/eula" target="_blank">Emoji Library End-User License Agreement</a>.
+</small>
+
 
 <small>Copyright © {{ 'now' | date: "%Y" }} [JAMES X DIGITAL](https://jamesxdigital.com)</small>
