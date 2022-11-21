@@ -4,9 +4,9 @@ title: Emoji Library 😎 for After Effects
 image: /images/2022/09/emoji_branding_gumroad.gif
 ---
 
-### Over 9,000 open source emojis now in After Effects 🎉
+### Over 9,000 high-resolution and open-source emojis now in After Effects 🎉
 
-<iframe src='https://www.youtube.com/embed/clXeyXWT7Vk?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
+<iframe src='https://www.youtube.com/embed/QONs52lUL1U?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
 <span class="price-tag price-tag--two-lines">
   <span class="price-tag__main">$9.99</span>
@@ -19,7 +19,7 @@ image: /images/2022/09/emoji_branding_gumroad.gif
 
 ![Emoji Library Sets]({{ site.baseurl }}/images/2022/09/emoji_branding_import-min.jpg#right)
 
-Choose from over `9,000` open source emojis to add to your After Effects project with just the click of a button.
+Choose from over `9,000` high-resolution and open-source emojis to add to your After Effects project with just the click of a button.
 
 Each emoji set supports the latest Unicode Version `14.0`.
 
@@ -71,13 +71,13 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
     However, each emoji set uses a slightly different open-source license type. Check the resources linked below to for all the information and conditions.
     <br />
     <br />
-    <a href="https://twemoji.twitter.com/" target="_blank">Twitter</a> (Copyright 2020 Twitter, Inc and other contributors) emojis are available for personal and commerical use under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> CC-BY 4.0</a> license.
+    <a href="https://twemoji.twitter.com/" target="_blank">Twitter</a> (Copyright 2020 Twitter, Inc and other contributors) emojis are available for personal and commercial use under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> CC-BY 4.0</a> license.
     <br />
     <br />
-    <a href="https://openmoji.org/" target="_blank">Openmoji</a> (the open-source emoji and icon project) emojis are available for personal and commerical use under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"> CC BY-SA 4.0</a> license.
+    <a href="https://openmoji.org/" target="_blank">Openmoji</a> (the open-source emoji and icon project) emojis are available for personal and commercial use under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"> CC BY-SA 4.0</a> license.
     <br />
     <br />
-    <a href="https://github.com/googlefonts/noto-emoji" target="_blank">Google Noto</a> (the open source emoji library) emoji are available for personal commerical use under the <a href="https://github.com/googlefonts/noto-emoji/blob/main/LICENSE" target="_blank" >Apache License 2.0</a>.
+    <a href="https://fonts.google.com/noto/specimen/Noto+Color+Emoji" target="_blank">Google Noto</a> (the open-source emoji library) emoji are available for personal commercial use under the <a href="https://github.com/googlefonts/noto-emoji/blob/main/LICENSE" target="_blank" >Apache License 2.0</a>.
 </div>
 
   </div>
@@ -88,7 +88,7 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
   <label for="collapse2" class="collapse-head">Are the Apple emojis available in this plugin? 🍏</label>
   <div class="collapse-content">
     <div>
-      Sadly not. Unlike the other emoji sets avaible in this plugin, Apple have not made their emojis images open source. Therefore, it is not possible to use any of the Apple emojis images without getting permission from Apple’s legal department. 
+      Sadly not. Unlike the other emoji sets avaible in this plugin, Apple have not made their emoji images open-source. Therefore, it is not possible to use any of the Apple emojis images without getting permission from Apple’s legal department. 
     </div>
   </div>
 </div>
@@ -98,7 +98,7 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
   <label for="collapse3" class="collapse-head">What format are the emojis and where are they saved? 💾</label>
   <div class="collapse-content">
     <div>
-      When an emoji is sent to composition, a <code class=" highlighter-rouge language-plaintext">.png</code> is downloaded from the network and saved to your computer. An <code class=" highlighter-rouge language-plaintext">/emoji</code> directory will be automatically created in the same location as the After Effects <code class=" highlighter-rouge language-plaintext">.aep</code> file and the emoji images will be saved there. The resolution of the emojis vary between 72px - 160px.
+      When an emoji is sent to composition, a <code class=" highlighter-rouge language-plaintext">.png</code> is downloaded from the network and saved to your computer. An <code class=" highlighter-rouge language-plaintext">/emoji</code> directory will be automatically created in the same location as the After Effects <code class=" highlighter-rouge language-plaintext">.aep</code> file and the emoji images will be saved there. The resolution of the emojis are around 500 x 500px.
     </div>
   </div>
 </div>
@@ -155,7 +155,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
  </tbody>
 </table>
 
-<iframe src='https://www.youtube.com/embed/Zh4UM2qsSd4?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
+<iframe src='https://www.youtube.com/embed/l1G1TZP5z8c?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
 <span class="clear"></span>
 <br/>
@@ -196,7 +196,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
 
 ### Acknowledgements
 
-<small>Thanks to the team and contributors who created the fantastic open source <a href="https://github.com/missive/emoji-mart" target="_blank">Emoji Mart</a> - Copyright (c) Missive.</small>
+<small>Thanks to the team and contributors who created the fantastic open-source <a href="https://github.com/missive/emoji-mart" target="_blank">Emoji Mart</a> - Copyright (c) Missive.</small>
 
 ### Attribution for emoji graphics used on this page
 
