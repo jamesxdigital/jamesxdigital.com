@@ -169,7 +169,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
 <script src="https://gumroad.com/js/gumroad-embed.js"></script>
 <div id="iframe-wrapper">
 <div class="gumroad-product-embed">
-<a href="https://jamesxdigital.gumroad.com/l/emojilibrary"><img src="{{ site.baseurl }}/images/2022/09/emoji_branding_sets_2-min.jpg" alt="Emoji Library Sets"></a></div>
+<a href="https://jamesxdigital.gumroad.com/l/emojilibrary/cyberweek"><img src="{{ site.baseurl }}/images/2022/09/emoji_branding_sets_2-min.jpg" alt="Emoji Library Sets"></a></div>
 </div>
 
 ---
