@@ -9,8 +9,8 @@ image: /images/2022/09/emoji_branding_gumroad.gif
 <iframe src='https://www.youtube.com/embed/QONs52lUL1U?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
 <span class="price-tag price-tag--two-lines">
-  <span class="price-tag__main">$9.99</span>
-  <span>💳 Available from <a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a></span>
+  <span class="price-tag__main"><s>$9.99</s> $6.99</span>
+  <span>💳 Available from <a href="https://jamesxdigital.gumroad.com/l/emojilibrary/cyberweek">Gumroad</a></span>
 </span>
 
 ---
