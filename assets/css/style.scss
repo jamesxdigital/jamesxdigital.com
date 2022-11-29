@@ -309,12 +309,13 @@ $price-tag-dot-background: $gray-dark;
 
 .share-links {
   text-align: right;
-
+  font-size: 50px;
+  font-family: $font-primary;
   a {
     border: 0;
     color: inherit;
     display: inline-block;
-    font-size: 14px;
+    font-size: 50px;
     margin-left: 5px;
     padding: 0 5px;
 
