@@ -9,8 +9,8 @@ image: /images/2022/09/emoji_branding_gumroad.gif
 <iframe src='https://www.youtube.com/embed/QONs52lUL1U?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
 <span class="price-tag price-tag--two-lines">
-  <span class="price-tag__main"><s>$9.99</s> $6.99</span>
-  <span>💳 Available from <a href="https://jamesxdigital.gumroad.com/l/emojilibrary/cyberweek">Gumroad</a></span>
+  <span class="price-tag__main"><s>$6.99</span>
+  <span>💳 Available from <a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a></span>
 </span>
 
 ---
@@ -169,7 +169,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
 <script src="https://gumroad.com/js/gumroad-embed.js"></script>
 <div id="iframe-wrapper">
 <div class="gumroad-product-embed">
-<a href="https://jamesxdigital.gumroad.com/l/emojilibrary/cyberweek"><img src="{{ site.baseurl }}/images/2022/09/emoji_branding_sets_2-min.jpg" alt="Emoji Library Sets"></a></div>
+<a href="https://jamesxdigital.gumroad.com/l/emojilibrary"><img src="{{ site.baseurl }}/images/2022/09/emoji_branding_sets_2-min.jpg" alt="Emoji Library Sets"></a></div>
 </div>
 
 ---
