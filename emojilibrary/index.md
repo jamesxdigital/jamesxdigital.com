@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Emoji Library 😎 for After Effects
+title: Emoji Library 😎 Plugin for After Effects
 image: /images/2022/09/emoji_branding_gumroad.gif
 ---
 
