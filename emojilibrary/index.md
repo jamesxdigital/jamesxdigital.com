@@ -186,7 +186,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
   <tr>
     <td>1.0.0</td>
     <td>Nov 21, 2022</td>
-    <td>Inital public release 🎉</td>
+    <td>Initial public release 🎉</td>
   </tr>
  </tbody>
 </table>
