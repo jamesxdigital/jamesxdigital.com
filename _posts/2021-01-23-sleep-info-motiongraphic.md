@@ -16,17 +16,17 @@ This project aims to intuitively demonstrate one of sleep’s many functions, wh
 
 ## Non-interactive Version
 
-<iframe src="https://www.youtube.com/embed/wZAlIN2cgqw" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe loading="lazy" src="https://www.youtube.com/embed/wZAlIN2cgqw" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Interactive Version
 
-<div class='embed-container'> <iframe src="https://video.eko.com/v/V5EEgX/embed?autoplay=false&publisherID=XQtbh6" frameborder="0" allowfullscreen></iframe> </div>
+<div class='embed-container'> <iframe loading="lazy" src="https://video.eko.com/v/V5EEgX/embed?autoplay=false&publisherID=XQtbh6" frameborder="0" allowfullscreen></iframe> </div>
 <small>It's Interactive! Within this video, you will be asked questions and you will need to select your answer. The platform this is built with is called [Eko](https://helloeko.com/).</small>
 
 [Click here for fullscreen link](https://video.helloeko.com/v/V5EEgX "Fullscreen link")
 
 <!-- ## Full Project Portfolio
 
-<iframe src="https://drive.google.com/file/d/1unNp9FpG7NjaYvjkbs2SpmUH8BtJ2IHP/preview" width="100%" height="700"></iframe> -->
+<iframe loading="lazy" src="https://drive.google.com/file/d/1unNp9FpG7NjaYvjkbs2SpmUH8BtJ2IHP/preview" width="100%" height="700"></iframe> -->
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>

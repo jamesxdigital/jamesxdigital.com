@@ -212,8 +212,8 @@ Footnotes are a great way to add additional contextual details when appropriate.
 
 ## Videos
 
-<iframe src="https://player.vimeo.com/video/137643135?color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/137643135">This Mountain</a> from <a href="https://vimeo.com/evanmann">Evan Mann / OWP Denver</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe loading="lazy" src="https://player.vimeo.com/video/137643135?color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/137643135">This Mountain</a> from <a href="https://vimeo.com/evanmann">Evan Mann / OWP Denver</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ## Audio
 
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/165895349&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/165895349&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>

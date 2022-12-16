@@ -6,7 +6,7 @@ image: /images/2022/09/emoji_branding_gumroad.gif
 
 ### Over 9,000 high-resolution and open-source emojis now in After Effects 🎉
 
-<iframe src='https://www.youtube.com/embed/QONs52lUL1U?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
+<iframe loading="lazy" src='https://www.youtube.com/embed/QONs52lUL1U?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
 <span class="price-tag price-tag--two-lines">
   <span class="price-tag__main">$6.99</span>
@@ -157,7 +157,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
  </tbody>
 </table>
 
-<iframe src='https://www.youtube.com/embed/l1G1TZP5z8c?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
+<iframe loading="lazy" src='https://www.youtube.com/embed/l1G1TZP5z8c?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
 <span class="clear"></span>
 <br/>

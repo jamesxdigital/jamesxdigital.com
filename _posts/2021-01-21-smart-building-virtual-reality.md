@@ -19,13 +19,13 @@ Given the quantity of data recorded in the Diamond’s BMS, simplex numerical fi
 
 The building’s constructors produced a highly detailed computerised CAD model of the Diamond. My aim of this project was to combine the building CAD model with the past and present data available in the BMS through 3D graphical visualisations via Virtual Reality (VR).
 
-<iframe src='https://www.youtube.com/embed/xQKAFD06nfw?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
+<iframe loading="lazy" src='https://www.youtube.com/embed/xQKAFD06nfw?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
 By marrying a computer games engine with a CAD model, I was able to create a 3D visualisation of the environmental performance of Sheffield University’s complex Diamond building. By observing from a computer screen or a VR headset, users can visualise snapshots of the room’s environment or watch an animation displaying the changes in a room’s environment over time.
 
 A link to the paper I wrote can be found [here](https://drive.google.com/file/d/1VWfToNnsBRnYrwA7bb2ZM4RsqD3E11nj/view){:target="\_blank"}. Thanks for reading!
 
-<iframe src="https://drive.google.com/file/d/17Txf8loNDrvLOboYrNfnUHdQVQ5cPO9s/preview" width="100%" height="700"></iframe>
+<iframe loading="lazy" src="https://drive.google.com/file/d/17Txf8loNDrvLOboYrNfnUHdQVQ5cPO9s/preview" width="100%" height="700"></iframe>
 
 ---
 
@@ -49,4 +49,4 @@ On the basis of Virtual Reality Smart Building platform, I was contracted by the
 
 The system below enables representation of the Diamond's outside environment, including, temperature, weather conditions, humidity, CO2 levels, wind direction and speed.
 
-<iframe src='https://www.youtube.com/embed/Tfb4hy4FFEY?autoplay=1&loop=1' frameborder='0' allowfullscreen></iframe>
+<iframe loading="lazy" src='https://www.youtube.com/embed/Tfb4hy4FFEY?autoplay=1&loop=1' frameborder='0' allowfullscreen></iframe>
