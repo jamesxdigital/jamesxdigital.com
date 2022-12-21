@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stable Diffusion Experiments
-image: "/images/2021/shefvr.gif"
+image: "/images/2022/12/rainbow.gif"
 tags:
   - Motion-Design
 author: jamesxdigital
@@ -9,10 +9,10 @@ featured: true
 ---
 
 
-<video width="100%" height="auto" controls>
-  <source src="/videos/2022/12/chair.mp4" type="video/mp4">
-</video>
+<iframe loading="lazy" height="300px" src='https://www.youtube.com/embed/XHEv3t4L8vM?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
-<video width="100%" height="auto" controls>
-  <source src="/videos/2022/12/scuba.mp4" type="video/mp4">
-</video>
+<iframe loading="lazy" height="300px" src='https://www.youtube.com/embed/6ilmFX-IHaQ?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
+
+<iframe loading="lazy" height="300px" src='https://www.youtube.com/embed/wtQYZI6xylk?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
+
+<iframe loading="lazy" height="300px" src='https://www.youtube.com/embed/5d7eMjHgD_c?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
