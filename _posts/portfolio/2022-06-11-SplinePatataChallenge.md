@@ -3,7 +3,6 @@ layout: post
 title: Spline X  Patata Challenge
 image: "/images/2022/06/SPLINE.gif"
 author: jamesxdigital
-featured: true
 tags:
   - 3D
 ---

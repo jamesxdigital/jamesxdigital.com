@@ -6,7 +6,6 @@ tags:
   - Code-Robotics
   - 3D
 author: jamesxdigital
-hidden: true
 ---
 
 [OpenGL](https://www.opengl.org){:target="\_blank"} is the most widely adopted 2D and 3D graphics API in the industry, bringing thousands of applications to a wide variety of computer platforms.

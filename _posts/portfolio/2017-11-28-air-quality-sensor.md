@@ -5,7 +5,6 @@ image: /images/2017/11/arduino_airquality/airqualitybreadboard.png
 tags:
   - Code-Robotics
 author: jamesxdigital
-hidden: true
 ---
 
 I made an Air Quality Sensor with information dashboard and mobile notification functionality.
