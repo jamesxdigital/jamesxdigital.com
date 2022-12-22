@@ -35,7 +35,7 @@
     </a>
     {% endif %}
     {% if site.youtube %}
-    <a href="https://youtube.com/channel/{{ site.youtube }}" target="_blank">
+    <a href="https://youtube.com/{{ site.youtube }}" target="_blank">
         <span class="fa-youtube-play fa" aria-hidden="true"></span>
         <span class="screen-reader-text">YouTube</span>
     </a>
@@ -52,4 +52,8 @@
         <span class="screen-reader-text">Linkedin</span>
     </a>
     {% endif %}
+    <a href="https://www.twitter.com/{{ site.twitter.username }}" target="_blank">
+        <span class="fa-twitter fa" aria-hidden="true"></span>
+        <span class="screen-reader-text">Twitter</span>
+    </a>
 </p>

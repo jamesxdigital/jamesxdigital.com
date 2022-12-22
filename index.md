@@ -8,6 +8,8 @@ Motion Designer X Creative Technologist from the U.K 🇬🇧 currently residing
 
 > I make tools 🛠️ to help fellow Digital Creatives spend more time creating and less time doing The Boring Stuff.
 
+<br/>
+
 <h3><code class="language-plaintext">NEW</code><a href="/emojilibrary"> Emoji Library Plugin for After Effects</a></h3>
 <a href="/emojilibrary"><img src="{{site.baseurl}}/images/2022/09/emoji_branding_all.gif#left" alt="Emoji Library Sets" loading="lazy"></a>
 
@@ -16,3 +18,4 @@ Motion Designer X Creative Technologist from the U.K 🇬🇧 currently residing
   <form action="/emojilibrary#buy">
         <input class="buy-button" type="submit" value="BUY" />
   </form>
+
