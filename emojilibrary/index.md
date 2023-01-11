@@ -1,12 +1,12 @@
 ---
 layout: product
-title: Emoji Library 😎 Plugin for After Effects
+title: Emoji Library 😎 Plugin
 image: /images/2022/09/emoji_branding_gumroad.gif
 ---
 
-### Over 9,000 high-resolution and open-source emojis now in After Effects 🎉
+### Over 9,000 high-resolution and open-source emojis now in After Effects & Premier Pro🎉
 
-<iframe loading="lazy" src='https://www.youtube.com/embed/QONs52lUL1U?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
+<iframe loading="lazy" src='https://www.youtube.com/embed/ve08gMLgtlo?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
 <span class="price-tag price-tag--two-lines">
   <span class="price-tag__main">$6.99</span>
@@ -19,7 +19,7 @@ image: /images/2022/09/emoji_branding_gumroad.gif
 
 ![Emoji Library Sets]({{ site.baseurl }}/images/2022/09/emoji_branding_import-min.jpg#right)
 
-Choose from over `9,000` high-resolution and open-source emojis to add to your After Effects project with just the click of a button.
+Choose from over `9,000` high-resolution and open-source emojis to add to your After Effects & Premier Pro projects with just the click of a button.
 
 Each emoji set supports the latest Unicode Version `14.0`.
 
@@ -100,7 +100,7 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
   <label for="collapse3" class="collapse-head">What format are the emojis and where are they saved? 💾</label>
   <div class="collapse-content">
     <div>
-      When an emoji is sent to composition, a <code class=" highlighter-rouge language-plaintext">.png</code> is downloaded from the network and saved to your computer. An <code class=" highlighter-rouge language-plaintext">/emoji</code> directory will be automatically created in the same location as the After Effects <code class=" highlighter-rouge language-plaintext">.aep</code> file and the emoji images will be saved there. The resolution of the emojis are around 500 x 500px.
+      When an emoji is sent to project, a <code class=" highlighter-rouge language-plaintext">.png</code> is downloaded from the network and saved to your computer. An <code class=" highlighter-rouge language-plaintext">/emoji</code> directory will be automatically created in the same location as the After Effects <code class=" highlighter-rouge language-plaintext">.aep</code> or Premier Pro <code class=" highlighter-rouge language-plaintext">.prproj</code> file and the emoji images will be saved there. The resolution of the emojis are around 500 x 500px.
     </div>
   </div>
 </div>
@@ -115,16 +115,6 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
   </div>
 </div>
 
-<div class="collapse">
-  <input id="collapse5" type="checkbox" class="collapse-input" />
-  <label for="collapse5" class="collapse-head">Does Emoji Library work for Premier Pro, Photoshop or other Creative Cloud apps? 👨‍💻</label>
-  <div class="collapse-content">
-    <div>
-      Currently Emoji Library only works for After Effects. But fear not, I'm working on getting it working for Premier Pro and other apps soon. So for those who have purchased Emoji Library already, keep a look out for a free to download update. 👀
-    </div>
-  </div>
-</div>
-
 <span class="clear"></span>
 <br/>
 
@@ -135,15 +125,15 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
 Please follow these steps to get your brand new `.zxp` extension installed.
 
 - Download and open the <a href="https://aescripts.com/learn/zxp-installer/" target="_blank">ZXP Installer</a> from <a href="https://aescripts.com" target="_blank">aescripts.com</a>
-- Drag `Emoji-Library-1.0.0.zxp` into ZXP Installer
-- Close and re-open After Effects
+- Drag `Emoji-LibraryV2.zxp` into ZXP Installer
+- Close and re-open After Effects or Premier Pro
 - Navigate to the top Window menu, Extension > Emoji Library
 - Click to open the panel
 
 <table>
  <tbody>
   <tr>
-   <td>After Effects</td>
+   <td>After Effects or Premier Pro</td>
    <td>CC 2019 or later</td>
   </tr>
   <tr>
@@ -152,7 +142,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
   </tr>
   <tr>
    <td>Licence information</td>
-   <td>1 license code per machine. When activating the same license code on a new machine, the previous machine will automatically delicense</td>
+   <td>1 license code for 2 instances: Your Emoji Library license code can be used on two instances. For example: After Effects and Premier Pro on the same machine. Or After Effects on two different machines. Or Premier Pro on two different machines. As soon as the license code has been used on a third instance, it will automatically log out one of the previous instances.</td>
   </tr>
  </tbody>
 </table>
@@ -187,6 +177,11 @@ Please follow these steps to get your brand new `.zxp` extension installed.
     <td>1.0.0</td>
     <td>Nov 21, 2022</td>
     <td>Initial public release 🎉</td>
+  </tr>
+  <tr>
+    <td>2.0.0</td>
+    <td>Jan 11, 2023</td>
+    <td>Now compatible with Premier Pro 🎊 + additional bug fixes for Windows OS users</td>
   </tr>
  </tbody>
 </table>
