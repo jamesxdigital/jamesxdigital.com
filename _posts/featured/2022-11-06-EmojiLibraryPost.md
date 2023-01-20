@@ -1,6 +1,6 @@
 ---
 layout: redirected
-title: Emoji Library 😎
+title: Emoji Library Plugin 😎
 image: /images/2022/09/emoji_branding_gumroad.gif
 author: jamesxdigital
 permalink: /EmojiLibraryPost/

@@ -4,48 +4,47 @@ title: Emoji Library 😎 Plugin
 image: /images/2022/09/emoji_branding_gumroad.gif
 ---
 
-### Over 9,000 high-resolution and open-source emojis now in After Effects & Premier Pro🎉
+## 9,000+ emojis in After Effects & Premier Pro in 1-Click 🎉
 
 <iframe loading="lazy" src='https://www.youtube.com/embed/ve08gMLgtlo?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
-<span class="price-tag price-tag--two-lines">
+<!-- <span class="price-tag price-tag--two-lines">
   <span class="price-tag__main">$6.99</span>
   <span>💳 Available from <a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a></span>
-</span>
+</span> -->
 
----
 
-### Every emoji from Twitter, OpenMoji and Google now available in 1-Click 👏
+### Give Emoji Library a test drive!
+<iframe class="alignleft" src="https://emojilibrary.jamesxdigital.com/" style="border:0px #d3d3d3 solid; margin-top:-5px;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500px" width="430px" allowfullscreen></iframe>
 
-![Emoji Library Sets]({{ site.baseurl }}/images/2022/09/emoji_branding_import-min.jpg#right)
-
-Choose from over `9,000` high-resolution and open-source emojis to add to your After Effects & Premier Pro projects with just the click of a button.
-
-Each emoji set supports the latest Unicode Version `14.0`.
+Over `9,000` open-source and high-resolution emojis from:
+<div>
+<a href="https://twemoji.twitter.com/" target="_blank"> <h4>Twitter</h4> </a>
+<a href="https://openmoji.org/" target="_blank"><h4>Openmoji</h4></a>
+<a href="https://fonts.google.com/noto/specimen/Noto+Color+Emoji" target="_blank"><h4>Google</h4></a>
+</div>
 
 <div class="entry-content"><span class="clear"></span></div>
 
-### Category filtering 🔎 and skin tone support 👬
+### In just 1-Click! 👏
 
-![Emoji Library Search and Categories]({{ site.baseurl }}/images/2022/09/emoji_branding_search_categories-min.jpg#left)
+![Emoji Library Sets]({{ site.baseurl }}/images/2022/09/emoji_branding_import-min.jpg#right)
+
+In 1-Click, an emoji will be added to your project as .png to your After Effects or Premier Pro project.
+
+Quick and simple.
+
+<div class="entry-content"><span class="clear"></span></div>
+
+### Category filtering 🔎 and skin tone support 👨🏻‍🤝‍👨🏿
+
+![Emoji Library Search and Categories]({{ site.baseurl }}/images/2022/09/emoji_branding_all.gif#left)
 
 Easily find the emoji you are looking for by using the `search` or `category` filters.
-
-<br/>
-
-![Emoji Library Skintone]({{ site.baseurl }}/images/2022/09/emoji_branding_skintone-min.jpg#right)
-
-<span class="clear"></span>
-
-<br/>
 
 Need a specific skin tone? There are 6 to choose from! 👍👍🏻👍🏼👍🏽👍🏾👍🏿
 
 <div class="entry-content"><span class="clear"></span></div>
-
-<br/>
-
----
 
 <!-- ## Trial Version
 
@@ -59,6 +58,7 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
 <br/>
 
 --- -->
+<br />
 
 ## FAQs
 
@@ -116,9 +116,8 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
 </div>
 
 <span class="clear"></span>
-<br/>
 
----
+<br />
 
 ## Install Guide {#install}
 
@@ -150,9 +149,8 @@ Please follow these steps to get your brand new `.zxp` extension installed.
 <iframe loading="lazy" src='https://www.youtube.com/embed/l1G1TZP5z8c?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
 <span class="clear"></span>
-<br/>
 
----
+<!-- ---
 
 ## Buy Now {#buy}
 
@@ -160,10 +158,9 @@ Please follow these steps to get your brand new `.zxp` extension installed.
 <div id="iframe-wrapper">
 <div class="gumroad-product-embed">
 <a href="https://jamesxdigital.gumroad.com/l/emojilibrary"><img src="{{ site.baseurl }}/images/2022/09/emoji_branding_sets_2-min.jpg" alt="Emoji Library Sets"></a></div>
-</div>
+</div> -->
 
----
-
+<br />
 ## Change log {#changelog}
 
 <table>
@@ -186,10 +183,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
  </tbody>
 </table>
 
-<span class="clear"></span>
-<br/>
-
----
+<span class="clear"></span> 
 
 ### Acknowledgements
 
@@ -208,6 +202,5 @@ Please follow these steps to get your brand new `.zxp` extension installed.
 <small>This extension is provided "as is," without warranty of any kind, expressed or implied. In no event shall the author be held liable for any damages arising in any way from the use of this script.
 <a href="/emojilibrary/eula" target="_blank">Emoji Library End-User License Agreement</a>.
 </small>
-
 
 <small>Copyright © {{ 'now' | date: "%Y" }} [JAMES X DIGITAL](https://jamesxdigital.com)</small>
