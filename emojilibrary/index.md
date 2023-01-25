@@ -11,7 +11,7 @@ image: /images/2022/09/emoji_branding_gumroad.gif
 <span class="price-tag price-tag--two-lines">
   <span class="price-tag__main">$9.99</span>
   <span>💳 Available from <a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a></span>
-  <span>🔜 aescripts + aeplugins</span>
+  <span>& <a href="https://aescripts.com/emoji-library/">aescripts + aeplugins</a> 🤩</span>
 </span>
 
 
