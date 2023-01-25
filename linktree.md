@@ -7,7 +7,7 @@ title: Link Tree
     <div class="col-xs-12">
         
         <a href="https://jamesxdigital.com/emojilibrary/" target="_blank" class="linktree-link shake">
-            🆕 Emoji Library Plugin for After Effects & Premier Pro 😎
+            🆕 Emoji Library Plugin for After Effects & Premiere Pro 😎
         </a>
         <a href="https://jamesxdigital.com" target="_blank" class="linktree-link">
             Website 🌐

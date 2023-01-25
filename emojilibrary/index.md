@@ -4,7 +4,7 @@ title: Emoji Library 😎 Plugin
 image: /images/2022/09/emoji_branding_gumroad.gif
 ---
 
-## 9,000+ emojis in After Effects & Premier Pro in 1-Click 🎉
+## 9,000+ emojis in After Effects & Premiere Pro in 1-Click 🎉
 
 <iframe loading="lazy" src='https://www.youtube.com/embed/ve08gMLgtlo?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
@@ -31,7 +31,7 @@ Over `9,000` open-source and high-resolution emojis from:
 
 ![Emoji Library Sets]({{ site.baseurl }}/images/2022/09/emoji_branding_import-min.jpg#right)
 
-In 1-Click, an emoji will be added to your project as .png to your After Effects or Premier Pro project.
+In 1-Click, an emoji will be added to your project as .png to your After Effects or Premiere Pro project.
 
 Quick and simple.
 
@@ -101,7 +101,7 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
   <label for="collapse3" class="collapse-head">What format are the emojis and where are they saved? 💾</label>
   <div class="collapse-content">
     <div>
-      When an emoji is sent to project, a <code class=" highlighter-rouge language-plaintext">.png</code> is downloaded from the network and saved to your computer. An <code class=" highlighter-rouge language-plaintext">/emoji</code> directory will be automatically created in the same location as the After Effects <code class=" highlighter-rouge language-plaintext">.aep</code> or Premier Pro <code class=" highlighter-rouge language-plaintext">.prproj</code> file and the emoji images will be saved there. The resolution of the emojis are around 500 x 500px.
+      When an emoji is sent to project, a <code class=" highlighter-rouge language-plaintext">.png</code> is downloaded from the network and saved to your computer. An <code class=" highlighter-rouge language-plaintext">/emoji</code> directory will be automatically created in the same location as the After Effects <code class=" highlighter-rouge language-plaintext">.aep</code> or Premiere Pro <code class=" highlighter-rouge language-plaintext">.prproj</code> file and the emoji images will be saved there. The resolution of the emojis are around 500 x 500px.
     </div>
   </div>
 </div>
@@ -126,14 +126,14 @@ Please follow these steps to get your brand new `.zxp` extension installed.
 
 - Download and open the <a href="https://aescripts.com/learn/zxp-installer/" target="_blank">ZXP Installer</a> from <a href="https://aescripts.com" target="_blank">aescripts.com</a>
 - Drag `Emoji-LibraryV2.zxp` into ZXP Installer
-- Close and re-open After Effects or Premier Pro
+- Close and re-open After Effects or Premiere Pro
 - Navigate to the top Window menu, Extension > Emoji Library
 - Click to open the panel
 
 <table>
  <tbody>
   <tr>
-   <td>After Effects or Premier Pro</td>
+   <td>After Effects or Premiere Pro</td>
    <td>CC 2019 or later</td>
   </tr>
   <tr>
@@ -142,7 +142,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
   </tr>
   <tr>
    <td>Licence information</td>
-   <td>1 license code for 2 instances: Your Emoji Library license code can be used on two instances. For example: After Effects and Premier Pro on the same machine. Or After Effects on two different machines. Or Premier Pro on two different machines. As soon as the license code has been used on a third instance, it will automatically log out one of the previous instances.</td>
+   <td>1 license code for 2 instances: Your Emoji Library license code can be used on two instances. For example: After Effects and Premiere Pro on the same machine. Or After Effects on two different machines. Or Premiere Pro on two different machines. As soon as the license code has been used on a third instance, it will automatically log out one of the previous instances.</td>
   </tr>
  </tbody>
 </table>
@@ -179,7 +179,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
   <tr>
     <td>2.0.0</td>
     <td>Jan 11, 2023</td>
-    <td>Now compatible with Premier Pro 🎊 + additional bug fixes for Windows OS users</td>
+    <td>Now compatible with Premiere Pro 🎊 + additional bug fixes for Windows OS users</td>
   </tr>
  </tbody>
 </table>
