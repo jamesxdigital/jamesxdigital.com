@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title: JAMES X DIGITAL
+title: James Milton
 image: /assets/images/pages/about.jpg
 ---
 
