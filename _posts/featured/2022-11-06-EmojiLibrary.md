@@ -2,11 +2,18 @@
 layout: product
 title: Emoji Library 😎 Plugin
 image: /images/2022/09/emoji_branding_gumroad.gif
+tags:
+  - Motion-Design
+author: jamesxdigital
+featured: true
 ---
 
 ## 9,000+ emojis in After Effects & Premiere Pro in 1-Click 🎉
 
-<iframe loading="lazy" src='https://www.youtube.com/embed/ve08gMLgtlo?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
+<iframe src='https://www.youtube.com/embed/ve08gMLgtlo' loading="lazy" frameborder='0' allow="accelerometer; autoplay;
+        encrypted-media; gyroscope;
+        picture-in-picture"
+        allowfullscreen></iframe>
 
 <span class="price-tag price-tag--two-lines">
   <span class="price-tag__main">$14.99</span>
@@ -14,11 +21,12 @@ image: /images/2022/09/emoji_branding_gumroad.gif
   <span>& <a href="https://aescripts.com/emoji-library/">aescripts + aeplugins</a> 🤩</span>
 </span>
 
-
 ### Give Emoji Library a test drive!
-<iframe class="alignleft" src="https://emojilibrary.jamesxdigital.com/" style="border:0px #d3d3d3 solid; margin-top:-5px;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500px" width="430px" allowfullscreen></iframe>
+
+<iframe loading="lazy" class="alignleft" src="https://emojilibrary.jamesxdigital.com/" style="border:0px #d3d3d3 solid; margin-top:-5px;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500px" width="430px" allowfullscreen></iframe>
 
 Over `9,000` open-source and high-resolution emojis from:
+
 <div>
 <a href="https://twemoji.twitter.com/" target="_blank"> <h4>Twitter</h4> </a>
 <a href="https://openmoji.org/" target="_blank"><h4>Openmoji</h4></a>
@@ -147,7 +155,10 @@ Please follow these steps to get your brand new `.zxp` extension installed.
  </tbody>
 </table>
 
-<iframe loading="lazy" src='https://www.youtube.com/embed/l1G1TZP5z8c?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
+<iframe src='https://www.youtube.com/embed/l1G1TZP5z8c' loading="lazy" frameborder='0' allow="accelerometer; autoplay;
+        encrypted-media; gyroscope;
+        picture-in-picture"
+        allowfullscreen></iframe>
 
 <span class="clear"></span>
 
@@ -184,7 +195,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
  </tbody>
 </table>
 
-<span class="clear"></span> 
+<span class="clear"></span>
 
 ### Acknowledgements
 
