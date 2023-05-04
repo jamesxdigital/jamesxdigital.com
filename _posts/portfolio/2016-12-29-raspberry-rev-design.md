@@ -3,21 +3,19 @@ layout: post
 title: RaspberryPi RC Car
 image: /images/2016/12/raspberry-rev/plate.png
 tags:
-- Code-Robotics
+  - Code-Robotics
 author: james
 ---
 
 ![raspberry rev iphone app image]({{ site.baseurl }}/images/2016/12/raspberry-rev/iphoneicon2-min.png#right)
 
-For my A-Level (aged 18) Product Design assignment, I wanted to make a iPhone controlled remote controlled car which could be built with Lego. As a part of this project, I made a logo with Adobe Photoshop for both the branding of the product as well as iPhone icon that went with it.
-
-This project was awarded an A*.
+I wanted to make a iPhone controlled remote controlled car which could be built with Lego. As a part of this project, I made a logo with Adobe Photoshop for both the branding of the product as well as iPhone icon that went with it.
 
 Below are images of the final outcomes and a time-lapse showing the process of making the licence place from start to finish.
 
 <iframe src='https://www.youtube.com/embed/yhOUE-xUgZ8?autoplay=1&loop=1' frameborder='0' allowfullscreen></iframe>
 
-*The content below briefly shows the process of how the car was developed. If you want to know more about this project, checkout the embedded pdf below of my project submission.*
+_The content below briefly shows the process of how the car was developed. If you want to know more about this project, checkout the embedded pdf below of my project submission._
 
 For my A-Level (aged 18) Product Design assignment, I wanted to make a iPhone controlled remote controlled car which could be built with Lego. Below is a brief overview of how the development of the project, with design and final outcome images as well as code snippets. The full development for this project can be found in the embedded pdf portfolio at the bottom of the page.
 
@@ -45,18 +43,18 @@ I designed and 3D printed a chassis for the RC car which holds the Raspberry Pi,
 
 1. Raspberry Pi Model B
 2. [Dual Bridge L298N Stepper Motor Driver Controller Board Module](http://www.ebay.co.uk/sch/items/?_nkw=l298n&_sacat=&_ex_kw=&_mPrRngCbx=1&_udlo=&_udhi=&_sop=12&_fpos=&_fspt=1&_sadis=&LH_CAds=&clk_rvr_id=1146263434105&rmvSB=true)
-    - A pair of inputs that can be controlled by TTL logic levels (like the Raspberry Pi uses).
-    - Connections for a 9 Volt battery.
-    - A pair of outputs to connect to the DC motors.
+   - A pair of inputs that can be controlled by TTL logic levels (like the Raspberry Pi uses).
+   - Connections for a 9 Volt battery.
+   - A pair of outputs to connect to the DC motors.
 3. 2 x 9v motors
-	- One motor will control the steering.
-	- The other for the forward and backward drive.
-	- I used [LEGO 9V Technic Motors](http://www.philohome.com/motors/motorcomp.htm).
+   - One motor will control the steering.
+   - The other for the forward and backward drive.
+   - I used [LEGO 9V Technic Motors](http://www.philohome.com/motors/motorcomp.htm).
 4. 9v Battery
-	- Connects to the L298N Stepper Motor Driver which then powers the 2 motors in parallel.
+   - Connects to the L298N Stepper Motor Driver which then powers the 2 motors in parallel.
 5. Rechargeable Power Bank
-	- 100-240v input, 5.1v output.
-	- Commonly used for recharging mobile phones.
+   - 100-240v input, 5.1v output.
+   - Commonly used for recharging mobile phones.
 
 Below is example code which demonstrates control of the motors. The python code is executed from my computer which is connected to the Raspberry Pi over wifi using SSH.
 
@@ -140,7 +138,7 @@ while True:
 
 ##### Online Instruction Manual
 
-[![online lego instruction manual gif]({{ site.baseurl }}/images/2016/12/raspberry-rev/online-instruction-manual-demo.gif)]({{ site.baseurl }}/raspberryrev/){:target="_blank"}
+[![online lego instruction manual gif]({{ site.baseurl }}/images/2016/12/raspberry-rev/online-instruction-manual-demo.gif)]({{ site.baseurl }}/raspberryrev/){:target="\_blank"}
 
 I also created a website which is an online instruction manual on how to assemble the lego parts. It can be found [here]({{site.baseurl}}/raspberryrev/).
 
@@ -148,7 +146,7 @@ I also created a website which is an online instruction manual on how to assembl
 
 ##### Assignment Portfolio
 
-*Please note that this pdf was converted from a PowerPoint presentation. Because of this, embedded videos which were once on the PowerPoint are not present on this pdf.*
+_Please note that this pdf was converted from a PowerPoint presentation. Because of this, embedded videos which were once on the PowerPoint are not present on this pdf._
 
 <iframe src="https://drive.google.com/file/d/12PGgeOfXM18eEWkQ1XWbkHWc1_-TlZvA/preview" width="100%" height="700"></iframe>
 
