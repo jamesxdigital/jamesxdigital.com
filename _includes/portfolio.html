@@ -1,0 +1,11 @@
+<!-- Posts Index -->
+<main id="main" class="site-main inner">
+    <div id="post-wrapper" class="post-wrapper">
+
+        {% for post in site.posts %}
+        {% if post.featured %}
+        {% include postbox.html %}
+        {% endif %}
+        {% endfor %}
+    </div><!-- .post-wrapper -->
+</main>

@@ -5,9 +5,7 @@ image: "/images/2022/12/rainbow.gif"
 tags:
   - Motion-Design
 author: jamesxdigital
-featured: true
 ---
-
 
 <iframe loading="lazy" height="300px" src='https://www.youtube.com/embed/XHEv3t4L8vM?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 

@@ -5,105 +5,26 @@ layout: default
 <div id="content" class="site-content">
   <main id="main" class="site-main inner">
     <article class="post page">
-      <div class="post-thumbnail"><img src="{{ site.baseurl }}{{ page.image }}"
-          alt="{% if page.featured_image_alt %}{{ page.featured_image_alt }}{% else %}{{ page.title }}{% endif %}" />
-      </div>
+      <img src="{{ site.baseurl }}{{ page.image }}#right"
+        alt="{% if page.featured_image_alt %}{{ page.featured_image_alt }}{% else %}{{ page.title }}{% endif %}" />
       <header class="entry-header">
       </header><!-- .entry-header -->
       <div class="entry-content">
         {{content}}
+        <p class="social-links-1">
+          <a class="contact-me" href="{{ site.baseurl }}/contact/" target="_blank">
+            Contact
+            <span class="fa-envelope fa" aria-hidden="true"></span>
+            <span class="screen-reader-text">Contact</span>
+          </a>
+        </p>
       </div>
     </article><!-- .post .page -->
   </main><!-- .site-main -->
-
   <div class="entry-header">
     <h1 class="entry-title">Selected work</h2>
   </div>
-  {% include featuredbox.html %}
-  <div class="entry-header">
-    <form action="{{ site.baseurl }}/portfolio">
-      <input type="submit" value="👀 See More Work? 👀" />
-    </form>
-  </div>
 
-  <div class="entry-header">
-    <h1 class="entry-title">My timeline</h2>
-  </div>
-  <section class="timeline">
-    <ul class="listTimeline">
-      <li>
-        <div>
-          <h4>Creative Technologist & Motion Designer <span style="font-weight:300;">X</span> LOOP <img
-              src="{{ site.baseurl }}/images/2021/looplogo.png" alt="loop logo" class="companyLogo" /></h4>
-          <time>2021 - PRESENT, SALZBURG 🇦🇹</time>
-          <p>Exploring the
-            intersections between design and digital technology for leading brands, such as:</p>
-          <section class="logoGrid">
-            <section><img src="/assets/images/clients/puma.svg" alt="puma"></section>
-            <section><img src="/assets/images/clients/audi.svg" alt="audi"></section>
-            <section><img src="/assets/images/clients/porsche.svg" alt="porsche"></section>
-            <section><img src="/assets/images/clients/tupperware.svg" alt="tupperware"></section>
-            <section><img src="/assets/images/clients/breitling.svg" alt="breitling"></section>
-            <section><img src="/assets/images/clients/marcopolo.svg" alt="marcopolo"></section>
-          </section>
-        </div>
-      </li>
-      <li>
-        <div>
-          <h4>Digital Creative Director <span style="font-weight:300;">X</span> Red Bull <img
-              src="{{ site.baseurl }}/images/2021/redbulllogo.png" alt="company logo" class="companyLogo" /></h4>
-          <time>2019 - 2021, SALZBURG 🇦🇹</time>
-          <p>Designing and developing digital marketing products for one of the world’s most recognised brands.</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <h4>Motion and Digital Design <span style="font-weight:300;">X</span> Leeds Design School 🎓</h4> <time>2018 -
-            2019, LEEDS 🇬🇧</time>
-          <p>My specialist project was the production of an <a href="/sleep-info-motiongraphic" target="_blank">
-              Interactive Motion Graphic that educates on sleep health</a>. Graduated with Distinction.</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <h4>Creative Technologist Researcher<span style="font-weight:300;">X</span> Arup <img
-              src="{{ site.baseurl }}/images/2021/arup.jpg" alt="company logo" class="companyLogo" /> </h4> <time>2018 -
-            2018, SHEFFIELD 🇬🇧</time>
-          <p>Created a <a href="/smart-building-virtual-reality" target="_blank">Virtual Reality platform</a> that
-            provides visual representations
-            of the internal &
-            external
-            environments of the University of Sheffield’s ‘Diamond’ Smart Building.</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <h4>Software Internship <span style="font-weight:300;">X</span> Rolls-Royce <img
-              src="{{ site.baseurl }}/images/2021/rollsroyce.png" alt="company logo" class="companyLogo" /></h4>
-          <time>2016 - 2017, DERBY 🇬🇧</time>
-          <p>DContributed to developing mixed-reality systems to visualise the system functioning of Rolls-Royce jet
-            engines.</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <h4>University of Sheffield <span style="font-weight:300;">X</span> BSc Computer Science 🎓</h4> <time>2014 -
-            2018, SHEFFIELD 🇬🇧</time>
-          <p>Published my final year dissertation <a
-              href="https://www.researchgate.net/publication/331651264_Visually_Displaying_Past_and_Present_Smart_Building_Data_Through_Virtual_Reality"
-              target="_blank">‘Visually Displaying Past and Present Smart Building Data Through Virtual Reality’</a> at
-            the CIBSE Technical Symposium 2019. Graduated
-            with
-            First-class Honours.</p>
-        </div>
-      </li>
-    </ul>
-  </section>
-  <div class="fade"></div>
-  <div class="entry-header">
-    <button id="next"> ⏳ Look further? ⏳ </button>
-  </div>
-  {% if site.mailchimp_url %}
-  {% include newsletter-box.html %}
-  {% endif %}
+  {% include portfolio.html %}
+
 </div><!-- .site-content -->

@@ -34,8 +34,8 @@ textarea {
 }
 
 body {
-  background-color: $black;
-  color: $gray-light;
+  background-color: $gray-light;
+  color: $gray-dark;
   line-height: 1.75;
   overflow-x: hidden;
 }
@@ -48,8 +48,8 @@ canvas {
   z-index: -100;
 }
 a {
-  border-bottom: 1px solid $lightblue;
-  color: $gray-light;
+  border-bottom: 2px solid $gray-dark;
+  color: $gray-dark;
   text-decoration: none;
   -webkit-transition: border 0.3s, color 0.3s;
   -moz-transition: border 0.3s, color 0.3s;
@@ -66,7 +66,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $gray-light;
+  color: $gray-dark;
   font-weight: bold;
   line-height: 1.2;
 }
@@ -181,7 +181,6 @@ blockquote {
   input[type="submit"] {
     border: none;
     margin: 10px 0 0 0;
-    border: 2px solid $color-accent;
   }
   input[type="submit"]:hover {
     border: 2px solid $black;
@@ -241,7 +240,7 @@ li > ol {
 }
 
 table {
-  border-bottom: 1px solid $gray-light;
+  border-bottom: 1px solid $gray-dark;
   line-height: 1.5;
   margin: 0 0 1.5em;
   text-align: left;
@@ -249,7 +248,7 @@ table {
 }
 
 caption {
-  color: $gray;
+  color: $gray-dark;
   font: 12px / 1.5 $font-secondary;
   margin-bottom: 1em;
   text-align: center;
@@ -257,17 +256,17 @@ caption {
 
 th,
 td {
-  border-top: 1px solid $gray-light;
+  border-top: 1px solid $gray-dark;
   padding: 0.5em 10px;
 }
 
 th {
-  color: $yellow;
+  color: $gray-dark;
   font-weight: bold;
 }
 
 hr {
-  background-color: $yellow;
+  background-color: $gray-dark;
   border: 0;
   height: 1px;
   margin: 1.875em 0;
@@ -281,7 +280,7 @@ hr {
 /* Form fields */
 
 label {
-  color: $yellow;
+  color: $gray-dark;
   display: block;
   font-size: 14px;
   font-weight: bold;
@@ -294,7 +293,7 @@ textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 2px solid $gray;
+  border: 2px solid $gray-dark;
   border-radius: 0;
   color: $gray-dark;
   display: inline-block;
@@ -320,9 +319,8 @@ button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"] {
-  background-color: $black;
-  border: 2px solid $color-accent;
-  color: $color-accent;
+  background-color: $gray-dark;
+  color: $gray-light;
   font-size: 20px;
   font-weight: bold;
   min-height: 40px;
@@ -347,13 +345,13 @@ input[type="button"]:active,
 input[type="reset"]:hover,
 input[type="reset"]:focus,
 input[type="reset"]:active {
-  background-color: $color-accent;
-  color: $black;
+  background-color: $gray-light;
+  color: $gray-dark;
   border: 0;
 }
 
 .widget label {
-  color: $gray;
+  color: $gray-dark;
   font-weight: normal;
 }
 
@@ -375,7 +373,6 @@ input[type="reset"]:active {
 .widget input[type="button"],
 .widget input[type="reset"],
 .search-form .search-submit {
-  border: 2px solid $color-accent;
   font-size: 12px;
   padding: 5px 15px;
 }
@@ -400,12 +397,12 @@ input[type="reset"]:active {
 }
 
 #mc-embedded-subscribe {
-  border: 2px solid $color-accent;
   padding: 0;
   position: absolute;
   right: 0;
   top: 0;
   width: 130px;
+  font-size: 17px;
 }
 
 .search-submit {
@@ -418,20 +415,20 @@ input[type="reset"]:active {
 
 /* Placeholder text color */
 ::-webkit-input-placeholder {
-  color: $gray;
+  color: $gray-dark;
 }
 
 :-moz-placeholder {
-  color: $gray;
+  color: $gray-dark;
 }
 
 ::-moz-placeholder {
-  color: $gray;
+  color: $gray-dark;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: $gray;
+  color: $gray-dark;
 }
 
 /* Text selection */
@@ -486,8 +483,8 @@ video {
   align-items: center;
   font-size: 1.3rem;
 
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid $gray-dark;
+  border-bottom: 1px solid $gray-dark;
 
   &:after {
     content: "×";
@@ -500,7 +497,7 @@ video {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid $gray-dark;
   margin-top: -1px;
 
   > div {
@@ -524,6 +521,7 @@ video {
 img {
   height: auto;
   max-width: 100%;
+  border: 2px solid $gray-dark;
 }
 
 /* Captions */
@@ -538,7 +536,7 @@ img {
 .caption-text,
 .kg-image-card figcaption,
 .kg-embed-card figcaption {
-  color: $gray;
+  color: $gray-dark;
   font: 12px / 1.5 $font-secondary;
   margin: 0 auto 1em;
   max-width: 740px;
@@ -596,7 +594,7 @@ iframe.alignleft {
 
 /* Footnotes */
 .footnotes-list {
-  color: $gray;
+  color: $gray-dark;
   font: 14px / 1.5 $font-secondary;
 }
 
@@ -845,7 +843,7 @@ iframe.alignleft {
   font-size: 1rem;
   margin-bottom: 0.625em;
   span {
-    color: $gray-light;
+    color: $gray-dark;
     font: 14px/1.5 $font-secondary;
   }
 }
@@ -876,9 +874,8 @@ iframe.alignleft {
 
 .contact-form .button {
   width: 100%;
-  background-color: $black;
-  color: $color-accent;
-  border: 2px solid #f26a79;
+  background-color: $gray-dark;
+  color: $gray-light;
 }
 
 .contact-form textarea {
@@ -891,18 +888,18 @@ iframe.alignleft {
 
 .contact-form ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: $gray;
+  color: $gray-dark;
   opacity: 1; /* Firefox */
 }
 
 .contact-form :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: $gray;
+  color: $gray-dark;
 }
 
 .contact-form ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: $gray;
+  color: $gray-dark;
 }
 
 /* Timeline */
@@ -1134,11 +1131,12 @@ time {
   text-align: center;
 
   &:hover {
-    border: 2px solid $color-accent;
+    border: 2px solid $gray-light;
   }
 }
 
 #background-canvas {
+  opacity: 0.5;
   z-index: -99;
   position: absolute;
   top: 0;

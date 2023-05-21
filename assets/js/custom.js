@@ -32,7 +32,7 @@ function typeSkills() {
     return fragment;
   }
 
-  const SKILLS = ["Motion Designer", "Creative Technologist"];
+  const SKILLS = ["Creative Technologist", "Animator", "Developer"];
   const COLORS = ["#f26a79", "#18a5b7", "#f7e88a"];
   const DEFAULT_DELAY = 30;
   const MAX_TRAILING_CHARACTERS = 3;

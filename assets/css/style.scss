@@ -48,7 +48,7 @@
   margin-bottom: 3.75em;
 }
 
-.post-thumbnail {
+.home-thumbnail .post-thumbnail {
   margin-bottom: 1.875em;
 }
 
@@ -57,30 +57,8 @@
   margin: auto;
 }
 
-.companyLogo {
-  height: 25px !important;
-}
-
-.video-thumbnail {
-  // background-color: $color-accent;
-  width: 100%;
-  display: block;
-  // border: 2px solid $lightblue;
-  color: $black;
-  line-height: 1.33333;
-  // // margin: 1.25em 15px 1.875em 0;
-  // padding: 1em 20px 1em 20px !important;
-  position: relative;
-  // text-align: center;
-}
-
-.timeline ul li .video-thumbnail::before {
-  display: none;
-}
-
-.video-thumbnail video {
-  display: block;
-  margin: auto;
+.homepage-image {
+  border: 2px solid $gray-dark;
 }
 
 a.post-thumbnail {
@@ -92,7 +70,7 @@ a.post-thumbnail {
 
 a.post-thumbnail:before {
   color: $black;
-  content: "...";
+  content: "👀";
   font-size: 48px;
   left: 50%;
   letter-spacing: -0.2em;
@@ -121,6 +99,7 @@ a.post-thumbnail img {
   -webkit-transition: opacity 0.3s ease-out;
   -moz-transition: opacity 0.3s ease-out;
   transition: opacity 0.3s ease-out;
+  border: none;
 }
 
 a.post-thumbnail:hover img {
@@ -258,7 +237,7 @@ $price-tag-dot-background: $gray-dark;
 .entry-meta,
 .entry-footer,
 .post-inside .post-tags {
-  color: $gray;
+  color: $gray-dark;
   font: 14px $font-secondary;
   text-align: left;
 }
@@ -281,7 +260,7 @@ $price-tag-dot-background: $gray-dark;
 .entry-footer a:hover,
 .post-inside .post-tags a:hover {
   border-color: $color-accent;
-  color: $gray;
+  color: $gray-dark;
 }
 
 .entry-meta > span:not(:first-child):before {
@@ -403,10 +382,11 @@ $price-tag-dot-background: $gray-dark;
 }
 
 .subscribe-inside {
-  color: $gray-light;
+  color: $gray-dark;
   font-size: 14px;
   padding: 30px;
   border: 2px solid $gray-dark;
+  background-color: $gray-light;
 }
 
 /* Archives */
@@ -415,7 +395,7 @@ $price-tag-dot-background: $gray-dark;
 }
 
 .page-title {
-  color: $gray;
+  color: $gray-dark;
   font-size: 16px;
   letter-spacing: 0.0625em;
   margin: 0 0 1.5em;
@@ -428,7 +408,7 @@ $price-tag-dot-background: $gray-dark;
 }
 
 .page-description {
-  color: $gray;
+  color: $gray-dark;
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
@@ -538,6 +518,9 @@ $price-tag-dot-background: $gray-dark;
     height: auto;
     margin-bottom: 1rem;
   }
+}
+.post-inside {
+  background-color: $gray-light;
 }
 
 .post-wrapper .post-inside {
@@ -679,7 +662,7 @@ $price-tag-dot-background: $gray-dark;
 
 .post-navigation .nav-before,
 .post-navigation .nav-meta {
-  color: $gray;
+  color: $gray-dark;
   display: block;
   font: 12px/1.5 $font-secondary;
 }
@@ -750,7 +733,7 @@ $price-tag-dot-background: $gray-dark;
  * ----------------------------------------------------------------------------
  */
 .site-footer {
-  color: $color-accent;
+  color: $gray-dark;
   padding-bottom: 2.5em;
   padding-top: 2.5em;
 }
@@ -766,7 +749,6 @@ $price-tag-dot-background: $gray-dark;
 
   a {
     border: 0;
-    color: $lightblue;
     display: inline-block;
     font-size: 14px;
     margin-bottom: 0.25em;
@@ -774,7 +756,7 @@ $price-tag-dot-background: $gray-dark;
     padding: 0 5px;
 
     &:hover {
-      color: $gray;
+      color: $gray-dark;
     }
   }
 }
@@ -785,7 +767,6 @@ $price-tag-dot-background: $gray-dark;
   }
   a {
     border: 0;
-    color: $lightblue !important;
     display: inline-block;
     font-size: 14px;
     margin-bottom: 0.25em;
@@ -807,11 +788,11 @@ $price-tag-dot-background: $gray-dark;
 
   a {
     border-color: transparent;
-    color: $gray;
+    color: $gray-dark;
 
     &:hover {
       border-color: $color-accent;
-      color: $gray;
+      color: $gray-dark;
     }
   }
 }
@@ -823,18 +804,18 @@ $price-tag-dot-background: $gray-dark;
 
   a {
     border-color: transparent;
-    color: $gray;
+    color: $gray-dark;
 
     &:hover {
       border-color: $color-accent;
-      color: $gray;
+      color: $gray-dark;
     }
   }
 }
 .top-link {
   border: 0;
   bottom: 15px;
-  color: $gray;
+  color: $gray-dark;
   font-size: 10px;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -876,7 +857,7 @@ $price-tag-dot-background: $gray-dark;
  */
 .site-navigation,
 .widget {
-  color: $gray;
+  color: $gray-dark;
   font-size: 14px;
   margin-bottom: 2.85714em;
 }
@@ -891,7 +872,7 @@ $price-tag-dot-background: $gray-dark;
 }
 
 .widget a {
-  border-color: $gray;
+  border-color: $gray-dark;
   color: #fff;
 }
 
@@ -980,13 +961,13 @@ $price-tag-dot-background: $gray-dark;
  * ----------------------------------------------------------------------------
  */
 @media only screen and (min-width: 641px) {
-  .entry-content img[src$="#left"] {
+  img[src$="#left"] {
     float: left;
     margin: 0.3em 30px 0.83333em 0;
     max-width: 50%;
   }
 
-  .entry-content img[src$="#right"] {
+  img[src$="#right"] {
     float: right;
     margin: 0.3em 0 0.83333em 30px;
     max-width: 50%;
@@ -1150,14 +1131,13 @@ $price-tag-dot-background: $gray-dark;
 }
 
 @media only screen and (max-width: 640px) {
-  .buy-button{
+  .buy-button {
     position: relative;
     left: 50%;
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
   }
-  
-  
+
   .not-found .page-title {
     font-size: 36px;
   }

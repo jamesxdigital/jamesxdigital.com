@@ -1,8 +1,8 @@
 # Site setings
 name: '@jamesxdigital'
-description: 'The personal site and portfolio of James Milton, a Motion Designer and Creative Technologist'
+description: 'The personal site and portfolio of James Milton (@jamesxdigital) the Creative Technologist'
 # Sidebar about text
-site_description: 'Motion Designer X Creative Technologist from the U.K 🇬🇧 living in Amsterdam 🇳🇱​ where you can find me exploring the intersections between design and digital technology.'
+site_description: 'Creative Technologist living in Amsterdam 🇳🇱​ where you can find me exploring the intersections between design and digital technology.'
 logo: '/assets/images/pages/about.jpg'
 favicon: '/assets/images/favicon.ico'
 baseurl:
@@ -12,7 +12,7 @@ mailchimp_url: https://jamesxdigital.us17.list-manage.com/subscribe/post?u=6f9c0
 
 # SEO
 title: '@jamesxdigital'
-tagline: 'James Milton'
+tagline: 'Creative Technologist'
 url: 'https://jamesxdigital.com'
 author: jamesxdigital
 
@@ -49,8 +49,6 @@ facebook:
 navigation:
   - text: HOME
     url: /
-  - text: PORTFOLIO
-    url: /portfolio/
   - text: CONTACT
     url: /contact/
 
@@ -62,10 +60,6 @@ plugins:
   - jekyll-loading-lazy
   - jekyll-target-blank
 
-
-# Pagination
-paginate: 20
-paginate_path: "/portfolio/page:num/"
 
 # Permalinks
 permalink: /:title
@@ -81,21 +75,12 @@ sass:
 
 # Collections
 collections:
-  authors:
-    title: Authors Page
-    output: true
   blog_tags:
     title: Tags Page
     output: true
 
 # Defaults
 defaults:
-- scope:
-    path: ''
-    type: authors
-  values:
-    permalink: "/author/:title/"
-    layout: author
 - scope:
     path: ''
     type: blog_tags
