@@ -1,19 +1,18 @@
 ---
 layout: post
 title: Smart Building X VR System
-image: "/images/2021/shefvr.gif"
+image: "/assets/images/2021/shefvr.gif"
 tags:
   - 3D
   - Code-Robotics
-author: jamesxdigital
 featured: true
 ---
 
-![university of sheffield diamond building]({{ site.baseurl }}/images/2017/08/thediamond.jpg#right)
+![university of sheffield diamond building]({{ site.baseurl }}/assets/images/2017/08/thediamond.jpg#right)
 
 The University of Sheffield’s Diamond building was designed to be a ’Smart Building’. As such, it contains approximately three thousand sensors which report data about the Diamonds internal environment, including temperature, humidity, CO2 levels, seat occupancy, lighting and heating status to a database called a Building Management System (BMS).
 
-![university of sheffield diamond building]({{ site.baseurl }}/images/2018/10/DiamondArchBIM.png#left)
+![university of sheffield diamond building]({{ site.baseurl }}/assets/images/2018/10/DiamondArchBIM.png#left)
 
 Given the quantity of data recorded in the Diamond’s BMS, simplex numerical figures of the building’s environment are difficult to understand. With that, understanding the optimum working conditions of the Diamond or diagnosing system faults are hard to comprehend, which can result in an uncomfortable and inefficient building environment.
 
@@ -31,15 +30,15 @@ A link to the paper I wrote can be found [here](https://drive.google.com/file/d/
 
 ## Submitting my work to the CIBSE Technical Symposium 2019
 
-![James Milton presenting at the CIBSE Technical Symposium 2019, University of Sheffield]({{ site.baseurl }}/images/2019/10/Urban Flows Observatory_59.jpg#left)
+![James Milton presenting at the CIBSE Technical Symposium 2019, University of Sheffield]({{ site.baseurl }}/assets/images/2019/10/Urban Flows Observatory_59.jpg#left)
 
 Between the 25th and 26th April 2019, The CIBSE Technical Symposium 2019 was hosted at the University of Sheffield’s Diamond building.
 
-![James Milton presenting at the CIBSE Technical Symposium 2019, University of Sheffield]({{ site.baseurl }}/images/2019/10/DAY 2 TALKS_98.jpeg#right)
+![James Milton presenting at the CIBSE Technical Symposium 2019, University of Sheffield]({{ site.baseurl }}/assets/images/2019/10/DAY 2 TALKS_98.jpeg#right)
 
 My dissertation paper was submitted to The CIBSE Technical Symposium 2019 and I was invited to present at the symposium. My presentation and paper explaining how it was done was named the ‘Most Significant Contribution to the Art and Science of Building Services’ at the 2019 CIBSE Technical Symposium. Additionally, a magazine spread was written about my project in the CIBSE journal.
 
-![James Milton presenting at the CIBSE Technical Symposium 2019, University of Sheffield]({{ site.baseurl }}/images/2019/10/playing-to-win-spread.jpg#wide)
+![James Milton presenting at the CIBSE Technical Symposium 2019, University of Sheffield]({{ site.baseurl }}/assets/images/2019/10/playing-to-win-spread.jpg#wide)
 
 ---
 

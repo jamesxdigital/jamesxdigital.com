@@ -3,11 +3,10 @@ name: '@jamesxdigital'
 description: 'The personal site and portfolio of James Milton (@jamesxdigital) the Creative Technologist'
 # Sidebar about text
 site_description: 'Creative Technologist living in Amsterdam 🇳🇱​ where you can find me exploring the intersections between design and digital technology.'
-logo: '/assets/images/pages/about.jpg'
-favicon: '/assets/images/favicon.ico'
+logo: '/assets/images/misc/about.jpg'
+favicon: '/assets/images/misc/favicon.ico'
 baseurl:
 production_url: 'https://jamesxdigital.com'
-disqus:
 mailchimp_url: https://jamesxdigital.us17.list-manage.com/subscribe/post?u=6f9c0b794760533d79eba9b46&amp;id=426dd63046&amp;f_id=00b94ce0f0
 
 # SEO
@@ -45,16 +44,8 @@ facebook:
   app_id: 267125577759369
   admins: jmltn.1
 
-# Navigation
-navigation:
-  - text: HOME
-    url: /
-  - text: CONTACT
-    url: /contact/
-
 # Required Plugins
 plugins:
-  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-loading-lazy

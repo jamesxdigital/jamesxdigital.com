@@ -1,13 +1,12 @@
 ---
 layout: post
 title: RaspberryPi RC Car
-image: /images/2016/12/raspberry-rev/plate.png
+image: /assets/images/2016/12/raspberry-rev/plate.png
 tags:
   - Code-Robotics
-author: james
 ---
 
-![raspberry rev iphone app image]({{ site.baseurl }}/images/2016/12/raspberry-rev/iphoneicon2-min.png#right)
+![raspberry rev iphone app image]({{ site.baseurl }}/assets/images/2016/12/raspberry-rev/iphoneicon2-min.png#right)
 
 I wanted to make a iPhone controlled remote controlled car which could be built with Lego. As a part of this project, I made a logo with Adobe Photoshop for both the branding of the product as well as iPhone icon that went with it.
 
@@ -23,19 +22,19 @@ For my A-Level (aged 18) Product Design assignment, I wanted to make a iPhone co
 
 I designed and 3D printed a chassis for the RC car which holds the Raspberry Pi, motor controller unit, rechargeable battery for Raspberry Pi, and 9v battery for motors. As well as this, on the underside of the chassis is lego surface, which allows you to stick lego accessories onto the underside.
 
-![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/images/2016/12/raspberry-rev/Lego Holes 2-min.jpg)
+![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/assets/images/2016/12/raspberry-rev/Lego Holes 2-min.jpg)
 
-![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/images/2016/12/raspberry-rev/Lego Holes 2-min.png)
+![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/assets/images/2016/12/raspberry-rev/Lego Holes 2-min.png)
 
-![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/images/2016/12/raspberry-rev/Photo 07-03-2014 18 23 21-min.jpg)
+![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/assets/images/2016/12/raspberry-rev/Photo 07-03-2014 18 23 21-min.jpg)
 
-![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/images/2016/12/raspberry-rev/Photo 16-03-2014 17 00 29 min.jpg)
+![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/assets/images/2016/12/raspberry-rev/Photo 16-03-2014 17 00 29 min.jpg)
 
-![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/images/2016/12/raspberry-rev/Photo 16-03-2014 17 00 51-min.jpg)
+![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/assets/images/2016/12/raspberry-rev/Photo 16-03-2014 17 00 51-min.jpg)
 
-![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/images/2016/12/raspberry-rev/IMG_134-min.JPG)
+![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/assets/images/2016/12/raspberry-rev/IMG_134-min.JPG)
 
-![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/images/2016/12/raspberry-rev/IMG_1337-min.JPG)
+![raspberry rev remote control car with raspberry pi]({{ site.baseurl }}/assets/images/2016/12/raspberry-rev/IMG_1337-min.JPG)
 
 ---
 
@@ -138,7 +137,7 @@ while True:
 
 ##### Online Instruction Manual
 
-[![online lego instruction manual gif]({{ site.baseurl }}/images/2016/12/raspberry-rev/online-instruction-manual-demo.gif)]({{ site.baseurl }}/raspberryrev/){:target="\_blank"}
+[![online lego instruction manual gif]({{ site.baseurl }}/assets/images/2016/12/raspberry-rev/online-instruction-manual-demo.gif)]({{ site.baseurl }}/raspberryrev/){:target="\_blank"}
 
 I also created a website which is an online instruction manual on how to assemble the lego parts. It can be found [here]({{site.baseurl}}/raspberryrev/).
 

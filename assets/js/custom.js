@@ -124,45 +124,6 @@ window.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Hidden sections
-  $("#show-sidebar, #hide-sidebar").on("click", (event) => {
-    document.body.classList.toggle("sidebar--opened");
-    event.preventDefault();
-  });
-  $("#site-overlay").on("click", (event) => {
-    document.body.classList.remove("sidebar--opened");
-    document.body.classList.remove("search--opened");
-    event.preventDefault();
-  });
-
-  // Initialise featured work carousel and the fade it in
-  $("#featured-slider")
-    .slick({
-      autoplay: true,
-      arrows: true,
-      dots: false,
-      fade: true,
-      appendArrows: $(".featured-nav"),
-      prevArrow: $(".featured-prev"),
-      nextArrow: $(".featured-next"),
-    })
-    .fadeIn(600, function () {
-      $(this).parents().removeClass("slider-loading");
-    });
-
-  // Back to top button
-  $("#top-link").on("click", (event) => {
-    $("html, body").animate({ scrollTop: 0 });
-    event.preventDefault();
-  });
-  $window.on("scroll", () => {
-    if ($window.scrollTop() > 600) {
-      document.body.classList.add("is--scrolled");
-    } else {
-      document.body.classList.remove("is--scrolled");
-    }
-  });
-
   // Responsive videos
   $(".post").fitVids();
 

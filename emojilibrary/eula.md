@@ -1,5 +1,5 @@
 ---
-layout: post-no-newsletter
+layout: post
 title: Emoji Library End-User License Agreement
 ---
 
@@ -11,13 +11,13 @@ By installing, copying, or otherwise using the Licensed Product (Software), the 
 
 ### Definitions
 
- "EULA" shall refer to this End-User-License-Agreement, including any amendment to this Agreement.
+"EULA" shall refer to this End-User-License-Agreement, including any amendment to this Agreement.
 
 "Licensee" shall refer to the individual or entity that downloads and uses the Software.
 
 "Licensor" shall refer to the author, James Milton.
 
- "Software/Licensed product" shall mean Emoji Library, the Licensed Product provided pursuant to this EULA.
+"Software/Licensed product" shall mean Emoji Library, the Licensed Product provided pursuant to this EULA.
 
 ### Grant of License
 
@@ -33,7 +33,7 @@ Therefore, all rights, titles, interests, and copyrights in and/or to the Softwa
 
 **Installation and Use:** Licensee may install and use the Software on only one (1) computer at a time. In addition, the Licensee may make one (1) archival copy to be used only for the reinstallation of the Package.
 
-**Reproduction and Distribution:**  Licensee may not duplicate or re-distribute copies of the Software, without the Licensors express written permission. 
+**Reproduction and Distribution:**  Licensee may not duplicate or re-distribute copies of the Software, without the Licensors express written permission.
 
 **Licensee Limitation:** The Licensee may not:
 

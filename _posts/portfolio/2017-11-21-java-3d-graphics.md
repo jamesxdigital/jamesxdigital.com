@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Java OpenGL Virtual Art Exhibition
-image: /images/2021/robothand.gif
+image: /assets/images/2021/robothand.gif
 tags:
   - Code-Robotics
   - 3D
-author: jamesxdigital
 ---
 
 [OpenGL](https://www.opengl.org){:target="\_blank"} is the most widely adopted 2D and 3D graphics API in the industry, bringing thousands of applications to a wide variety of computer platforms.

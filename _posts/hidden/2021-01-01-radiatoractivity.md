@@ -1,22 +1,21 @@
 ---
 layout: post
 title: Radiator Activity
-image: /images/2021/radiatoractivity/RA-KV-gif.gif
+image: /assets/images/2021/radiatoractivity/RA-KV-gif.gif
 tags:
   - Personal
-author: jamesxdigital
 hidden: true
 ---
 
 My girlfriend and I have started a little side project called [Radiator Activity](https://radiatoractivity.com/).
 
-![radiator activity logo]({{ site.baseurl }}/images/2021/radiatoractivity/RA Primary Logo.png)
+![radiator activity logo]({{ site.baseurl }}/assets/images/2021/radiatoractivity/RA Primary Logo.png)
 
 Our Radiator Activity venture started back in 2018, in Leeds whilst studying at University, with a simple question: Are you a Radiator or a Drain?
 
 Since this fateful question, we have made a conscious effort to Radiate positivity in everything we do. We have been contemplating how best to share and promote positivity through every avenue. It is from this that we have concluded that we will be using this platform to make you smile, make you think, and provoke you to be a Radiator too!
 
-![jet boys]({{ site.baseurl }}/images/2021/radiatoractivity/contact.gif)
+![jet boys]({{ site.baseurl }}/assets/images/2021/radiatoractivity/contact.gif)
 
 With the power of the digital world, we will be promoting brands, people, activities and our own learnings to get you active and on your way to being a Radiator.
 

@@ -1,10 +1,9 @@
 ---
-layout: product
+layout: post
 title: Emoji Library 😎 Plugin
-image: /images/2022/09/emoji_branding_gumroad.gif
+image: /assets/images/2022/09/emoji_branding_gumroad.gif
 tags:
   - Motion-Design
-author: jamesxdigital
 featured: true
 ---
 
@@ -25,7 +24,7 @@ featured: true
 
 <iframe loading="lazy" class="alignleft" src="https://emojilibrary.jamesxdigital.com/" style="border:0px #d3d3d3 solid; margin-top:-5px;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500px" width="430px" allowfullscreen></iframe>
 
-Over `9,000` open-source and high-resolution emojis from:
+Over 9,000 open-source and high-resolution emojis from:
 
 <div>
 <a href="https://twemoji.twitter.com/" target="_blank"> <h4>Twitter</h4> </a>
@@ -37,7 +36,7 @@ Over `9,000` open-source and high-resolution emojis from:
 
 ### In just 1-Click! 👏
 
-![Emoji Library Sets]({{ site.baseurl }}/images/2022/09/emoji_branding_import-min.jpg#right)
+![Emoji Library Sets]({{ site.baseurl }}/assets/images/2022/09/emoji_branding_import-min.jpg#right)
 
 In 1-Click, an emoji will be added to your project as .png to your After Effects or Premiere Pro project.
 
@@ -47,9 +46,9 @@ Quick and simple.
 
 ### Category filtering 🔎 and skin tone support 👨🏻‍🤝‍👨🏿
 
-![Emoji Library Search and Categories]({{ site.baseurl }}/images/2022/09/emoji_branding_all.gif#left)
+![Emoji Library Search and Categories]({{ site.baseurl }}/assets/images/2022/09/emoji_branding_all.gif#left)
 
-Easily find the emoji you are looking for by using the `search` or `category` filters.
+Easily find the emoji you are looking for by using the <mark>search</mark> or <mark>category</mark> filters.
 
 Need a specific skin tone? There are 6 to choose from! 👍👍🏻👍🏼👍🏽👍🏾👍🏿
 
@@ -57,8 +56,8 @@ Need a specific skin tone? There are 6 to choose from! 👍👍🏻👍🏼👍�
 
 <!-- ## Trial Version
 
-![Emoji Library Search and Categories]({{ site.baseurl }}/images/2022/09/emoji_branding_trial-min.jpg#left)
-You can only access the `Twitter` emoji set with the `trial` version of Emoji Library. You will need to <a href="#buy">purchase a licence to the full version</a> to get unlimited access to the Apple, Google and Facebook emoji sets.
+![Emoji Library Search and Categories]({{ site.baseurl }}/assets/images/2022/09/emoji_branding_trial-min.jpg#left)
+You can only access the <mark>Twitter</mark> emoji set with the <mark>trial</mark> version of Emoji Library. You will need to <a href="#buy">purchase a licence to the full version</a> to get unlimited access to the Apple, Google and Facebook emoji sets.
 <span class="clear"></span>
 <br/>
 <a href="#buy"> Click here to download the trial version ⬇️</a>
@@ -109,7 +108,7 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
   <label for="collapse3" class="collapse-head">What format are the emojis and where are they saved? 💾</label>
   <div class="collapse-content">
     <div>
-      When an emoji is sent to project, a <code class=" highlighter-rouge language-plaintext">.png</code> is downloaded from the network and saved to your computer. An <code class=" highlighter-rouge language-plaintext">/emoji</code> directory will be automatically created in the same location as the After Effects <code class=" highlighter-rouge language-plaintext">.aep</code> or Premiere Pro <code class=" highlighter-rouge language-plaintext">.prproj</code> file and the emoji images will be saved there. The resolution of the emojis are around 500 x 500px.
+      When an emoji is sent to project, a <mark>.png</mark> is downloaded from the network and saved to your computer. An <mark>/emoji</mark> directory will be automatically created in the same location as the After Effects <mark>.aep</mark> or Premiere Pro <mark>.prproj</mark> file and the emoji images will be saved there. The resolution of the emojis are around 500 x 500px.
     </div>
   </div>
 </div>
@@ -130,10 +129,10 @@ You can only access the `Twitter` emoji set with the `trial` version of Emoji Li
 
 ## Install Guide {#install}
 
-Please follow these steps to get your brand new `.zxp` extension installed.
+Please follow these steps to get your brand new <mark>.zxp</mark> extension installed.
 
 - Download and open the <a href="https://aescripts.com/learn/zxp-installer/" target="_blank">ZXP Installer</a> from <a href="https://aescripts.com" target="_blank">aescripts.com</a>
-- Drag `Emoji-LibraryV2.zxp` into ZXP Installer
+- Drag <mark>Emoji-LibraryV2.zxp</mark> into ZXP Installer
 - Close and re-open After Effects or Premiere Pro
 - Navigate to the top Window menu, Extension > Emoji Library
 - Click to open the panel
@@ -169,7 +168,7 @@ Please follow these steps to get your brand new `.zxp` extension installed.
 <script src="https://gumroad.com/js/gumroad-embed.js"></script>
 <div id="iframe-wrapper">
 <div class="gumroad-product-embed">
-<a href="https://jamesxdigital.gumroad.com/l/emojilibrary"><img src="{{ site.baseurl }}/images/2022/09/emoji_branding_sets_2-min.jpg" alt="Emoji Library Sets"></a></div>
+<a href="https://jamesxdigital.gumroad.com/l/emojilibrary"><img src="{{ site.baseurl }}/assets/images/2022/09/emoji_branding_sets_2-min.jpg" alt="Emoji Library Sets"></a></div>
 </div> -->
 
 <br />

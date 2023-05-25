@@ -1,5 +1,5 @@
 ---
-layout: post-no-newsletter
+layout: post
 title: James Milton - Resume
 ---
 

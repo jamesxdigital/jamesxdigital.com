@@ -1,7 +1,7 @@
 ---
 layout: homepage
 title: James Milton
-image: /assets/images/pages/about.jpg
+image: /assets/images/misc/about.jpg
 ---
 
 Hey 👋 I'm James, a Creative Technologist, Animator and Developer based in Amsterdam 🇳🇱​.

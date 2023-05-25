@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Interactive Motion Graphic About Sleep
-image: /images/2021/whywesleep.gif
+image: /assets/images/2021/whywesleep.gif
 tags:
   - Motion-Design
-author: jamesxdigital
 hidden: true
 ---
 
