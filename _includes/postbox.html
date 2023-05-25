@@ -12,6 +12,11 @@
             </h2>
         </header><!-- .entry-header -->
         <div class="entry-content">
+            <p>
+                {% if post.info %}
+                <span class="post-info">{{ post.info }}</span>
+                {% endif %}
+            </p>
             <p class="post-tags">
                 {% if post.tags.size > 0 %}
                 {% for tag in post.tags %}

@@ -649,7 +649,7 @@ h6 {
 
 p {
   margin: 0 0 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 address {
@@ -1300,7 +1300,7 @@ iframe.alignleft {
 /* LINK TREE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.linktree-link {
+.big-button {
   @extend button;
   width: 80%;
   margin: 0 10% 30px;
@@ -1446,12 +1446,9 @@ a.post-thumbnail:hover img {
   }
 }
 
-$price-tag-background: #f26a79;
-$price-tag-color: $gray-light;
-$price-tag-height: 55px;
-$price-tag-corner: 4px;
-$price-tag-dot-radius: 6px;
-$price-tag-dot-background: $gray-dark;
+$price-tag-height: 80px;
+$price-tag-corner: 10px;
+$price-tag-dot-radius: 10px;
 
 .price-tag {
   position: relative;
@@ -1460,11 +1457,14 @@ $price-tag-dot-background: $gray-dark;
   height: $price-tag-height;
   margin-left: $price-tag-height / 2;
   padding: 0 5px 0 10px;
-  color: $price-tag-color;
+  color: $gray-light;
   border-radius: 0 $price-tag-corner $price-tag-corner 0;
-  background-color: $price-tag-background;
-  line-height: 1;
+  background-color: $gray-light;
+  line-height: 1.5;
   justify-content: center;
+  $price-tag-side: round($price-tag-height / 1.428) * 2;
+  margin-left: $price-tag-height;
+  height: $price-tag-height * 2;
 
   &::before,
   &::after {
@@ -1473,14 +1473,12 @@ $price-tag-dot-background: $gray-dark;
   }
 
   &::before {
-    $price-tag-side: round($price-tag-height / 1.428);
-
     left: -$price-tag-side / 2;
     width: $price-tag-side;
     height: $price-tag-side;
     transform: rotate(45deg);
     border-radius: 0 0 0 $price-tag-corner;
-    background-color: $price-tag-background;
+    background-color: $gray-light;
   }
 
   &::after {
@@ -1489,9 +1487,9 @@ $price-tag-dot-background: $gray-dark;
     left: -$price-tag-height / 2;
     width: $price-tag-dot-radius;
     height: $price-tag-dot-radius;
-    transform: translate(-50%, -50%) translateX($price-tag-height / 2);
+    transform: translate(-50%, -50%) translateX($price-tag-height / 4);
     border-radius: $price-tag-dot-radius / 2;
-    background-color: $price-tag-dot-background;
+    background-color: $gray-dark;
   }
 
   &__main {
@@ -1510,28 +1508,6 @@ $price-tag-dot-background: $gray-dark;
     padding-right: 10px;
     padding-left: 10px;
     color: $gray-dark;
-  }
-  a {
-    text-decoration: underline;
-    border-bottom: none;
-    color: $gray-dark;
-  }
-
-  &--two-lines {
-    $price-tag-side: round($price-tag-height / 1.428) * 2;
-    margin-left: $price-tag-height;
-    height: $price-tag-height * 2;
-
-    &::before {
-      left: -$price-tag-side / 2;
-      width: $price-tag-side;
-      height: $price-tag-side;
-    }
-
-    &::after {
-      transform: translate(-50%, -50%) translateX($price-tag-height / 2)
-        scale(2);
-    }
   }
 
   &--one-line {

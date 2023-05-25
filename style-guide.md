@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Style Guide
-image: /assets/images/pages/style_guides.jpg
+image: /assets/images/2017/08/thediamond.jpg
 ---
 
 This is a pragraph. Pellentesque habitant [morbi tristique](https://example.com) senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis.
@@ -10,7 +10,7 @@ This is a pragraph. Pellentesque habitant [morbi tristique](https://example.com)
 
 Wide image with caption.
 
-{% include image-caption.html imageurl="/assets/images/posts/2018/8.jpg#wide" title="Concrete roads" caption="This is caption" %}
+{% include image-caption.html imageurl="/assets/images/2017/08/thediamond.jpg#wide" title="Concrete roads" caption="This is caption" %}
 
 Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:
 

@@ -6,6 +6,7 @@ tags:
   - 3D
   - Code-Robotics
 featured: true
+info: "Combining VR and real-time smart-building data into an immersive 3D experience, earning recognition at the CIBSE Technical Symposium."
 ---
 
 ![university of sheffield diamond building]({{ site.baseurl }}/assets/images/2017/08/thediamond.jpg#right)
