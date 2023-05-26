@@ -4,7 +4,7 @@ title: Smart Building X VR System
 image: "/assets/images/2021/shefvr.gif"
 tags:
   - 3D
-  - Code-Robotics
+  - Code
 featured: true
 info: "Combining VR and real-time smart-building data into an immersive 3D experience, earning recognition at the CIBSE Technical Symposium."
 ---

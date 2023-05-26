@@ -3,7 +3,7 @@ layout: post
 title: Java OpenGL Virtual Art Exhibition
 image: /assets/images/2021/robothand.gif
 tags:
-  - Code-Robotics
+  - Code
   - 3D
 ---
 

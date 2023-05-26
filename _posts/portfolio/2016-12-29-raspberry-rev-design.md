@@ -3,7 +3,7 @@ layout: post
 title: RaspberryPi RC Car
 image: /assets/images/2016/12/raspberry-rev/plate.png
 tags:
-  - Code-Robotics
+  - Code
 ---
 
 ![raspberry rev iphone app image]({{ site.baseurl }}/assets/images/2016/12/raspberry-rev/iphoneicon2-min.png#right)

@@ -3,7 +3,7 @@ layout: post
 title: Arduino Air Quality Sensor
 image: /assets/images/2017/11/arduino_airquality/airqualitybreadboard.png
 tags:
-  - Code-Robotics
+  - Code
 ---
 
 I made an Air Quality Sensor with information dashboard and mobile notification functionality.
