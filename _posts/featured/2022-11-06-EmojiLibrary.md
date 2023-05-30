@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Emoji Library 😎 Plugin
+title: Emoji Library Plugin 😎
 image: /assets/images/2022/09/emoji_branding_gumroad.gif
 tags:
   - Motion-Design

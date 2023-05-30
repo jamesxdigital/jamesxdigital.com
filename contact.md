@@ -8,7 +8,7 @@ permalink: /contact/
   <main id="main" class="site-main inner">
     <div class="entry-content">
       <header class="entry-header">
-        <h1 class="entry-title">Contact Me</h1>
+        <h2 class="entry-title">Contact Me</h2>
       </header>
       {% if site.contact_page_description %}
       <p>{{ site.contact_page_description }}</p>
@@ -46,5 +46,6 @@ permalink: /contact/
         </form>
       </section>
     </div><!-- .entry-content-->
+
   </main>
 </div>

@@ -325,6 +325,40 @@ img {
   border: 0;
   vertical-align: middle;
 }
+@media only screen and (min-width: 1091px) {
+  .model-viewer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    margin-left: -110px;
+    margin-right: -110px;
+    max-width: none;
+    width: 960px;
+  }
+  model-viewer {
+    height: 200px;
+  }
+}
+model-viewer {
+  width: 100%;
+  height: 300px;
+}
+model-viewer::part(default-progress-bar) {
+  display: none;
+}
+
+#iphone-x {
+  position: relative;
+  margin: 40px auto;
+  width: 375px;
+  height: 750px;
+  border-radius: 40px;
+  background-color: #1f1f1f;
+  box-shadow: 0px 0px 0px 11px #1f1f1f, 0px 0px 0px 13px #191919,
+    0px 0px 0px 20px #111, 8px 8px 90px #000;
+  overflow: hidden;
+}
 
 svg:not(:root) {
   overflow: hidden;
@@ -606,7 +640,7 @@ h5,
 h6 {
   color: $gray-dark;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 h1 {
@@ -1245,6 +1279,10 @@ iframe.alignleft {
   display: none;
 }
 
+.g-recaptcha {
+  margin-bottom: 20px;
+}
+
 .contact-form {
   box-sizing: border-box;
   margin-bottom: 3.33333em;
@@ -1430,7 +1468,6 @@ a.post-thumbnail:hover img {
 
 .entry-header {
   margin-bottom: 1.875em;
-  text-align: center;
 }
 
 .entry-title {
@@ -1540,12 +1577,6 @@ $price-tag-dot-radius: 10px;
   text-align: left;
 }
 
-.post-inside .post-tags {
-  font-size: 15px;
-  padding-right: 0;
-  text-align: center;
-}
-
 .entry-meta a,
 .entry-footer a,
 .post-inside .post-tags a {
@@ -1572,44 +1603,39 @@ $price-tag-dot-radius: 10px;
   position: relative;
 }
 
-.entry-footer:last-child {
-  margin-bottom: 4.28571em;
+.post-tags {
+  display: inline-block;
+  font-size: 15px;
+  padding-right: 175px;
 }
 
-.post-tags {
-  padding-right: 175px;
-
-  a:before {
-    content: "\0023";
-  }
+.post-tags a:before {
+  content: "\0023";
 }
 
 .share-links {
+  display: inline-block;
   text-align: right;
-  font-size: 50px;
   font-family: $font-primary;
-  a {
-    border: 0;
-    color: inherit;
-    display: inline-block;
-    font-size: 50px;
-    margin-left: 5px;
-    padding: 0 5px;
+}
 
-    &:hover {
-      color: $color-accent;
-    }
-  }
+.share-links a {
+  border: 0;
+  color: inherit;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 5px;
+  padding: 0 5px;
+}
+
+.share-links a:hover {
+  color: $color-accent;
 }
 
 .post-tags + .share-links {
   position: absolute;
-  right: 0;
   top: 0;
-}
-
-.entry-content > :last-child {
-  margin-bottom: 30px;
+  right: 0;
 }
 
 .subscribe-inside {
@@ -1652,19 +1678,22 @@ $price-tag-dot-radius: 10px;
 .post-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* This will handle horizontal spacing */
+  justify-content: flex-start;
+  margin-bottom: -1rem; /* Offset the margin added to the last row */
+
   .post {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 2rem; /* This will handle vertical spacing between rows */
+    margin-bottom: 1.5rem;
+    margin-right: 1rem; /* Add margin to create space between posts */
+    box-sizing: border-box; /* Ensure margin is included in width calculation */
   }
 
-  @media (min-width: 550px) {
+  @media (min-width: 600px) {
     .post {
-      width: calc(50% - 1rem); /* Change width to exactly half */
-      padding-right: 0.5rem; /* Add padding to create space */
-      box-sizing: border-box; /* Ensure padding is included in width calculation */
+      width: calc(50% - 1.5rem); /* Adjust width to include the gap */
+      margin-right: 1.5rem; /* Increase margin to create a larger gap */
     }
   }
 }
@@ -2020,12 +2049,6 @@ $price-tag-dot-radius: 10px;
 @media only screen and (max-width: 540px) {
   .price-tag span {
     font-size: 1.2rem;
-  }
-
-  .post-tags + .share-links {
-    margin-top: 1.5em;
-    position: static;
-    text-align: left;
   }
 }
 
