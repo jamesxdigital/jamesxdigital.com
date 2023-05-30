@@ -192,27 +192,10 @@ Please follow these steps to get your brand new <mark>.zxp</mark> extension inst
     <td>Jan 11, 2023</td>
     <td>Now compatible with Premiere Pro 🎊 + additional bug fixes for Windows OS users</td>
   </tr>
+  <tr>
+    <td>2.0.1</td>
+    <td>Mar 16, 2023</td>
+    <td>Bug fix to prevent false offline notifications when a user is connected to the internet</td>
+  </tr>
  </tbody>
 </table>
-
-<span class="clear"></span>
-
-### Acknowledgements
-
-<small>Thanks to the team and contributors who created the fantastic open-source <a href="https://github.com/missive/emoji-mart" target="_blank">Emoji Mart</a> - Copyright (c) Missive.</small>
-
-### Attribution for emoji graphics used on this page
-
-<small>
-<a href="https://twemoji.twitter.com/" target="_blank">Twitter</a> (Copyright 2020 Twitter, Inc and other contributors) <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> CC-BY 4.0</a>.
-<a href="https://openmoji.org/" target="_blank">Openmoji</a> (the open-source emoji and icon project) <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"> CC BY-SA 4.0</a>.
-<a href="https://github.com/googlefonts/noto-emoji" target="_blank">Google Noto</a> (the open source emoji library) <a href="https://github.com/googlefonts/noto-emoji/blob/main/LICENSE" target="_blank" >Apache License 2.0</a>.
-</small>
-
-### Extension License
-
-<small>This extension is provided "as is," without warranty of any kind, expressed or implied. In no event shall the author be held liable for any damages arising in any way from the use of this script.
-<a href="/emojilibrary/eula" target="_blank">Emoji Library End-User License Agreement</a>.
-</small>
-
-<small>Copyright © {{ 'now' | date: "%Y" }} [JAMES X DIGITAL](https://jamesxdigital.com)</small>
