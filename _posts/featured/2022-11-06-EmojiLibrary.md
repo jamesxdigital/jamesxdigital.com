@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Emoji Library Plugin 😎
+title: Emoji Library Plugin
 image: /assets/images/2022/09/emoji_branding_gumroad.gif
 tags:
   - Motion-Design
 featured: true
-info: "A 1-Click tool I developed for Adobe After Effects and Premiere Pro that enriches workflows by providing instant access to over 9,000 emojis."
+info: "😎 A 1-Click tool I developed for Adobe After Effects and Premiere Pro that enriches workflows by providing instant access to over 9,000 emojis."
 ---
 
 ## 9,000+ emojis in After Effects & Premiere Pro in 1-Click 🎉

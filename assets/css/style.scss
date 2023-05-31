@@ -917,7 +917,6 @@ input[type="reset"]:focus,
 input[type="reset"]:active {
   background-color: $gray-light;
   color: $gray-dark;
-  border: 0;
 }
 
 .widget label {
@@ -1686,7 +1685,6 @@ $price-tag-dot-radius: 10px;
     flex-direction: column;
     width: 100%;
     margin-bottom: 1.5rem;
-    margin-right: 1rem; /* Add margin to create space between posts */
     box-sizing: border-box; /* Ensure margin is included in width calculation */
   }
 
