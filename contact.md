@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact Me
+title: Contact
 permalink: /contact/
 ---
 
@@ -8,7 +8,7 @@ permalink: /contact/
   <main id="main" class="site-main inner">
     <div class="entry-content">
       <header class="entry-header">
-        <h2 class="entry-title">Contact Me</h2>
+        <h2 class="entry-title">Contact 📫</h2>
       </header>
       {% if site.contact_page_description %}
       <p>{{ site.contact_page_description }}</p>

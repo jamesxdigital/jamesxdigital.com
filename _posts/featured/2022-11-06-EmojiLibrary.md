@@ -25,13 +25,7 @@ info: "😎 A 1-Click tool I developed for Adobe After Effects and Premiere Pro 
 
 <iframe loading="lazy" class="alignleft" src="https://emojilibrary.jamesxdigital.com/" style="border:0px #d3d3d3 solid; margin-top:-5px;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500px" width="430px" allowfullscreen></iframe>
 
-Over 9,000 open-source and high-resolution emojis from:
-
-<div>
-<a href="https://twemoji.twitter.com/" target="_blank"> <h4>Twitter</h4> </a>
-<a href="https://openmoji.org/" target="_blank"><h4>Openmoji</h4></a>
-<a href="https://fonts.google.com/noto/specimen/Noto+Color+Emoji" target="_blank"><h4>Google</h4></a>
-</div>
+Over 9,000 open-source and high-resolution emojis from <a href="https://twemoji.twitter.com/" target="_blank">Twitter</a>, <a href="https://openmoji.org/" target="_blank">Openmoji</a> and <a href="https://fonts.google.com/noto/specimen/Noto+Color+Emoji" target="_blank">Google</a>.
 
 <div class="entry-content"><span class="clear"></span></div>
 
@@ -155,22 +149,14 @@ Please follow these steps to get your brand new <mark>.zxp</mark> extension inst
  </tbody>
 </table>
 
+<br />
+
 <iframe src='https://www.youtube.com/embed/l1G1TZP5z8c' loading="lazy" frameborder='0' allow="accelerometer; autoplay;
         encrypted-media; gyroscope;
         picture-in-picture"
         allowfullscreen></iframe>
 
 <span class="clear"></span>
-
-<!-- ---
-
-## Buy Now {#buy}
-
-<script src="https://gumroad.com/js/gumroad-embed.js"></script>
-<div id="iframe-wrapper">
-<div class="gumroad-product-embed">
-<a href="https://jamesxdigital.gumroad.com/l/emojilibrary"><img src="{{ site.baseurl }}/assets/images/2022/09/emoji_branding_sets_2-min.jpg" alt="Emoji Library Sets"></a></div>
-</div> -->
 
 <br />
 ## Change log {#changelog}
