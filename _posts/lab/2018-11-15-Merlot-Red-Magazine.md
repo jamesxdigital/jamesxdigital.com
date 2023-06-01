@@ -11,8 +11,7 @@ This project was about creating a magazine theme using one colour and representi
 
 ![merlot red magazine sketch 1 james milton]({{ site.baseurl }}/assets/images/2018/11/magazine/sketchmagazinefinalsfront-min.jpg#right)
 
-The colour I chose for this brief was red, with ‘merlot’ being the specific swatch. The colour red can be interpreted in many ways- it is associated with power, passion, desire, and love. It is also a
-very emotionally intense colour and associated with high quality.
+The colour I chose for this brief was red, with ‘merlot’ being the specific swatch. The colour red can be interpreted in many ways- it is associated with power, passion, desire, and love. It is also a very emotionally intense colour and associated with high quality.
 
 ![merlot red magazine sketch 1 james milton]({{ site.baseurl }}/assets/images/2018/11/magazine/sketchmagazinefinals-min.jpg#left)
 

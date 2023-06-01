@@ -146,7 +146,7 @@ Please follow these steps to get your brand new <mark>.zxp</mark> extension inst
   </tr>
   <tr>
    <td>System Requirements</td>
-   <td>Windows (10 or later recommended) / macOS</td>
+   <td>Windows (10 or later) / macOS</td>
   </tr>
   <tr>
    <td>Licence information</td>
