@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RaspberryPi RC Car
-image: /assets/images/2016/12/raspberry-rev/plate.png
+image: "/assets/images/2016/12/raspberry-rev/IMG_1337-min.JPG"
 tags:
   - Code
 ---

@@ -3,7 +3,9 @@
 
         {% for post in site.posts %}
         {% unless post.featured %}
+        {% unless post.hidden %}
         {% include postbox.html %}
+        {% endunless %}
         {% endunless %}
         {% endfor %}
     </div><!-- .post-wrapper -->
