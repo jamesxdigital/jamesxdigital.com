@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Smart Building X VR System
+title: Smart Building VR System in Unity
 image: "/assets/images/2021/shefvr.gif"
 tags:
   - 3D
   - Code
 featured: true
-info: "🏢 Combining VR and real-time smart-building data into an immersive 3D experience, earning recognition at the CIBSE Technical Symposium."
+info: "🏢 Combining VR and real-time smart-building data via Unity into an immersive 3D experience, earning recognition at the CIBSE Technical Symposium."
 ---
 
 ![university of sheffield diamond building]({{ site.baseurl }}/assets/images/2017/08/thediamond.jpg#right)
@@ -17,7 +17,7 @@ The University of Sheffield’s Diamond building was designed to be a ’Smart B
 
 Given the quantity of data recorded in the Diamond’s BMS, simplex numerical figures of the building’s environment are difficult to understand. With that, understanding the optimum working conditions of the Diamond or diagnosing system faults are hard to comprehend, which can result in an uncomfortable and inefficient building environment.
 
-The building’s constructors produced a highly detailed computerised CAD model of the Diamond. My aim of this project was to combine the building CAD model with the past and present data available in the BMS through 3D graphical visualisations via Virtual Reality (VR).
+The building’s constructors produced a highly detailed computerised CAD model of the Diamond. My aim of this project was to combine the building CAD model with the past and present data available in the BMS through 3D graphical visualisations via Virtual Reality (VR), built within [Unity](https://unity.com/).
 
 <iframe loading="lazy" src='https://www.youtube.com/embed/xQKAFD06nfw?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
 
