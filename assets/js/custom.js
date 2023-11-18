@@ -32,11 +32,11 @@ function typeSkills() {
     return fragment;
   }
 
-  const SKILLS = ["Creative Technologist", "Animator", "Developer"];
+  const SKILLS = ["Creative", "Technologist"];
   const COLORS = ["#f26a79", "#18a5b7", "#f7e88a"];
-  const DEFAULT_DELAY = 30;
-  const MAX_TRAILING_CHARACTERS = 3;
-  const DEFAULT_TIMEOUT = 60;
+  const DEFAULT_DELAY = 3;
+  const MAX_TRAILING_CHARACTERS = 10;
+  const DEFAULT_TIMEOUT = 120;
   const SKILL_STATE = {
     text: " ",
     prefixP: -MAX_TRAILING_CHARACTERS,
