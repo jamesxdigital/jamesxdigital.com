@@ -16,8 +16,8 @@ info: "😎 A 1-Click tool I developed for Adobe After Effects and Premiere Pro 
         allowfullscreen></iframe>
 
 <span class="price-tag">
-  <span class="price-tag__main">$14.99</span>
-  <span>💳 Available from <a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a></span>
+  <span class="price-tag__main">$11.24 (CYBER SALE)</span>
+  <span>💳 Available from <a href="https://jamesxdigital.gumroad.com/l/emojilibrar/cyber">Gumroad</a></span>
   <span>& <a href="https://aescripts.com/emoji-library/">aescripts + aeplugins</a> 🤩</span>
 </span>
 
