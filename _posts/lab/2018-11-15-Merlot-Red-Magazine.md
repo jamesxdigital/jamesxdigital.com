@@ -1,36 +1,30 @@
 ---
 layout: post
-title: Merlot Red Magazine
+title: "Merlot Red Magazine: A Study in Color and Theme"
 image: /assets/images/2018/11/magazine/render/realspread1-min.png
 tags:
   - Graphic-Typographic-Design
 hidden: true
 ---
 
-This project was about creating a magazine theme using one colour and representing its meaning through the overall design.
+In this project, I embraced the challenge of creating a magazine theme that is centered around a single color, showcasing its essence through the design. I chose the color red, specifically the shade of ‘merlot’, for its rich symbolism. Red is associated with power, passion, desire, love, and quality.
 
-![merlot red magazine sketch 1 james milton]({{ site.baseurl }}/assets/images/2018/11/magazine/sketchmagazinefinalsfront-min.jpg#right)
+![Merlot Red Magazine Sketch Front]({{ site.baseurl }}/assets/images/2018/11/magazine/sketchmagazinefinalsfront-min.jpg#right)
 
-The colour I chose for this brief was red, with ‘merlot’ being the specific swatch. The colour red can be interpreted in many ways- it is associated with power, passion, desire, and love. It is also a very emotionally intense colour and associated with high quality.
+Merlot red’s high-quality connotation and the apt naming inspired me to theme the magazine around wine, targeting an audience that appreciates luxury and elegance. This approach aimed to establish a strong brand image, distinct from current wine magazines.
 
-![merlot red magazine sketch 1 james milton]({{ site.baseurl }}/assets/images/2018/11/magazine/sketchmagazinefinals-min.jpg#left)
+![Merlot Red Magazine Sketch]({{ site.baseurl }}/assets/images/2018/11/magazine/sketchmagazinefinals-min.jpg#left)
 
-The high-quality association of the colour red and the ideal naming of the swatch ‘merlot’ is what encouraged me to theme the magazine around wine, for audiences who are captivated in all things luxurious and elegant. As well, current wine magazines do not have specific characteristic or meaning and lack of a strong brand image.
+The magazine also explores the darker associations of red with blood and danger, introducing an element of mystery and promiscuity. This thematic choice offers adult readers an escape into a thrilling and enigmatic world, akin to that found in novels and books.
 
-The association of the colour red with blood and danger provided the opportunity to give the magazine a feeling of promiscuity and mystery. This allows the audience, who will mainly be adults, to escape their normal lives and experience the mystery and thrill associated with themes that are commonly found only in novels and books.
-
-The smoking wine bottle on the front cover concept (previous page) is meant to represent a smoking barrel of a gun, to support the theme mystery and danger within a wine context.
-
-The wine ring is a play on a blood mark that has been left from a dead body, further supporting the mystery theme.
+The front cover’s smoking wine bottle is designed to resemble a smoking gun barrel, embodying the themes of mystery and danger within a wine context. The wine ring stain plays on the idea of a blood mark, deepening the sense of mystery.
 
 ## Final Outcome
 
-The following pages are the end results produced for the Merlot Red magazine. Each page follows the category of a wine magazine, whilst successfully following a theme of mystery with elegance.
+The resulting pages of Merlot Red Magazine combine the world of wine with an air of mystery and elegance. The magazine is envisioned as a monthly publication, rich with content about global wine destinations, food pairings, author reviews, and more.
 
-The designed magazine is intended to be published monthly, providing readers with a variety of information surrounding wine, including global destinations, food and author reviews.
-
-![merlot red magazine 5 james milton]({{ site.baseurl }}/assets/images/2018/11/magazine/render/realfront1-min.png)
-![merlot red magazine 5 james milton]({{ site.baseurl }}/assets/images/2018/11/magazine/render/realfront2-min.png)
-![merlot red magazine 5 james milton]({{ site.baseurl }}/assets/images/2018/11/magazine/render/realcontents-min.png)
-![merlot red magazine 5 james milton]({{ site.baseurl }}/assets/images/2018/11/magazine/render/realspread1-min.png)
-![merlot red magazine 5 james milton]({{ site.baseurl }}/assets/images/2018/11/magazine/render/realspread2-min.png)
+![Merlot Red Magazine Front Cover]({{ site.baseurl }}/assets/images/2018/11/magazine/render/realfront1-min.png)
+![Merlot Red Magazine Front Cover Alternative]({{ site.baseurl }}/assets/images/2018/11/magazine/render/realfront2-min.png)
+![Merlot Red Magazine Contents Page]({{ site.baseurl }}/assets/images/2018/11/magazine/render/realcontents-min.png)
+![Merlot Red Magazine Spread 1]({{ site.baseurl }}/assets/images/2018/11/magazine/render/realspread1-min.png)
+![Merlot Red Magazine Spread 2]({{ site.baseurl }}/assets/images/2018/11/magazine/render/realspread2-min.png)

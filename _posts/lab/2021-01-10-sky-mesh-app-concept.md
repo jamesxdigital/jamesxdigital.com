@@ -6,12 +6,16 @@ tags:
   - UXUI-Design
 ---
 
-I was given a brief by Leeds Sky UK for a new app for their Sky Broadband customers. The brieff was 'the app should provide customers with a clear visual representation of their home network setup and aid understanding of the relationship between their hub and speed to their connected devices, usage and signal strength.
+I was tasked by Leeds Sky UK to develop a new app concept for their Sky Broadband customers. The brief was clear: create an app that provides customers with a visual representation of their home network setup. This app aims to help users understand the connection between their hub, the speed to their connected devices, usage, and signal strength.
 
-## Video demonstration
+## Video Demonstration
+
+To give a more dynamic overview of the app's functionality and user experience, here is a video demonstration:
 
 <iframe loading="lazy" src='https://www.youtube.com/embed/6Ems5isTrTw' frameborder='0' allowfullscreen></iframe>
 
-## Full project portfolio
+## Full Project Portfolio
+
+For a detailed exploration of this project, including design processes, user journey maps, and technical insights, please view the full project portfolio below:
 
 <iframe loading="lazy" src="https://drive.google.com/file/d/1zGKc0gAyJ-lCuDuM89sspd7aSPb6gAma/preview" width="100%" height="1000"></iframe>

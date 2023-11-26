@@ -4,22 +4,23 @@ title: Interactive Motion Graphic About Sleep
 image: /assets/images/2021/whywesleep.gif
 tags:
   - Motion-Design
-hidden: true
 ---
 
-According to the NHS UK, sleep deprivation can have profound consequences on an individual’s physical health. It can cause an increased risk of serious medical conditions, such as obesity, heart disease, diabetes and shorten overall life expectancy.
+The NHS UK highlights that sleep deprivation can lead to serious health issues, including obesity, heart disease, diabetes, and a reduced life expectancy. Despite these warnings, people are sleeping less and spending more time on screens. One reason for this trend is the limited understanding of sleep's functions, especially concerning how it affects our brain and memory formation.
 
-Regardless of the warnings, the amount of time mankind spends sleeping is decreasing and the time looking at screens is increasing. This is because knowledge of how sleep works was very limited. When people are asked if they understand what sleep does to our brains, it is mostly unknown.
-
-This project aims to intuitively demonstrate one of sleep’s many functions, which is the formation of memories. The approach was to create an Interactive Motion Graphic, which users can click and determine the output of what they watch. The final result is below:
+This project is designed to intuitively demonstrate one of the key functions of sleep: the formation of memories. To achieve this, I created an Interactive Motion Graphic that allows users to interact and influence the content. This approach makes the learning process more engaging and memorable.
 
 ## Non-interactive Version
+
+For those who prefer a traditional viewing experience, here's a non-interactive version of the motion graphic:
 
 <iframe loading="lazy" src="https://www.youtube.com/embed/wZAlIN2cgqw" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Interactive Version
 
-<div class='embed-container'> <iframe loading="lazy" src="https://video.eko.com/v/V5EEgX/embed?autoplay=false&publisherID=XQtbh6" frameborder="0" allowfullscreen></iframe> </div>
-<small>It's Interactive! Within this video, you will be asked questions and you will need to select your answer. The platform this is built with is called [Eko](https://helloeko.com/).</small>
+Experience the interactive version below. It's designed to be engaging and educational, asking viewers questions and allowing them to choose their responses. This interactive experience is powered by the [Eko](https://helloeko.com/) platform.
+
+<div class='embed-container'><iframe loading="lazy" src="https://video.eko.com/v/V5EEgX/embed?autoplay=false&publisherID=XQtbh6" frameborder="0" allowfullscreen></iframe></div>
+<small>Interactive Feature: In this video, you will be prompted with questions and need to select your answers. Your choices will shape the content you see.</small>
 
 [Click here for fullscreen link](https://video.helloeko.com/v/V5EEgX "Fullscreen link")

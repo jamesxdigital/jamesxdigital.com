@@ -1,52 +1,39 @@
 ---
 layout: post
-title: Smart Building VR System in Unity
+title: Revolutionizing Building Management with VR
 image: "/assets/images/2021/shefvr.gif"
 tags:
   - 3D
   - Code
 featured: true
-info: "🏢 Combining VR and real-time smart-building data via Unity into an immersive 3D experience, earning recognition at the CIBSE Technical Symposium."
+info: "🏢 A groundbreaking project combining VR and real-time smart-building data for an immersive 3D experience, showcased at the CIBSE Technical Symposium."
 ---
 
-![university of sheffield diamond building]({{ site.baseurl }}/assets/images/2017/08/thediamond.jpg#right)
+## Introduction
+![University of Sheffield's Diamond Building in VR]({{ site.baseurl }}/assets/images/2017/08/thediamond.jpg#right)
+Welcome to a glimpse into the future of smart building management! The University of Sheffield's Diamond building, a beacon of modern architecture and technology, serves as a pioneering example of how Virtual Reality (VR) can transform our interaction with smart buildings. This post dives into my journey of integrating the Diamond's sophisticated sensor network with a dynamic VR experience, using Unity.
 
-The University of Sheffield’s Diamond building was designed to be a ’Smart Building’. As such, it contains approximately three thousand sensors which report data about the Diamonds internal environment, including temperature, humidity, CO2 levels, seat occupancy, lighting and heating status to a database called a Building Management System (BMS).
+## The Challenge
+![Diamond Building's BIM Model]({{ site.baseurl }}/assets/images/2018/10/DiamondArchBIM.png#left)
+The Diamond building, equipped with over three thousand sensors, constantly records data like temperature, humidity, and CO2 levels. However, making sense of this vast data pool proved challenging. My goal was to transcend traditional data analysis methods by leveraging the building's detailed CAD model, creating an intuitive VR environment within Unity that brings this data to life.
 
-![university of sheffield diamond building]({{ site.baseurl }}/assets/images/2018/10/DiamondArchBIM.png#left)
-
-Given the quantity of data recorded in the Diamond’s BMS, simplex numerical figures of the building’s environment are difficult to understand. With that, understanding the optimum working conditions of the Diamond or diagnosing system faults are hard to comprehend, which can result in an uncomfortable and inefficient building environment.
-
-The building’s constructors produced a highly detailed computerised CAD model of the Diamond. My aim of this project was to combine the building CAD model with the past and present data available in the BMS through 3D graphical visualisations via Virtual Reality (VR), built within [Unity](https://unity.com/).
-
+## The Solution
 <iframe loading="lazy" src='https://www.youtube.com/embed/xQKAFD06nfw?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe>
+By marrying a gaming engine with architectural precision, I developed a VR system that lets users visually navigate the Diamond's environmental performance. This system not only provides real-time insights but also tracks changes over time, offering a comprehensive understanding of the building's dynamics.
 
-By marrying a computer games engine with a CAD model, I was able to create a 3D visualisation of the environmental performance of Sheffield University’s complex Diamond building. By observing from a computer screen or a VR headset, users can visualise snapshots of the room’s environment or watch an animation displaying the changes in a room’s environment over time.
-
-A link to the paper I wrote can be found [here](https://drive.google.com/file/d/1VWfToNnsBRnYrwA7bb2ZM4RsqD3E11nj/view){:target="\_blank"}. Thanks for reading!
+## Recognition and Impact
+### CIBSE Technical Symposium 2019
+![James Milton presenting at the Symposium]({{ site.baseurl }}/assets/images/2019/10/Urban Flows Observatory_59.jpg#left)
+My work gained recognition at the CIBSE Technical Symposium 2019 held at the University of Sheffield. Here, I presented my findings and received an award for the 'Most Significant Contribution to Building Services'. A detailed account of my project is available in my [published paper](https://drive.google.com/file/d/1VWfToNnsBRnYrwA7bb2ZM4RsqD3E11nj/view){:target="\_blank"}.
 
 <iframe loading="lazy" src="https://drive.google.com/file/d/17Txf8loNDrvLOboYrNfnUHdQVQ5cPO9s/preview" width="100%" height="700"></iframe>
 
----
-
-## Submitting my work to the CIBSE Technical Symposium 2019
-
-![James Milton presenting at the CIBSE Technical Symposium 2019, University of Sheffield]({{ site.baseurl }}/assets/images/2019/10/Urban Flows Observatory_59.jpg#left)
-
-Between the 25th and 26th April 2019, The CIBSE Technical Symposium 2019 was hosted at the University of Sheffield’s Diamond building.
-
-![James Milton presenting at the CIBSE Technical Symposium 2019, University of Sheffield]({{ site.baseurl }}/assets/images/2019/10/DAY 2 TALKS_98.jpeg#right)
-
-My dissertation paper was submitted to The CIBSE Technical Symposium 2019 and I was invited to present at the symposium. My presentation and paper explaining how it was done was named the ‘Most Significant Contribution to the Art and Science of Building Services’ at the 2019 CIBSE Technical Symposium. Additionally, a magazine spread was written about my project in the CIBSE journal.
-
-![James Milton presenting at the CIBSE Technical Symposium 2019, University of Sheffield]({{ site.baseurl }}/assets/images/2019/10/playing-to-win-spread.jpg#wide)
-
----
-
-## Further VR work with ARUP Design
-
-On the basis of Virtual Reality Smart Building platform, I was contracted by the University of Sheffield and Arup to design and develop a VR system that provides intuitively visual representations of the internal and external environment of the University of Sheffield’s Diamond Smart Building. The graphical data visualisation techniques I designed aim to aid performance analysis of the ventilation system in the atrium of the building.
-
-The system below enables representation of the Diamond's outside environment, including, temperature, weather conditions, humidity, CO2 levels, wind direction and speed.
+## Expansion to ARUP Design
+Following the success at Sheffield, I collaborated with ARUP Design to enhance the VR Smart Building platform. This new system not only monitors the Diamond's internal environment but also visualizes external conditions like weather and wind.
 
 <iframe loading="lazy" src='https://www.youtube.com/embed/Tfb4hy4FFEY?autoplay=1&loop=1' frameborder='0' allowfullscreen></iframe>
+
+---
+
+## Conclusion
+Virtual Reality is not just a tool for gaming; it's a revolutionary approach to building management. Through this project, I've seen firsthand how VR can transform data into insights, making complex environments like the Diamond more understandable and manageable. I invite you to delve into the details of this project through my paper and join me in exploring the potential of VR in smart building management. Thank you for reading, and I look forward to your thoughts and discussions!
