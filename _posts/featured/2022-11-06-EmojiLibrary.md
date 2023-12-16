@@ -13,7 +13,7 @@ info: "😎 Enhance your Adobe After Effects and Premiere Pro projects with a 1-
 <iframe src='https://www.youtube.com/embed/ve08gMLgtlo' loading="lazy" frameborder='0' allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <span class="price-tag">
-  <span class="price-tag__main">$15.00</span>
+  <span class="price-tag__main">$14.99</span>
   <span>💳 Grab it on <a href="https://jamesxdigital.gumroad.com/l/emojilibrary">Gumroad</a></span>
   <span>and <a href="https://aescripts.com/emoji-library/">aescripts + aeplugins</a> 🤩</span>
 </span>
