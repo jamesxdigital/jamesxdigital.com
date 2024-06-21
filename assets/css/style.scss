@@ -1480,7 +1480,7 @@ $price-tag-dot-radius: 10px;
   display: inline-flex;
   flex-direction: column;
   height: $price-tag-height;
-  margin-left: $price-tag-height / 2;
+  margin-left: calc($price-tag-height / 2);
   padding: 0 5px 0 10px;
   color: $gray-light;
   border-radius: 0 $price-tag-corner $price-tag-corner 0;
@@ -1498,23 +1498,12 @@ $price-tag-dot-radius: 10px;
   }
 
   &::before {
-    left: -$price-tag-side / 2;
+    left: calc(-1 * $price-tag-side / 2);
     width: $price-tag-side;
     height: $price-tag-side;
     transform: rotate(45deg);
     border-radius: 0 0 0 $price-tag-corner;
     background-color: $gray-light;
-  }
-
-  &::after {
-    z-index: 1;
-    top: 50%;
-    left: -$price-tag-height / 2;
-    width: $price-tag-dot-radius;
-    height: $price-tag-dot-radius;
-    transform: translate(-50%, -50%) translateX($price-tag-height / 4);
-    border-radius: $price-tag-dot-radius / 2;
-    background-color: $gray-dark;
   }
 
   &__main {
@@ -1896,11 +1885,12 @@ $price-tag-dot-radius: 10px;
     max-width: 50%;
   }
 
-  img[src$="#right"] {
+  img[src$="#right"], #right{
     float: right;
     margin: 0.3em 0 0.83333em 30px;
     max-width: 50%;
   }
+  
 
   blockquote.alignleft,
   blockquote.alignright {

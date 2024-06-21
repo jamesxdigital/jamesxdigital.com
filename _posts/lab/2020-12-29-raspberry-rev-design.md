@@ -13,7 +13,7 @@ I wanted to make a iPhone controlled remote controlled car which could be built 
 
 Below are images of the final outcomes and a time-lapse showing the process of making the licence place from start to finish.
 
-<iframe src='https://www.youtube.com/embed/yhOUE-xUgZ8?autoplay=1&loop=1' frameborder='0' allowfullscreen></iframe>
+<iframe src='https://www.youtube.com/embed/yhOUE-xUgZ8?rel=0?autoplay=1&loop=1' frameborder='0' allowfullscreen></iframe>
 
 _The content below briefly shows the process of how the car was developed. If you want to know more about this project, checkout the embedded pdf below of my project submission._
 
