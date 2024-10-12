@@ -1,44 +1,64 @@
 ---
 layout: default
-post_class: post-template
+body_classes: page-post
 ---
 
-<div id="content" class="site-content">
-    <main id="main" class="site-main inner">
-        <article class="post">
-            <header class="entry-header">
-                <h2 class="entry-title">{{ page.title }}</h2>
-            </header><!-- .entry-header -->
-            <div class="entry-content">
-                {{content}}
-            </div>
-            <footer class="entry-footer">
-                {% if page.tags.size > 0 %}
-                <p class="post-tags">
-                    {% for tag in page.tags %} {% if forloop.index == page.tags.size %}
-                    <a href='{{ site.baseurl }}/tag/{{ tag | downcase | replace: ' ', ' - ' }}/'>{{ tag | camelcase
-                        }}</a>
-                    {% else %}
-                    <a href='{{ site.baseurl }}/tag/{{ tag | downcase | replace: ' ', ' - ' }}/'>{{ tag | camelcase
-                        }}</a>
-                    {% endif %}
-                    {% endfor %}
-                </p>
-                {% endif %}
-                <div class="share-links">
-                    <a target="_blank"
-                        href="https://twitter.com/share?text={{ page.title | url_encode }}&amp;url={{ site.production_url }}/{{ page.url | remove_first: '/' }}"><i
-                            class="fa-twitter" aria-hidden="true"></i><span
-                            class="screen-reader-text">Twitter</span></a>
-                    <a target="_blank"
-                        href="https://www.facebook.com/sharer/sharer.php?u={{ site.production_url }}/{{ page.url }}"><i
-                            class="fa-facebook" aria-hidden="true"></i><span
-                            class="screen-reader-text">Facebook</span></a>
-                </div><!-- .share-post -->
-            </footer>
-        </article>
-        {% if site.mailchimp_url %}
-        {% include newsletter-box.html %}
+<div class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        {% include framework/heading.html
+          title=page.title
+          description=page.description
+          image=page.image
+        %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        
+        {% if page.authors %}
+          <div class="mb-2">
+          {% for author in page.authors %}
+            {% include framework/author.html 
+            author=author
+            style='row'
+            show_author_name=true
+          %}
+          {% endfor %}
+          </div>
         {% endif %}
-    </main><!-- .site-main -->
-</div><!-- .site-content -->
+        
+        <div class="content">{{ content }}</div>
+
+        {% if page.categories %}
+        <div class="categories">
+        {% include framework/categories-badges.html 
+            categories=page.categories
+        %}
+        {% endif %}
+        </div>
+
+        {% include framework/comments.html %}
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if site.newsletter.mailchimp.form_action_url and site.newsletter.mailchimp.form_action_url != '' %}
+  <div class="section section-base-bg-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-12"></div>
+        {% include framework/subscribe.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}

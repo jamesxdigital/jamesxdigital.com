@@ -174,3 +174,16 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+
+
+/*------------------------------------------------*/
+// THINGS THAT NEED TO HAPPEN ON PAGE-LOAD
+/*------------------------------------------------*/
+window.addEventListener("DOMContentLoaded", function () {
+  const $window = $(window);
+
+  // Start header skills typing
+  typeSkills();
+
+});

@@ -1,55 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    {% include analytics.html %}
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
-    {% if site.plugins contains 'jekyll-seo-tag' %}
-    {% include head-seo.html %}
-    {% else %}
+    {% include framework/seo-meta-tags.html %}
+    {% include framework/og-meta-tags.html %}
+    {% include framework/feed.html %}
+    {% include framework/favicon.html %}
 
-    <meta name="description"
-        content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
+    <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
+
+    {% if site.darkmode.enable_dark_mode != false %}
+      <script>
+          localStorage.getItem('darkMode') === 'true' && document.documentElement.setAttribute('data-bs-theme', 'dark');
+      </script>
     {% endif %}
 
-    <!-- Site Favicon -->
-    <link rel="shortcut icon" href="{{ site.baseurl }}{{ site.favicon }}" type="image/png" />
+    {% if site.cookie_banner.enabled %}
+      {% include framework/cookie-consent.html %}
+    {% endif %}
 
-    <!-- Font Embed Code -->
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/zij7van.css">
+    {% include framework/fonts.html %}
+    {% include framework/google-tag-manager.html %}
 
-    <!-- CSS Styles -->
-    <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
+  </head>
+<body class="page {% if page.body_classes %}{{ page.body_classes }}{% elsif layout.body_classes %}{{ layout.body_classes }}{% endif %}{% if site.header.fixed %} has-fixed-header{% else %} has-static-header{% endif %}">
+<canvas id="background-canvas"></canvas>
 
+{% include framework/menu-main-mobile.html %}
+{% include framework/header.html %}
 
-</head>
+<div id="wrapper" class="wrapper">     
+  {{ content }}
+</div>
 
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+{% if site.footer.enable_footer %}
+  {% include framework/footer.html %}
+{% endif %}
+{% if site.bottom.enable_bottom %}
+  {% include framework/bottom.html %}
+{% endif %}
 
-<body class="{{ layout }}">
-    <canvas id="background-canvas"></canvas>
-    <div id="page" class="site">
-        {% include header.html %}
-        {{ content }}
+<script type="text/javascript" src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+{% if site.header.fixed %}
+  <script type="text/javascript" src="{{ '/assets/js/header.js' | relative_url }}"></script>
+{% endif %}
+<script type="text/javascript" src="{{ '/assets/js/hamburger.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/darkModeSwitch.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/background.js' | relative_url }}"></script>
 
-        {% if page.class == 'tag-template' %}
-        {% endif %}
+{% include framework/google-analytics.html %}
+{% include framework/plausible-analytics.html %}
+{% include framework/umami-analytics.html %}
 
-        {% include footer.html %}
-
-    </div><!-- .site -->
-    <div id="site-overlay" class="site-overlay"></div>
-    <!-- <canvas id="canvas"></canvas> -->
-    <!-- Javascript Assets -->
-    <script src="{{ site.baseurl }}/assets/js/jquery-3.2.1.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/background.js"></script>
 </body>
-
 </html>

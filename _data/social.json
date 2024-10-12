@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Instagram",
+    "fa_icon": "fab fa-instagram-square",
+    "url": "https://instagram.com/jamesxdigital"
+  },
+  {
+    "title": "Linkedin",
+    "fa_icon": "fab fa-linkedin",
+    "url": "https://linkedin.com/in/jamesxdigital"
+  },
+  {
+    "title": "Youtube",
+    "fa_icon": "fab fa-youtube",
+    "url": "https://youtube.com/@jamesxdigital"
+  }
+]
