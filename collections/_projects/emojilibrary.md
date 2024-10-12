@@ -4,17 +4,17 @@ title: "Emoji Library"
 description: "Plugin for After Effects & Premiere Pro"
 weight: 3
 date: 2022-11-28
-thumbnail: "/assets/images/2022/09/emoji_branding_1920x1080_gumroad_main-min.jpg"
-image: "/assets/images/2022/09/emoji_branding_1920x1080_gumroad_main-min.jpg"
+thumbnail: "/assets/images/emojilibrary/emoji_branding_1920x1080_gumroad_main-min.jpg"
+image: "/assets/images/emojilibrary/emoji_branding_1920x1080_gumroad_main-min.jpg"
 client: "Plugin for Adobe After Effects and Premiere Pro"
 gallery:
-  - image: "/assets/images/2022/09/emoji_branding_splash_1920x1920-min.jpg"
+  - image: "/assets/images/emojilibrary/emoji_branding_splash_1920x1920-min.jpg"
     caption: Access a diverse array of over 9,000 emojis, sourced from <a href="https://twemoji.twitter.com/" target="_blank">Twitter</a>, <a href="https://openmoji.org/" target="_blank">Openmoji</a>, and <a href="https://fonts.google.com/noto/specimen/Noto+Color+Emoji" target="_blank">Google</a>.
-  - image: "/assets/images/2022/09/emoji_branding_search_categories-min.jpg"
+  - image: "/assets/images/emojilibrary/emoji_branding_search_categories-min.jpg"
     caption: Intuitive search or category filters
-  - image: "/assets/images/2022/09/emoji_branding_skintone-min.jpg"
+  - image: "/assets/images/emojilibrary/emoji_branding_skintone-min.jpg"
     caption: Inclusive skin tone options for a diverse range of expressions.
-  - image: "/assets/images/2022/09/emoji_branding_import-min.jpg"
+  - image: "/assets/images/emojilibrary/emoji_branding_import-min.jpg"
     caption: Easily integrate emojis into your projects as <code>.png</code> files with just one click in After Effects or Premiere Pro.
 
 
@@ -24,10 +24,6 @@ gallery:
 ## Plugin for Adobe After Effects and Premiere Pro
 
 Availabile via [Gumroad](https://jamesxdigital.gumroad.com/l/emojilibrary) and [aescripts + aeplugins](https://aescripts.com/emoji-library/)
-
-
-{% include framework/shortcodes/youtube.html id='ve08gMLgtlo' %}
-{% include framework/shortcodes/youtube.html id='l1G1TZP5z8c' %}
 
 ### FAQs:
 
@@ -63,3 +59,7 @@ Follow these simple steps to install your new `.zxp` extension:
 **Compatibility:** After Effects or Premiere Pro CC 2019 or later  
 **System Requirements:** Windows (10 or later) / macOS  
 **License:** Your license code is valid for 2 instances. A third usage automatically logs out a previous instance.
+
+
+{% include framework/shortcodes/youtube.html id='ve08gMLgtlo' %}
+{% include framework/shortcodes/youtube.html id='l1G1TZP5z8c' %}
