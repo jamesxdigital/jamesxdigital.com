@@ -1,10 +1,10 @@
 ---
 layout: home
 permalink: "/"
-title: JAMESX<span id="glitch-text">DIGITAL</span>
-description: I am into disruptive digital innovation, creativity with tech, travelling.
-meta_description: "JAMESXDIGIAL's Website"
-meta_title: JAMESXDIGIAL's Website
+title: <span id="glitch-text">JAMESXDIGITAL - Creative Technologist</span>
+description: "James Milton, a <code>Creative Technologist</code> with a background in <code>Computer Science</code> and <code>Digital Design</code>, brings together innovation and technology through his work across the UK, Austria, and the Netherlands."
+meta_description: "James Milton @JAMESXDIGIAL"
+meta_title: JAMESXDIGIAL
 subscribe: false
 
 projects:
@@ -25,8 +25,3 @@ projects:
 #   view_more_button_link: "" # "/blog"
 #   columns: 3 # 1 | 2 | 3 | 4
 ---
-
-
-hello
-
-{% include framework/shortcodes/youtube.html id='2M6dJ2Uynhg' %}

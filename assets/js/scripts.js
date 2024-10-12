@@ -1,5 +1,5 @@
 function typeSkills() {
-    const SKILLS = ["CREATIVE", "TECHNOLOGY"];
+    const SKILLS = ["CREATIVE", "TECHNOLOGIST"];
     
     const COLORS = ["#f26a79", "#18a5b7", "#f7e88a"];
     const DEFAULT_DELAY = 10;
