@@ -155,8 +155,8 @@ comments:
 
 newsletter:
   mailchimp:
-    form_action_url: https://zerostatic.us21.list-manage.com/subscribe/post?u=798e19886b83aaab346734382&amp;id=f1c526a772&amp;f_id=0027e3e6f0
-    form_title: "Let's keep in touch"
+    form_action_url: ""
+    form_title: ""
 
 contact_form: 
   use_netlify_form: true
@@ -171,18 +171,18 @@ menu:
 footer:
   enable_footer: true # show/hide the entire footer
   footer_title: "JAMESXDIGITAL"
-  footer_description: "Curate is a creative portfolio for Jekyll by Zerostatic Themes."
-  enable_social_media_icons: false
+  footer_description: ""
+  enable_social_media_icons: true
   enable_contact_details: false
   enable_menu_footer_primary: false
   enable_menu_footer_secondary: false
   enable_menu_footer_tertiary: false
-  footer_primary_menu_title: "Our Projects"
-  footer_secondary_menu_title: "Company"
-  footer_tertiary_menu_title: "Other"
+  footer_primary_menu_title: ""
+  footer_secondary_menu_title: ""
+  footer_tertiary_menu_title: ""
 
 bottom:
-  enable_bottom: true # show/hide the entire bottom (below the footer)
+  enable_bottom: false # show/hide the entire bottom (below the footer)
   enable_bottom_menu: false # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2024 Jay's Blog"
-  show_rss_icon: true
+  copyright_text: "© 2024 JAMESXDIGITAL"
+  show_rss_icon: false

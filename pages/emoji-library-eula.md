@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Emoji Library End-User License Agreement
+layout: basic
+permalink: "/emojilibrary/eula/"
 ---
 
 **Last updated: 21st November 2022**
