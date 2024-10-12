@@ -20,9 +20,14 @@ gallery:
 
 
 ---
+
 ## Plugin for Adobe After Effects and Premiere Pro
 
 Availabile via [Gumroad](https://jamesxdigital.gumroad.com/l/emojilibrary) and [aescripts + aeplugins](https://aescripts.com/emoji-library/)
+
+
+{% include framework/shortcodes/youtube.html id='ve08gMLgtlo' %}
+{% include framework/shortcodes/youtube.html id='l1G1TZP5z8c' %}
 
 ### FAQs:
 
