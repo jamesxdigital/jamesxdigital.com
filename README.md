@@ -1,4 +1,6 @@
-# Hello, Good Evening, and Welcome
+# Jay Tak's Blog
 
-Welcome to the innards of [my website](https://jamesmilton.me). It’s built using
-[Jekyll](https://jekyllrb.com/) and deployed on [Netlify](https://www.netlify.com/).
+This is a portfolio of JayTak.
+
+url: https://sofreshian.github.io/
+
