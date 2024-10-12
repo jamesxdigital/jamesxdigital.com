@@ -2,25 +2,12 @@
 layout: basic
 title: "About"
 permalink: "/about/"
-description: "Business plan hackathon handshake responsive web design."
-image: "/assets/images/gen/content/content-5.webp"
-
-
-
-
+description: "More about me"
 weight: 3
 date: 2022-11-28
-thumbnail: "/assets/images/2022/09/emoji_branding_1920x1080_gumroad_main-min.jpg"
-client: "Plugin for Adobe After Effects and Premiere Pro"
-gallery:
-  - image: "/assets/images/2022/09/emoji_branding_splash_1920x1920-min.jpg"
-    caption: Access a diverse array of over 9,000 emojis, sourced from <a href="https://twemoji.twitter.com/" target="_blank">Twitter</a>, <a href="https://openmoji.org/" target="_blank">Openmoji</a>, and <a href="https://fonts.google.com/noto/specimen/Noto+Color+Emoji" target="_blank">Google</a>.
-  - image: "/assets/images/2022/09/emoji_branding_search_categories-min.jpg"
-    caption: Intuitive search or category filters
-  - image: "/assets/images/2022/09/emoji_branding_skintone-min.jpg"
-    caption: Inclusive skin tone options for a diverse range of expressions.
-  - image: "/assets/images/2022/09/emoji_branding_import-min.jpg"
-    caption: Easily integrate emojis into your projects as <code>.png</code> files with just one click in After Effects or Premiere Pro.
+thumbnail: "/assets/images/misc/jamesxselfie.jpg"
+image: "/assets/images/misc/jamesxselfie.jpg"
+
 ---
 
 # Creating Modern Websites

@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: "/"
-title: JAMESX<span id="para1">DIGITAL</span>
+title: JAMESX<span id="glitch-text">DIGITAL</span>
 description: I am into disruptive digital innovation, creativity with tech, travelling.
 meta_description: "JAMESXDIGIAL's Website"
 meta_title: JAMESXDIGIAL's Website
@@ -25,3 +25,8 @@ projects:
 #   view_more_button_link: "" # "/blog"
 #   columns: 3 # 1 | 2 | 3 | 4
 ---
+
+
+hello
+
+{% include framework/shortcodes/youtube.html id='2M6dJ2Uynhg' %}

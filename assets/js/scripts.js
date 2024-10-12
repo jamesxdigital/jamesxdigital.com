@@ -15,7 +15,7 @@ function typeSkills() {
       currentCharacterIndex: 1,
     };
   
-    const skillTextContainer = document.getElementById("para1");
+    const skillTextContainer = document.getElementById("glitch-text");
   
     // Get random color for characters
     function getRandomArrayEntry(arr) {
@@ -77,7 +77,7 @@ function typeSkills() {
         }
       }
   
-      // Update the text content in para1
+      // Update the text content in glitch-text
       skillTextContainer.textContent = SKILL_STATE.text;
   
       // Add trailing random colored characters

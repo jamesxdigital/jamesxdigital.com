@@ -49,15 +49,3 @@ html[data-bs-theme='light'] {
 @import 'style';
 
 
-// CUSTOM STYLES
-
-#background-canvas {
-  opacity: 0.1;
-  z-index: -99;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-}
-

@@ -1,10 +1,10 @@
-.heading .heading-heading h1 {
-    font-size: 86px;
-    line-height: 1;
-    width: 80%;
-    letter-spacing: -2px;
-    font-weight: 700;
-    strong {
-        text-decoration-color: var(--color-base-bg-3);
-    }
-}
+
+#background-canvas {
+    opacity: 0.1;
+    z-index: -99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
