@@ -1,10 +1,10 @@
 ---
 layout: home
 permalink: "/"
-title: "JAMESXDIGITAL"
-description: "A Creative Technologist who's into disruptive digital innovation, creativity with tech, and travelling."
-meta_description: "Jay Tak's Blog"
-meta_title: Jay Tak's Blog
+title: JAMESX<span id="para1">DIGITAL</span>
+description: I am into disruptive digital innovation, creativity with tech, travelling.
+meta_description: "JAMESXDIGIAL's Website"
+meta_title: JAMESXDIGIAL's Website
 subscribe: false
 
 projects:

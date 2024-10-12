@@ -170,7 +170,7 @@ menu:
 
 footer:
   enable_footer: true # show/hide the entire footer
-  footer_title: "JAMESXDIGITAL"
+  footer_title: ""
   footer_description: ""
   enable_social_media_icons: true
   enable_contact_details: false
