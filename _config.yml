@@ -64,6 +64,9 @@ exclude:
   - LICENSE
   - netlify.toml
 
+# Includes
+include: [_redirects]
+
 
 # -------------------
 # Theme Config
