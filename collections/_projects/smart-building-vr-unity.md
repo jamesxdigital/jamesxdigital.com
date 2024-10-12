@@ -4,8 +4,8 @@ title: "Revolutionizing Building Management with VR"
 description: "Lorem Ipsum"
 weight: 3
 date: 2021-11-28
-thumbnail: "/assets/images/vrsmartbuilding/DAY2TALKS_99.jpg"
-image: "/assets/images/vrsmartbuilding/DAY2TALKS_99.jpgg"
+thumbnail: "/assets/images/vrsmartbuilding/thediamond.jpg"
+image: "/assets/images/vrsmartbuilding/thediamond.jpg"
 client: "Red Bull Media House"
 gallery:
   - image: "/assets/images/vrsmartbuilding/thediamond.jpg"
