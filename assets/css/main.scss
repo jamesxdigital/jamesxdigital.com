@@ -32,7 +32,7 @@
   --button-border-radius: 5px;
 }
 
-html[data-bs-theme='dark'] {
+html[data-bs-theme='light'] {
   --color-primary-bg: {{ site.colors.primary_bg_dark | default: site.colors.primary_bg }};
   --color-primary-bg-2: {{ site.colors.primary_bg_2_dark | default: site.colors.primary_bg_2 }};
   --color-primary-bg-3: {{ site.colors.primary_bg_3_dark | default: site.colors.primary_bg_3 }};
