@@ -1,14 +1,11 @@
 ---
-layout: project # alternative layouts: project, project-left, project-right, project-top
+layout: project-left # alternative layouts: project, project-left, project-right, project-top
 title: "Emoji Library"
-description: "Breathing new life into old industrial estates"
-date: 2018-12-20
+description: "Instantly Access 9,000+ Emojis in After Effects & Premiere Pro 🎉"
 weight: 3
+date: 2022-11-28
 thumbnail: "/assets/images/gen/projects/project-2-1-thumbnail.webp"
 image: "/assets/images/gen/projects/project-2-1.webp"
-categories: ["Development"]
-client: "Brisbane City Council"
-role: "Building Designer"
 gallery:
   - image: "/assets/images/gen/projects/project-2-1.webp"
   - image: "/assets/images/gen/projects/project-2-2.webp"
