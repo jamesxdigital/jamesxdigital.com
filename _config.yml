@@ -65,8 +65,7 @@ exclude:
   - netlify.toml
 
 # Includes
-include:
-  - _redirects
+include: ["_redirects"]
 
 
 # -------------------
