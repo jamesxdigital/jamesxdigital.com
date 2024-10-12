@@ -1,8 +1,8 @@
 ---
 layout: home
 permalink: "/"
-title: <span id="glitch-text">JAMESXDIGITAL - Creative Technologist</span>
-description: "James Milton, a <code>Creative Technologist</code> with a background in <code>Computer Science</code> and <code>Digital Design</code>, brings together innovation and technology through his work across the UK, Austria, and the Netherlands."
+title: James, a <code>Creative Technologist</code>
+description: "With a background in <code>Digital Design</code> and <code>Software Development</code>, James specializes in disruptive digital innovation. He blends technical expertise with digital design skills to create engaging digital experiences and facilitate cross-disciplinary collaboration."
 meta_description: "James Milton @JAMESXDIGIAL"
 meta_title: JAMESXDIGIAL
 subscribe: false
