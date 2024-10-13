@@ -3,7 +3,6 @@ layout: project-left # alternative layouts: project, project-left, project-right
 title: "Emoji Library"
 description: "Plugin for After Effects & Premiere Pro"
 weight: 3
-date: 2022-11-28
 thumbnail: "/assets/images/emojilibrary/emoji_branding_1920x1080_gumroad_main-min.jpg"
 image: "/assets/images/emojilibrary/emoji_branding_1920x1080_gumroad_main-min.jpg"
 client: "Plugin for Adobe After Effects and Premiere Pro"

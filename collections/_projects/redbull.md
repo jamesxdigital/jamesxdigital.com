@@ -1,12 +1,11 @@
 ---
 layout: project-right # alternative layouts: project, project-left, project-right, project-top
-title: "Red Bull Media House"
+title: "Red Bull Work"
 description: "From 2018 to 2022, I relocated to Salzburg, Austria, the headquarters of Red Bull Media House. I worked on the platforms team, innovating the redbull.com portfolio, and the innovation team, developing solutions for capturing Red Bull content and enhancing consumer experiences."
 weight: 3
-date: 2021-11-28
 thumbnail: "/assets/images/redbull/jamesxredbull.jpg"
 image: "/assets/images/redbull/jamesxredbull.jpg"
-client: "Red Bull Media House"
+client: "Red Bull Media House, Austria"
 gallery:
   - image: "/assets/images/redbull/stratos.png"
     caption: "<a href=\"https://www.redbull.com/int-en/projects/red-bull-stratos\" target=\"_blank\">Red Bull Stratos: The Edge of Space</a>."

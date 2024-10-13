@@ -30,9 +30,11 @@ body_classes: page-project
         </div>
         {% endif %} {% if page.categories %}
         <div class="project-categories">{% include framework/categories-badges.html categories=page.categories %}</div>
-        {% endif %} {% if page.date %}
+        {% endif %} 
+        <!-- {% if page.date %}
         <div class="project-date"><strong>Date </strong><span>{{ page.date | date_to_long_string }}</span></div>
-        {% endif %} {% if page.client %}
+        {% endif %}  -->
+        {% if page.client %}
         <div class="project-client"><strong>Client </strong><span>{{ page.client }}</span></div>
         {% endif %} {% if page.role %}
         <div class="project-role"><strong>Role </strong><span>{{ page.role }}</span></div>
