@@ -3,9 +3,8 @@
   color: var(--color-menu-text);
   font-family: var(--font-family-base);
   letter-spacing: 0;
-  @include media-breakpoint-up(md) {
-    display: block;
-  }
+  display: block;
+
   ul {
     height: inherit;
     display: flex;

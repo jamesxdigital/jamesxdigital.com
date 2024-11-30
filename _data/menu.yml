@@ -2,9 +2,6 @@ main:
   - name: Home
     url: /
     weight: 1
-  - name: Contact
-    url: /contact/
-    weight: 4
   
 
 footer_primary:
