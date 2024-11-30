@@ -1,6 +1,6 @@
 function typeSkills(element) {
   const SKILLS = ["GITAL"];
-  
+
   const COLORS = ["#f26a79", "#18a5b7", "#f7e88a"];
   const DEFAULT_DELAY = 30;
   const MAX_TRAILING_CHARACTERS = 2;
@@ -92,9 +92,21 @@ function typeSkills(element) {
   drawNextCharacter();
 }
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener("DOMContentLoaded", () => {
+  // Initialize Plyr.io for all video elements
+  const videos = document.querySelectorAll("video");
+  const players = [];
+  videos.forEach((video) => {
+    const player = new Plyr(video, { captions: { active: true } });
+    players.push(player);
+  });
+
+  // Expose players array so it can be used from the console
+  window.players = players;
+
+  // Initialize Typewriter Effect
   const skillTextContainers = document.getElementsByClassName("glitch-text");
   for (let i = 0; i < skillTextContainers.length; i++) {
-      typeSkills(skillTextContainers[i]);
+    typeSkills(skillTextContainers[i]);
   }
 });

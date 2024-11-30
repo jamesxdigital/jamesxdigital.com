@@ -12,6 +12,8 @@
 
     <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+
     {% if site.darkmode.enable_dark_mode != false %}
       <script>
           localStorage.getItem('darkMode') === 'true' && document.documentElement.setAttribute('data-bs-theme', 'dark');
@@ -50,6 +52,7 @@
 <script type="text/javascript" src="{{ '/assets/js/hamburger.js' | relative_url }}"></script>
 <script type="text/javascript" src="{{ '/assets/js/darkModeSwitch.js' | relative_url }}"></script>
 <script type="text/javascript" src="{{ '/assets/js/background.js' | relative_url }}"></script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
 
 {% include framework/google-analytics.html %}
 {% include framework/plausible-analytics.html %}
