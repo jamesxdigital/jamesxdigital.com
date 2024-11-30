@@ -3,7 +3,7 @@ layout: post
 title: "Triple Vision Pro Hackathon"
 description: "Triple Vision Pro Hackathon"
 weight: 3
-thumbnail: "/assets/images/tripleinnovation/VisionProHackathon/VisionProHackathon_1_1080.jpg"
+thumbnail: "/assets/images/tripleinnovation/VisionProHackathon/VisionPro_1.jpg"
 client: "Triple Innovation, Netherlands"
 ---
 

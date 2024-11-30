@@ -3,7 +3,7 @@ layout: post
 title: "Triple The Patent Machine"
 description: "Triple The Patent Machine"
 weight: 3
-thumbnail: "/assets/images/tripleinnovation/ThePatentMachine/PatentMachine_1_1080.jpg"
+thumbnail: "/assets/images/tripleinnovation/ThePatentMachine/PatentMachine_1.jpg"
 client: "Triple Innovation, Netherlands"
 ---
 

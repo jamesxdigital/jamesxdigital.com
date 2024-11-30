@@ -3,7 +3,7 @@ layout: post
 title: "Triple ESPN VR"
 description: "Triple ESPN VR"
 weight: 3
-thumbnail: "/assets/images/tripleinnovation/ESPNVR/ESPN_1_1080.jpg"
+thumbnail: "/assets/images/tripleinnovation/ESPNVR/ESPNVR_1.jpg"
 client: "Triple Innovation, Netherlands"
 ---
 

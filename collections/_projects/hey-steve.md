@@ -3,7 +3,7 @@ layout: post
 title: "Triple Hey Steve"
 description: "Triple Hey Steve"
 weight: 3
-thumbnail: "/assets/images/tripleinnovation/HeySteve/HeySteve_1_1080.jpg"
+thumbnail: "/assets/images/tripleinnovation/HeySteve/HeySteve_1.jpg"
 client: "Triple Innovation, Netherlands"
 ---
 

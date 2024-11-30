@@ -3,7 +3,7 @@ layout: post
 title: "Triple Muscle Memory"
 description: "Triple Muscle Memory"
 weight: 3
-thumbnail: "/assets/images/tripleinnovation/MuscleMemory/MuscleMemory_1_1080.jpg"
+thumbnail: "/assets/images/tripleinnovation/MuscleMemory/MuscleMemory_1.jpg"
 client: "Triple Innovation, Netherlands"
 ---
 <!-- MuscleMemory -->

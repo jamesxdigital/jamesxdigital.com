@@ -3,7 +3,7 @@ layout: post
 title: "Triple Office Odyssey"
 description: "Triple Office Odyssey"
 weight: 3
-thumbnail: "/assets/images/tripleinnovation/OfficeOdyssey/OfficeOdyssey_1_1080.jpg"
+thumbnail: "/assets/images/tripleinnovation/OfficeOdyssey/OfficeOdyssey_1.jpg"
 client: "Triple Innovation, Netherlands"
 ---
 

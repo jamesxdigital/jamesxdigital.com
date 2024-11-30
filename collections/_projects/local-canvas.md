@@ -3,7 +3,7 @@ layout: post
 title: "Triple Local Canvas"
 description: "Triple Local Canvas"
 weight: 3
-thumbnail: "/assets/images/tripleinnovation/LocalCanvas/LocalCanvas_1_1080.jpg"
+thumbnail: "/assets/images/tripleinnovation/LocalCanvas/LocalCanvas_1.jpg"
 client: "Triple Innovation, Netherlands"
 ---
 
