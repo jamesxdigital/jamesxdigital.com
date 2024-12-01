@@ -2,7 +2,7 @@
 layout: post
 title: "\u201CHey Steve\u201D – Siri, but from the year 2000..."
 description: "A playful project where we created a custom GPT model designed to respond as if it were Steve Jobs in the year 2000."
-weight: 3
+weight: 9
 thumbnail: "/assets/images/tripleinnovation/HeySteve/HeySteve_1.jpg"
 client: "Triple Innovation, Netherlands"
 ---

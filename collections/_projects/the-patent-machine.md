@@ -2,7 +2,7 @@
 layout: post
 title: "The Patent Machine – The AI-Powered Invention Maker"
 description: "A tongue-in-cheek exploration of AI-generated intellectual property."
-weight: 3
+weight: 7
 thumbnail: "/assets/images/tripleinnovation/ThePatentMachine/PatentMachine_1.jpg"
 client: "Triple Innovation, Netherlands"
 ---

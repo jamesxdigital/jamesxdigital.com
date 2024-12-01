@@ -16,17 +16,21 @@ body_classes: page-home
   </div>
 </div>
 
-{% assign cards = site.projects | sort: 'date' | reverse %}
+<!-- Projects Section -->
+{% assign cards = site.projects %}
 {% assign limit = page.projects.limit | default: 3 %}
 {% assign sort_by = page.projects.sort | default: 'date' %}
-{% assign columns =  page.projects.columns | default: 3 %}
-{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+{% assign columns = page.projects.columns | default: 3 %}
+{% capture columns %}col-lg-{{ 12 | divided_by: columns }}{% endcapture %}
+
+<!-- Sort projects based on specified criteria -->
 {% if sort_by == 'weight' %}
-  <p>Sort by weight</p>
   {% assign cards = cards | sort: 'weight' %}
+{% elsif sort_by == 'date' %}
+  {% assign cards = cards | sort: 'date' | reverse %}
 {% endif %}
 
-{% assign cards = site.projects %}
+<!-- Render the projects -->
 {% if cards.size > 0 %}
 <div class="section pt-0">
   <div class="container">
@@ -64,16 +68,20 @@ body_classes: page-home
 </div>
 {% endif %}
 
-{% assign cards = site.posts | sort: 'date' | reverse %}
+<!-- Posts Section (Optional) -->
+{% assign cards = site.posts %}
 {% assign limit = page.posts.limit | default: 3 %}
 {% assign sort_by = page.posts.sort | default: 'date' %}
-{% assign columns =  page.posts.columns | default: 3 %}
-{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+{% assign columns = page.posts.columns | default: 3 %}
+{% capture columns %}col-lg-{{ 12 | divided_by: columns }}{% endcapture %}
+
+<!-- Sort posts -->
 {% if sort_by == 'weight' %}
   {% assign cards = cards | sort: 'weight' %}
+{% elsif sort_by == 'date' %}
+  {% assign cards = cards | sort: 'date' | reverse %}
 {% endif %}
 
-{% assign cards = site.posts %}
 {% if cards.size > 0 %}
 <div class="section section-base-bg-2">
   <div class="container">
@@ -106,6 +114,7 @@ body_classes: page-home
 </div>
 {% endif %}
 
+<!-- Newsletter Section -->
 {% if site.newsletter.mailchimp.form_action_url and site.newsletter.mailchimp.form_action_url != '' %}
   <div class="section section-base-bg-2">
     <div class="container">

@@ -2,7 +2,7 @@
 layout: post
 title: "48-Hour Vision Pro Hackathon"
 description: "A Vision Pro app concept exploring the memory palace technique combined with food and ingredients during a 48-hour hackathon."
-weight: 3
+weight: 9
 thumbnail: "/assets/images/tripleinnovation/VisionProHackathon/VisionPro_1.jpg"
 client: "Triple, Netherlands"
 ---

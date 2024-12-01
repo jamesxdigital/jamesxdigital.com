@@ -2,7 +2,7 @@
 layout: post
 title: "Muscle Memory – Learning Through AI-Driven Motion Tracking"
 description: "An exploration into using body tracking and AI to improve skills in racket sports, dance, and more through real-time feedback and repetition."
-weight: 3
+weight: 5
 thumbnail: "/assets/images/tripleinnovation/MuscleMemory/MuscleMemory_1.jpg"
 client: "Triple Innovation, Netherlands"
 ---

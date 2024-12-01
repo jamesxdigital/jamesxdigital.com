@@ -2,7 +2,7 @@
 layout: project-right
 title: "Smart Building Digital Twin with VR"
 description: "🏢 A groundbreaking project combining VR and real-time smart-building data for an immersive 3D experience, showcased at the CIBSE Technical Symposium."
-weight: 4
+weight: 6
 thumbnail: "/assets/images/vrsmartbuilding/thediamond.jpg"
 image: "/assets/images/vrsmartbuilding/thediamond.jpg"
 client: "The University of Sheffield & ARUP, United Kingdom"

@@ -2,7 +2,7 @@
 layout: post
 title: "Local Canvas – Hybrid AI Videos"
 description: "An app transforming videos into hybrid artworks by detecting objects and applying artistic styles through AI."
-weight: 3
+weight: 4
 thumbnail: "/assets/images/tripleinnovation/LocalCanvas/LocalCanvas_1.jpg"
 client: "Triple Innovation, Netherlands"
 ---

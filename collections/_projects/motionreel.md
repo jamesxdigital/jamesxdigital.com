@@ -2,7 +2,7 @@
 layout: post
 title: "Motion Design Reel 2022"
 description: "My 2022 Motion Design Reel, featuring motion designs for clients such as Puma, Red Bull, and MAN Trucks during my time at <a href='https://www.agentur-loop.com/' target='_blank'>LOOP Agentur</a>."
-weight: 3
+weight: 8
 thumbnail: "/assets/images/motionreel/motiondesignshowreel.jpg"
 client: "Puma, Red Bull and other clients of LOOP Agentur, Austria"
 ---
