@@ -7,7 +7,7 @@ thumbnail: "/assets/images/tripleinnovation/ESPNVR/ESPNVR_1.jpg"
 client: "Triple Innovation, ESPN & KPN, Netherlands"
 ---
 
-In April 2023, I developed a mixed reality experience in collaboration with ESPN Netherlands, KPN, and TiledMedia. Using Unity, we live-streamed a PSV vs. AZ football match directly to VR headsets. This event offered viewers a 360° virtual skybox experience, creating the sensation of being physically present at the stadium while watching from the comfort of their homes.
+In April 2023, I developed a mixed reality experience for the Meta Quest headset, in collaboration with ESPN Netherlands, KPN, and TiledMedia. Using Unity, we live-streamed a PSV vs. AZ football match directly to VR headsets. This event offered viewers a 360° virtual skybox experience, creating the sensation of being physically present at the stadium while watching from the comfort of their homes.
 
 The event was hosted as a one-day showcase where 60 headsets were provided for attendees to experience the match in real-time. This project not only highlighted the potential of immersive technology in sports broadcasting but also demonstrated the technical challenges and achievements of live VR streaming on a large scale.
 
