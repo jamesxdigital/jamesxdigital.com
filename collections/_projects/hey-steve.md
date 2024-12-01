@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '"Hey Steve" – Siri, but from the year 2000...'
-description: 'A playful project where we created a custom GPT model designed to respond as if it were Steve Jobs in the year 2000.'
+title: "\u201CHey Steve\u201D – Siri, but from the year 2000..."
+description: "A playful project where we created a custom GPT model designed to respond as if it were Steve Jobs in the year 2000."
 weight: 3
 thumbnail: "/assets/images/tripleinnovation/HeySteve/HeySteve_1.jpg"
 client: "Triple Innovation, Netherlands"
@@ -17,7 +17,7 @@ We sourced a second-hand Mac G3, a vintage Apple computer from the early 2000s, 
     <source src="/assets/images/tripleinnovation/HeySteve/HeySteve_2_1080.mp4" type="video/mp4">
   </video>
   <figcaption>
-    <h4>Walkthrough of Hey Steve</h4>
+    <h4>Walkthrough of "Hey Steve"</h4>
     <p>Demonstrating Hey Steve in action, showcasing how it answers questions with the voice and persona of Steve Jobs.</p>
   </figcaption>
 </figure>
