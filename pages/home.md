@@ -6,6 +6,8 @@ description: "With a background in <code>Digital Design</code> and <code>Softwar
 meta_description: "James Milton @JAMESXDIGIAL"
 meta_title: JAMESXDIGIAL
 subscribe: false
+thumbnail: "/assets/images/motionreel/motiondesignshowreel.jpg"
+image: "/assets/images/motionreel/motiondesignshowreel.jpg"
 
 projects:
   heading: "" # "Projects"
