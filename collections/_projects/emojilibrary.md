@@ -63,14 +63,14 @@ Follow these simple steps to install your new `.zxp` extension:
 <figure class="figure-full">
   <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="ve08gMLgtlo"></div>
   <figcaption>
-    <p>Demo Video</p>
+    <h4>Demo Video</h4>
   </figcaption>
 </figure>
 
 <figure class="figure-full">
   <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="l1G1TZP5z8c"></div>
   <figcaption>
-    <p>60 Second Guide Video</p>
+    <h4>60 Second Guide Video</h4>
   </figcaption>
 </figure>
 

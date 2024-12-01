@@ -16,7 +16,7 @@ The project was promoted extensively, including this banner from ESPN's official
 <figure class="figure-full">
   <img src="/assets/images/tripleinnovation/ESPNVR/ESPNVR_3.jpeg" alt="Promotional material for ESPN VR main event" />
   <figcaption>
-    <p><a href="https://www.espn.nl/voetbal/artikel/_/id/14511883/bosz-wijzigt-basisopstelling-psv-op-twee-plaatsen-didden-vervangt-van-der-hoorn-bij-fc-utrecht">ESPN Promotional Image and Webpage for the Main Event</a></p>
+    <h4><a href="https://www.espn.nl/voetbal/artikel/_/id/14511883/bosz-wijzigt-basisopstelling-psv-op-twee-plaatsen-didden-vervangt-van-der-hoorn-bij-fc-utrecht">ESPN Promotional Image and Webpage for the Main Event</a></h4>
   </figcaption>
 </figure>
 
