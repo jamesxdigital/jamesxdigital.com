@@ -22,6 +22,7 @@ body_classes: page-home
 {% assign columns =  page.projects.columns | default: 3 %}
 {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
 {% if sort_by == 'weight' %}
+  <p>Sort by weight</p>
   {% assign cards = cards | sort: 'weight' %}
 {% endif %}
 

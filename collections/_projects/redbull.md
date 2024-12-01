@@ -17,7 +17,16 @@ gallery:
     caption: "<a href=\"https://www.redbull.com/int-en/event-series/red-bull-cliff-diving\" target=\"_blank\">Red Bull Cliff Diving</a>."
 ---
 ## Introduction
-From 2018 to 2022, I relocated to Salzburg, Austria, to work at the headquarters of Red Bull Media House. During this period, I had the opportunity to contribute to both the Platforms team and the Media and Content Innovation team. My role focused on enhancing the [RedBull.com](https://redbull.com){:target="_blank"} portfolio and experimenting with cutting-edge technologies to produce 'beyond the ordinary' content that aligns with Red Bull's dynamic brand image.
+From 2018 to 2022, I relocated to Salzburg, Austria, to work at the headquarters of Red Bull Media House. 
+
+<figure class="figure-full">
+  <img src="/assets/images/redbull/jamesredbull.jpeg">
+  <figcaption>
+    <h4>At Red Bull Hanger 7 - Salzburg, Austria</h4>
+  </figcaption>
+</figure>
+
+During this period, I had the opportunity to contribute to both the Platforms team and the Media and Content Innovation team. My role focused on enhancing the [RedBull.com](https://redbull.com){:target="_blank"} portfolio and experimenting with cutting-edge technologies to produce 'beyond the ordinary' content that aligns with Red Bull's dynamic brand image.
 
 ## Innovating the RedBull.com Portfolio
 Within the Platforms team, my primary responsibility was to innovate and optimize the [RedBull.com](https://redbull.com){:target="_blank"} website. This involved:
