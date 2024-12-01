@@ -22,7 +22,7 @@ gallery:
 
 ## Plugin for Adobe After Effects and Premiere Pro
 
-Availabile via [Gumroad](https://jamesxdigital.gumroad.com/l/emojilibrary) and [aescripts + aeplugins](https://aescripts.com/emoji-library/)
+🛒 Availabile via [Gumroad](https://jamesxdigital.gumroad.com/l/emojilibrary) and [aescripts + aeplugins](https://aescripts.com/emoji-library/)
 
 ### FAQs:
 
@@ -60,5 +60,18 @@ Follow these simple steps to install your new `.zxp` extension:
 **License:** Your license code is valid for 2 instances. A third usage automatically logs out a previous instance.
 
 
-{% include framework/shortcodes/youtube.html id='ve08gMLgtlo' %}
-{% include framework/shortcodes/youtube.html id='l1G1TZP5z8c' %}
+<figure class="figure-full">
+  <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="ve08gMLgtlo"></div>
+  <figcaption>
+    <p>Demo Video</p>
+  </figcaption>
+</figure>
+
+<figure class="figure-full">
+  <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="l1G1TZP5z8c"></div>
+  <figcaption>
+    <p>60 Second Guide Video</p>
+  </figcaption>
+</figure>
+
+

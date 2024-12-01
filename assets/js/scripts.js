@@ -93,16 +93,27 @@ function typeSkills(element) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Initialize Plyr.io for all video elements
-  const videos = document.querySelectorAll("video");
-  const players = [];
-  videos.forEach((video) => {
-    const player = new Plyr(video, { captions: { active: true } });
-    players.push(player);
+  // Initialize Plyr.io for YouTube videos
+  const youtubePlayers = [];
+  const youtubeElements = document.querySelectorAll('#player[data-plyr-provider="youtube"]');
+  youtubeElements.forEach((youtubeElement) => {
+    const player = new Plyr(youtubeElement, {});
+    youtubePlayers.push(player);
   });
 
-  // Expose players array so it can be used from the console
-  window.players = players;
+  // Initialize Plyr.io for all video elements
+  const videoPlayers = [];
+  const videos = document.querySelectorAll("video");
+  videos.forEach((video) => {
+    const player = new Plyr(video, { captions: { active: true } });
+    videoPlayers.push(player);
+  });
+
+  // Combine YouTube and video players for global access
+  const allPlayers = [...youtubePlayers, ...videoPlayers];
+
+  // Expose all players to the console for debugging
+  window.players = allPlayers;
 
   // Initialize Typewriter Effect
   const skillTextContainers = document.getElementsByClassName("glitch-text");

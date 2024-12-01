@@ -25,7 +25,13 @@ Equipped with over three thousand sensors, the Diamond building continuously mon
 
 ## The Solution
 
-{% include framework/shortcodes/youtube.html id='xQKAFD06nfw' height="400"%}
+<figure class="figure-full">
+  <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="xQKAFD06nfw"></div>
+  <figcaption>
+    <h4>Visually Displaying Past and Present Smart Building Data Through Virtual Reality</h4>
+    <p>Project Video</p>
+  </figcaption>
+</figure>
 
 By combining a gaming engine with architectural data, I created a VR system that allows users to navigate the Diamond's environmental performance visually. This system provides real-time data insights and tracks changes over time, offering a comprehensive view of the building's operational dynamics.
 
@@ -33,7 +39,7 @@ By combining a gaming engine with architectural data, I created a VR system that
 ### CIBSE Technical Symposium 2019
 My work was recognized at the CIBSE Technical Symposium 2019 at the University of Sheffield. During the symposium, I presented my findings and was honored with the award for the 'Most Significant Contribution to Building Services'. For a more detailed overview of the project, please refer to my [published paper 1 (long)](https://www.researchgate.net/publication/368707324_Visually_Displaying_Past_and_Present_Smart_Building_Data_Through_Virtual_Reality){:target="_blank"} [published paper 2 (short)](https://www.researchgate.net/publication/331651264_Visually_Displaying_Past_and_Present_Smart_Building_Data_Through_Virtual_Reality){:target="_blank"} 
 
-<iframe loading="lazy" src="https://drive.google.com/file/d/17Txf8loNDrvLOboYrNfnUHdQVQ5cPO9s/preview" width="100%" height="700"></iframe>
+<iframe loading="lazy" src="https://drive.google.com/file/d/17Txf8loNDrvLOboYrNfnUHdQVQ5cPO9s/preview" width="100%" height="500"></iframe>
 
 ## Expansion to ARUP Design
 Building on the project's success at Sheffield, I collaborated with ARUP Design to further develop the VR Smart Building platform. This enhanced system not only monitors the Diamond's internal environment but also integrates external data such as weather and wind conditions, providing a more holistic view of the building's performance.

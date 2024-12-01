@@ -7,4 +7,13 @@ thumbnail: "/assets/images/motionreel/motiondesignshowreel.jpg"
 client: "Clients for LOOP Agentur, Austria"
 ---
 
-{% include framework/shortcodes/youtube.html id='RqII5ijyWXA' height=650 %}
+
+
+
+<figure class="figure-full">
+  <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="RqII5ijyWXA"></div>
+  <figcaption>
+    <h4>2022 Motion Design Reel</h4>
+    <p>ESPN Promotional Image and Webpage for the Main Event</p>
+  </figcaption>
+</figure>

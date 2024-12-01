@@ -46,10 +46,6 @@ html[data-bs-theme='light'] {
   --color-header-text: {{ site.colors.header_text_dark | default: "#F4F4F5" }};
 }
 
-.video-wrapper {
-  padding-bottom: 20px;
-}
-
 @import 'style';
 
 
